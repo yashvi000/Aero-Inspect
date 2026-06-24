@@ -1,0 +1,20 @@
+aero_inspect/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Big / generated stuff
+artifacts/weights/
+data/vectorstore/
+data/uploads/
+logs/
