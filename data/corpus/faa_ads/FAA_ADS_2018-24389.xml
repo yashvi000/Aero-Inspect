@@ -1,0 +1,236 @@
+<PRORULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2018-0959; Product Identifier 2018-NM-123-AD]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Notice of proposed rulemaking (NPRM).</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>We propose to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 737-400 series airplanes. This proposed AD was prompted by reports of cracking in the splice plate on the lower sill of the overwing emergency exit doors. This proposed AD would require repetitive inspections for such cracking and applicable on-condition actions. We are proposing this AD to address the unsafe condition on these products.</P>
+                </SUM>
+                <DATES>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>We must receive comments on this proposed AD by December 24, 2018.</P>
+                </DATES>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>You may send comments, using the procedures found in 14 CFR 11.43 and 11.45, by any of the following methods:</P>
+                    <P>
+                        • 
+                        <E T="03">Federal eRulemaking Portal:</E>
+                         Go to 
+                        <E T="03">http://www.regulations.gov.</E>
+                         Follow the instructions for submitting comments.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Fax:</E>
+                         202-493-2251.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Mail:</E>
+                         U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Hand Delivery:</E>
+                         Deliver to Mail address above between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+                    </P>
+                    <P>
+                        For service information identified in this NPRM, contact Boeing Commercial Airplanes, Attention: Contractual &amp; Data Services (C&amp;DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; telephone 562-797-1717; internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Standards Branch, 2200 South 216th St., Des Moines, WA. For information on the availability of this material at the FAA, call 206-231-3195. It is also available on the internet at 
+                        <E T="03">http://www.regulations.gov</E>
+                         by searching for and locating Docket No. FAA-2018-0959.
+                    </P>
+                </ADD>
+                <HD SOURCE="HD1">Examining the AD Docket</HD>
+                <P>
+                    You may examine the AD docket on the internet at 
+                    <E T="03">http://www.regulations.gov</E>
+                     by searching for and locating Docket No. FAA-2018-0959; or in person at Docket Operations between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this NPRM, the regulatory evaluation, any comments received, and other information. The street address for Docket Operations (phone: 800-647-5527) is in the 
+                    <E T="02">ADDRESSES</E>
+                     section. Comments will be available in the AD docket shortly after receipt.
+                </P>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        James Guo, Aerospace Engineer, Airframe Section, FAA, Los Angeles ACO Branch, 3960 Paramount Boulevard, Lakewood, CA 90712-4137; 
+                        <E T="03">phone:</E>
+                         562-627-5357; 
+                        <E T="03">fax:</E>
+                         562-627-5210; 
+                        <E T="03">email: james.guo@faa.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <P/>
+                <HD SOURCE="HD1">Comments Invited</HD>
+                <P>
+                    We invite you to send any written relevant data, views, or arguments about this proposal. Send your comments to an address listed under the 
+                    <E T="02">ADDRESSES</E>
+                     section. Include “Docket No. FAA-2018-0959; Product Identifier 2018-NM-123-AD” at the beginning of your comments. We specifically invite comments on the overall regulatory, economic, environmental, and energy aspects of this NPRM. We will consider all comments received by the closing date and may amend this NPRM because of those comments.
+                </P>
+                <P>
+                    We will post all comments we receive, without change, to 
+                    <E T="03">http://www.regulations.gov,</E>
+                     including any personal information you provide. We will also post a report summarizing each substantive verbal contact we receive about this proposed AD.
+                </P>
+                <HD SOURCE="HD1">Discussion</HD>
+                <P>
+                    We have received reports of cracking in the splice plate on the lower sill of the overwing emergency exit doors. During a maintenance check, a crack was found in the splice plate at station (STA) 601 on the right side of an airplane that had 28,153 total flight cycles and 63,360 total flight hours at the time of the crack finding. The crack had completely severed the one-inch-wide splice plate; the cracking was caused by fatigue stresses. Existing Corrosion Prevention Control Program (CPCP) inspections do not adequately detect cracking in the splice plate before it becomes critical. This cracking, if not addressed, could result in the inability of a principal structural element to 
+                    <PRTPAGE P="55829"/>
+                    sustain limit loads and possible rapid decompression of the fuselage.
+                </P>
+                <HD SOURCE="HD1">Related Service Information Under 1 CFR Part 51</HD>
+                <P>
+                    We reviewed Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018. This service information describes procedures for repetitive high frequency eddy current (HFEC) inspections for cracking in the splice plate on the lower sill of the overwing emergency exit doors and applicable on-condition actions. This service information is reasonably available because the interested parties have access to it through their normal course of business or by the means identified in the 
+                    <E T="02">ADDRESSES</E>
+                     section.
+                </P>
+                <HD SOURCE="HD1">FAA's Determination</HD>
+                <P>We are proposing this AD because we evaluated all the relevant information and determined the unsafe condition described previously is likely to exist or develop in other products of the same type design.</P>
+                <HD SOURCE="HD1">Proposed AD Requirements</HD>
+                <P>This proposed AD would require accomplishment of the actions identified in Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018, described previously, except for any differences identified as exceptions in the regulatory text of this proposed AD.</P>
+                <P>
+                    For information on the procedures and compliance times, see this service information at 
+                    <E T="03">http://www.regulations.gov</E>
+                     by searching for and locating Docket No. FAA-2018-0959.
+                </P>
+                <HD SOURCE="HD1">Explanation of Requirements Bulletin</HD>
+                <P>The FAA worked in conjunction with industry, under the Airworthiness Directive Implementation Aviation Rulemaking Committee (AD ARC), to enhance the AD system. One enhancement is a process for annotating which steps in the service information are “required for compliance” (RC) with an AD. Boeing has implemented this RC concept into Boeing service bulletins.</P>
+                <P>
+                    In an effort to further improve the quality of ADs and AD-related Boeing service information, a joint process improvement initiative was worked between the FAA and Boeing. The initiative resulted in the development of a new process in which the service information more clearly identifies the actions needed to address the unsafe condition in the “Accomplishment Instructions.” The new process results in a Boeing Requirements Bulletin, which contains only the actions needed to address the unsafe condition (
+                    <E T="03">i.e.,</E>
+                     only the RC actions).
+                </P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>We estimate that this proposed AD affects 85 airplanes of U.S. registry. We estimate the following costs to comply with this proposed AD:</P>
+                <GPOTABLE COLS="5" OPTS="L2,i1" CDEF="s50,r100,12,r50,r50">
+                    <TTITLE>Estimated Costs for Required Actions</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                        <CHED H="1">Cost on U.S. operators</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Repetitive inspections</ENT>
+                        <ENT>2 work-hours × $85 per hour = $170 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$170 per inspection cycle</ENT>
+                        <ENT>$14,450 per inspection cycle.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>We estimate the following costs to do any necessary on-condition actions that would be required. We have no way of determining the number of aircraft that might need these on-condition actions:</P>
+                <GPOTABLE COLS="3" OPTS="L2,i1" CDEF="s100,r50,r50">
+                    <TTITLE>Estimated Costs of On-Condition Actions</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Up to 18 work-hours × $85 per hour = $1,530</ENT>
+                        <ENT>Up to $7,646</ENT>
+                        <ENT>Up to $9,176.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, section 106, describes the authority of the FAA Administrator. Subtitle VII: Aviation Programs, describes in more detail the scope of the Agency's authority.</P>
+                <P>We are issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701: “General requirements.” Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <P>This proposed AD is issued in accordance with authority delegated by the Executive Director, Aircraft Certification Service, as authorized by FAA Order 8000.51C. In accordance with that order, issuance of ADs is normally a function of the Compliance and Airworthiness Division, but during this transition period, the Executive Director has delegated the authority to issue ADs applicable to transport category airplanes and associated appliances to the Director of the System Oversight Division.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>We determined that this proposed AD would not have federalism implications under Executive Order 13132. This proposed AD would not have a substantial direct effect on the States, on the relationship between the national Government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>For the reasons discussed above, I certify this proposed regulation:</P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Is not a “significant rule” under the DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979),</P>
+                <P>(3) Will not affect intrastate aviation in Alaska, and</P>
+                <P>(4) Will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <PRTPAGE P="55830"/>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">The Proposed Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA proposes to amend 14 CFR part 39 as follows:</P>
+                <PART>
+                    <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                </PART>
+                <AMDPAR>1. The authority citation for part 39 continues to read as follows:</AMDPAR>
+                <AUTH>
+                    <HD SOURCE="HED">Authority:</HD>
+                    <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                </AUTH>
+                <SECTION>
+                    <SECTNO>§ 39.13 </SECTNO>
+                    <SUBJECT>[Amended]</SUBJECT>
+                </SECTION>
+                <AMDPAR>2. The FAA amends § 39.13 by adding the following new airworthiness directive (AD):</AMDPAR>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">
+                        <E T="04">The Boeing Company:</E>
+                         Docket No. FAA-2018-0959; Product Identifier 2018-NM-123-AD.
+                    </FP>
+                    <HD SOURCE="HD1">(a) Comments Due Date</HD>
+                    <P>We must receive comments by December 24, 2018.</P>
+                    <HD SOURCE="HD1">(b) Affected ADs</HD>
+                    <P>None.</P>
+                    <HD SOURCE="HD1">(c) Applicability</HD>
+                    <P>This AD applies to The Boeing Company Model 737-400 airplanes, certificated in any category, line numbers 1487 through 3132 inclusive.</P>
+                    <HD SOURCE="HD1">(d) Subject</HD>
+                    <P>Air Transport Association (ATA) of America Code 53, Fuselage.</P>
+                    <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                    <P>This AD was prompted by reports of cracking in the splice plate on the lower sill of the overwing emergency exit doors. We are issuing this AD to address cracking in the splice plate, which, if not addressed, could result in the inability of a principal structural element to sustain limit loads and possible rapid decompression of the fuselage.</P>
+                    <HD SOURCE="HD1">(f) Compliance</HD>
+                    <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                    <HD SOURCE="HD1">(g) Required Actions</HD>
+                    <P>Except as specified by paragraph (h) of this AD: At the applicable times specified in the “Compliance” paragraph of Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018, do all applicable actions identified in, and in accordance with, the Accomplishment Instructions of Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018.</P>
+                    <NOTE>
+                        <HD SOURCE="HED">Note 1 to paragraph (g) of this AD:</HD>
+                        <P> Guidance for accomplishing the actions required by this AD can be found in Boeing Alert Service Bulletin 737-53A1380, dated July 18, 2018, which is referred to in Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018.</P>
+                    </NOTE>
+                    <HD SOURCE="HD1">(h) Exceptions to Service Information Specifications</HD>
+                    <P>(1) For purposes of determining compliance with the requirements of this AD: Where Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018, uses the phrase “the original issue date of Requirements Bulletin 737-53A1380 RB,” this AD requires using “the effective date of this AD.”</P>
+                    <P>(2) Where Boeing Alert Requirements Bulletin 737-53A1380 RB, dated July 18, 2018, specifies contacting Boeing for repair instructions: This AD requires doing the repair and applicable on-condition actions before further flight using a method approved in accordance with the procedures specified in paragraph (i) of this AD.</P>
+                    <HD SOURCE="HD1">(i) Alternative Methods of Compliance (AMOCs)</HD>
+                    <P>
+                        (1) The Manager, Los Angeles ACO Branch, FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or local Flight Standards District Office, as appropriate. If sending information directly to the manager of the certification office, send it to the attention of the person identified in paragraph (j)(1) of this AD. Information may be emailed to: 
+                        <E T="03">9-ANM-LAACO-AMOC-Requests@faa.gov.</E>
+                    </P>
+                    <P>(2) Before using any approved AMOC, notify your appropriate principal inspector, or lacking a principal inspector, the manager of the local flight standards district office/certificate holding district office.</P>
+                    <P>(3) An AMOC that provides an acceptable level of safety may be used for any repair, modification, or alteration required by this AD if it is approved by the Boeing Commercial Airplanes Organization Designation Authorization (ODA) that has been authorized by the Manager, Los Angeles ACO Branch, FAA, to make those findings. To be approved, the repair method, modification deviation, or alteration deviation must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                    <HD SOURCE="HD1">(j) Related Information</HD>
+                    <P>
+                        (1) For more information about this AD, contact James Guo, Aerospace Engineer, Airframe Section, FAA, Los Angeles ACO Branch, 3960 Paramount Boulevard, Lakewood, CA 90712-4137; phone: 562-627-5357; fax: 562-627-5210; email: 
+                        <E T="03">james.guo@faa.gov.</E>
+                    </P>
+                    <P>
+                        (2) For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Contractual &amp; Data Services (C&amp;DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; telephone 562-797-1717; internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Standards Branch, 2200 South 216th St., Des Moines, WA. For information on the availability of this material at the FAA, call 206-231-3195.
+                    </P>
+                </EXTRACT>
+                <SIG>
+                    <DATED>Issued in Des Moines, Washington, on October 31, 2018.</DATED>
+                    <NAME>Dionne Palermo,</NAME>
+                    <TITLE>Acting Director, System Oversight Division, Aircraft Certification Service.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2018-24389 Filed 11-7-18; 8:45 am]</FRDOC>
+            <BILCOD> BILLING CODE 4910-13-P</BILCOD>
+        </PRORULE>
