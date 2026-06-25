@@ -1,0 +1,247 @@
+<PRORULE>
+            <PREAMB>
+                <AGENCY TYPE="N">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2026-3868; Project Identifier AD-2025-01169-T]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Notice of proposed rulemaking (NPRM).</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>The FAA proposes to adopt a new airworthiness directive (AD) for all The Boeing Company Model 737-600, -700, -700C, -800, -900, and -900ER series airplanes. This proposed AD was prompted by reports of fuselage skin cracks found near the aft drain mast. This proposed AD would require inspection of the aft drain mast area and surrounding fuselage skin for any repair, repetitive inspections of the fuselage skin and structure common to the aft drain mast for any crack and any corrosion, and applicable on-condition actions. The FAA is proposing this AD to address the unsafe condition on these products.</P>
+                </SUM>
+                <EFFDATE>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>The FAA must receive comments on this proposed AD by June 11, 2026.</P>
+                </EFFDATE>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>You may send comments, using the procedures found in 14 CFR 11.43 and 11.45, by any of the following methods:</P>
+                    <P>
+                        • 
+                        <E T="03">Federal eRulemaking Portal:</E>
+                         Go to 
+                        <E T="03">regulations.gov</E>
+                        . Follow the instructions for submitting comments.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Fax:</E>
+                         202-493-2251.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Mail:</E>
+                         U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Hand Delivery:</E>
+                         Deliver to Mail address above between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+                    </P>
+                    <P>
+                        <E T="03">AD Docket:</E>
+                         You may examine the AD docket at 
+                        <E T="03">regulations.gov</E>
+                         under Docket No. FAA-2026-3868; or in person at Docket Operations between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this NPRM, any comments received, and other information. The street address for Docket Operations is listed above.
+                    </P>
+                    <P>
+                        <E T="03">Material Incorporated by Reference:</E>
+                    </P>
+                    <P>
+                        • For Boeing material identified in this proposed AD, contact Boeing Commercial Airplanes, Attention: Contractual &amp; Data Services (C&amp;DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; telephone 562-797-1717; website 
+                        <E T="03">myboeingfleet.com.</E>
+                    </P>
+                    <P>
+                        • You may view this material at the FAA, Airworthiness Products Section, Operational Safety Branch, 2200 South 216th St., Des Moines, WA. For information on the availability of this material at the FAA, call 206-231-3195. It is also available at 
+                        <E T="03">regulations.gov</E>
+                         under Docket No. FAA-2026-3868.
+                    </P>
+                </ADD>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Luis Cortez-Muniz, Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-231-3958; email: 
+                        <E T="03">luis.a.cortez-muniz@faa.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <HD SOURCE="HD1">Comments Invited</HD>
+                <P>
+                    The FAA invites you to send any written relevant data, views, or arguments about this proposal. Send your comments using a method listed under the 
+                    <E T="02">ADDRESSES</E>
+                     section. Include “Docket No. FAA-2026-3868; Project Identifier AD-2025-01169-T” at the beginning of your comments. The most helpful comments reference a specific portion of the proposal, explain the reason for any recommended change, and include supporting data. The FAA will consider all comments received by the closing date and may amend this proposal because of those comments.
+                </P>
+                <P>
+                    Except for Confidential Business Information (CBI) as described in the following paragraph, and other information as described in 14 CFR 11.35, the FAA will post all comments received, without change, to 
+                    <E T="03">regulations.gov,</E>
+                     including any personal information you provide. The agency will also post a report summarizing each substantive verbal contact received about this NPRM.
+                </P>
+                <HD SOURCE="HD1">Confidential Business Information</HD>
+                <P>
+                    CBI is commercial or financial information that is both customarily and actually treated as private by its owner. Under the Freedom of Information Act (FOIA) (5 U.S.C. 552), CBI is exempt from public disclosure. If your comments responsive to this NPRM contain commercial or financial information that is customarily treated as private, that you actually treat as private, and that is relevant or responsive to this NPRM, it is important that you clearly designate the submitted comments as CBI. Please mark each page of your submission containing CBI as “PROPIN.” The FAA will treat such marked submissions as confidential under the FOIA, and they will not be placed in the public docket of this NPRM. Submissions containing CBI should be sent to Luis Cortez-Muniz, Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-231-3958; email: 
+                    <E T="03">luis.a.cortez-muniz@faa.gov.</E>
+                     Any commentary that the FAA receives that is not specifically designated as CBI will be placed in the public docket for this rulemaking.
+                </P>
+                <HD SOURCE="HD1">Background</HD>
+                <P>
+                    The FAA has received reports indicating cracks were found in the fuselage skin underneath the aft drain mast on a Model 737-400 airplane. The FAA issued an NPRM that proposed to amend 14 CFR part 39 by adding an AD that would apply to certain Boeing Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. That NPRM was published in the 
+                    <E T="04">Federal Register</E>
+                     on February 13, 2026 (91 FR 6798). During cross model evaluation, Boeing determined that Model 737-600, -700, -700C, -800, -900, and -900ER series airplanes could also be affected by the unsafe condition due to configuration similarity; however, there have been no reports of any cracking on these models. This condition, if not addressed, could result in the inability of the principal structural element (PSE) to sustain limit loads, which could result in rapid decompression of the fuselage and the loss of structural integrity of the airplane.
+                </P>
+                <HD SOURCE="HD1">FAA's Determination</HD>
+                <P>The FAA is issuing this NPRM after determining that the unsafe condition described previously is likely to exist or develop on other products of the same type design.</P>
+                <HD SOURCE="HD1">Material Incorporated by Reference Under 1 CFR Part 51</HD>
+                <P>
+                    The FAA reviewed Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025. This material specifies procedures for external general visual inspection of the aft drain mast area and surrounding fuselage skin for any repair; repetitive internal detailed inspection of the aft drain mast fitting, surrounding fuselage skin, and structure for any crack and any corrosion; repetitive external detailed inspection of the fuselage skin common to the area 
+                    <PRTPAGE P="22486"/>
+                    where the aft drain mast was removed for any crack and any corrosion; external surface high frequency eddy current (HFEC) inspection on the fuselage skin around the fastener holes and cutout for any crack; and applicable on-condition actions. On-condition actions include contacting Boeing for alternative inspections and corrective action instructions, doing the alternative inspections and applicable on-condition corrective actions, and contacting Boeing for repair instructions and doing the repair.
+                </P>
+                <P>
+                    This material is reasonably available because the interested parties have access to it through their normal course of business or by the means identified in the 
+                    <E T="02">ADDRESSES</E>
+                     section.
+                </P>
+                <HD SOURCE="HD1">Proposed AD Requirements in This NPRM</HD>
+                <P>
+                    This proposed AD would require accomplishing the actions specified in the material already described, except for any differences identified as exceptions in the regulatory text of this proposed AD. For information on the procedures and compliance times, see this material at 
+                    <E T="03">regulations.gov</E>
+                     under Docket No. FAA-2026-3868.
+                </P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>The FAA estimates that this AD, if adopted as proposed, would affect 1,987 airplanes of U.S. registry. The FAA estimates the following costs to comply with this proposed AD:</P>
+                <GPOTABLE COLS="5" OPTS="L2,nj,i1" CDEF="s50,r50,12,r30,r30">
+                    <TTITLE>Estimated Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                        <CHED H="1">
+                            Cost on U.S.
+                            <LI>operators</LI>
+                        </CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">External general visual inspection</ENT>
+                        <ENT>14 work-hours × $85 per hour = $1,190</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$1,190</ENT>
+                        <ENT>$2,364,530.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">Detailed inspections and external surface HFEC inspection</ENT>
+                        <ENT>16 work-hours × $85 per hour = Up to $1,360 per inspection cycle</ENT>
+                        <ENT>0</ENT>
+                        <ENT>$1,360 per inspection cycle</ENT>
+                        <ENT>$2,702,320 per inspection cycle.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>The FAA has received no definitive data on which to base the cost estimates for the alternative inspections and on-condition repairs specified in this proposed AD.</P>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, section 106, describes the authority of the FAA Administrator. Subtitle VII: Aviation Programs, describes in more detail the scope of the Agency's authority.</P>
+                <P>The FAA is issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701: General requirements. Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>The FAA determined that this proposed AD would not have federalism implications under Executive Order 13132. This proposed AD would not have a substantial direct effect on the States, on the relationship between the national government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>For the reasons discussed above, I certify this proposed regulation:</P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Would not affect intrastate aviation in Alaska, and</P>
+                <P>(3) Would not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">The Proposed Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA proposes to amend 14 CFR part 39 as follows:</P>
+                <PART>
+                    <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                </PART>
+                <AMDPAR>1. The authority citation for part 39 continues to read as follows:</AMDPAR>
+                <AUTH>
+                    <HD SOURCE="HED">Authority:</HD>
+                    <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                </AUTH>
+                <SECTION>
+                    <SECTNO>§ 39.13 </SECTNO>
+                    <SUBJECT> [Amended]</SUBJECT>
+                </SECTION>
+                <AMDPAR>2. The FAA amends § 39.13 by adding the following new airworthiness directive:</AMDPAR>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">
+                        <E T="04">The Boeing Company:</E>
+                         Docket No. FAA-2026-3868; Project Identifier AD-2025-01169-T.
+                    </FP>
+                    <HD SOURCE="HD1">(a) Comments Due Date</HD>
+                    <P>The FAA must receive comments on this airworthiness directive (AD) by June 11, 2026.</P>
+                    <HD SOURCE="HD1">(b) Affected ADs</HD>
+                    <P>None.</P>
+                    <HD SOURCE="HD1">(c) Applicability</HD>
+                    <P>This AD applies to all The Boeing Company Model 737-600, -700, -700C, -800, -900, and -900ER series airplanes, certificated in any category.</P>
+                    <HD SOURCE="HD1">(d) Subject</HD>
+                    <P>Air Transport Association (ATA) of America Code 53, Fuselage.</P>
+                    <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                    <P>This AD was prompted by reports of fuselage skin cracks found near the aft drain mast. The FAA is issuing this AD to address cracking or corrosion in the fuselage skin or structure near the aft drain mast. The unsafe condition, if not addressed, could result in the inability of the principal structural element (PSE) to sustain limit loads, which could result in rapid decompression of the fuselage and the loss of structural integrity of the airplane.</P>
+                    <HD SOURCE="HD1">(f) Compliance</HD>
+                    <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                    <HD SOURCE="HD1">(g) Required Actions</HD>
+                    <P>Except as specified by paragraph (h) of this AD: At the applicable times specified in the “Compliance” paragraph of Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025, do all applicable actions identified in, and in accordance with, the Accomplishment Instructions of Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025.</P>
+                    <P>
+                        <E T="04">Note 1 to paragraph (g):</E>
+                         Guidance for accomplishing the actions required by this AD can be found in Boeing Alert Service Bulletin 737-53A1421, dated March 20, 2025, which is referred to in Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025.
+                    </P>
+                    <HD SOURCE="HD1">(h) Exceptions to Requirements Bulletin Specifications</HD>
+                    <P>
+                        (1) Where the Compliance Time column of the table in the “Compliance” paragraph of 
+                        <PRTPAGE P="22487"/>
+                        Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025, refers to the original issue date of Requirements Bulletin 737-53A1421 RB, this AD requires using the effective date of this AD.
+                    </P>
+                    <P>(2) Where Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025, specifies contacting Boeing for repair instructions or for alternative inspections: This AD requires doing the repair or doing the alternative inspections and applicable on-condition actions using a method approved in accordance with the procedures specified in paragraph (i) of this AD.</P>
+                    <HD SOURCE="HD1">(i) Alternative Methods of Compliance (AMOCs)</HD>
+                    <P>
+                        (1) The Manager, AIR-520, Continued Operational Safety Branch, FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or responsible Flight Standards Office, as appropriate. If sending information directly to the manager of the Continued Operational Safety Branch, send it to the attention of the person identified in paragraph (j) of this AD. Information may be emailed to: 
+                        <E T="03">AMOC@faa.gov.</E>
+                         Before using any approved AMOC, notify your appropriate principal inspector, or lacking a principal inspector, the manager of the responsible Flight Standards Office.
+                    </P>
+                    <P>(2) An AMOC that provides an acceptable level of safety may be used for any repair, modification, or alteration required by this AD if it is approved by The Boeing Company Organization Designation Authorization (ODA) that has been authorized by the Manager, AIR-520, Continued Operational Safety Branch, FAA, to make those findings. To be approved, the repair method, modification deviation, or alteration deviation must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                    <HD SOURCE="HD1">(j) Additional Information</HD>
+                    <P>
+                        (1) For more information about this AD, contact Luis Cortez-Muniz, Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-231-3958; email: 
+                        <E T="03">luis.a.cortez-muniz@faa.gov.</E>
+                    </P>
+                    <P>(2) Material identified in this AD that is not incorporated by reference is available at the address specified in paragraph (k)(3) of this AD.</P>
+                    <HD SOURCE="HD1">(k) Material Incorporated by Reference</HD>
+                    <P>(1) The Director of the Federal Register approved the incorporation by reference of the material listed in this paragraph under 5 U.S.C. 552(a) and 1 CFR part 51.</P>
+                    <P>(2) You must use this material as applicable to do the actions required by this AD, unless the AD specifies otherwise.</P>
+                    <P>(i) Boeing Alert Requirements Bulletin 737-53A1421 RB, dated March 20, 2025.</P>
+                    <P>(ii) [Reserved]</P>
+                    <P>
+                        (3) For Boeing material identified in this AD, contact Boeing Commercial Airplanes, Attention: Contractual &amp; Data Services (C&amp;DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; telephone 562-797-1717; website 
+                        <E T="03">myboeingfleet.com.</E>
+                    </P>
+                    <P>(4) You may view this material at the FAA, Airworthiness Products Section, Operational Safety Branch, 2200 South 216th St., Des Moines, WA. For information on the availability of this material at the FAA, call 206-231-3195.</P>
+                    <P>
+                        (5) You may view this material at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, visit 
+                        <E T="03">www.archives.gov/federal-register/cfr/ibr-locations</E>
+                         or email 
+                        <E T="03">fr.inspection@nara.gov.</E>
+                    </P>
+                </EXTRACT>
+                <SIG>
+                    <DATED>Issued on April 23, 2026.</DATED>
+                    <NAME>Lona C. Saccomando,</NAME>
+                    <TITLE>Acting Deputy Director, Integrated Certificate Management Division, Aircraft Certification Service.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2026-08154 Filed 4-24-26; 8:45 am]</FRDOC>
+            <BILCOD>BILLING CODE 4910-13-P</BILCOD>
+        </PRORULE>

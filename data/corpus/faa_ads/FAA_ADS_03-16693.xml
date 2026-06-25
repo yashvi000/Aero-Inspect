@@ -1,0 +1,232 @@
+<PRORULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION </AGENCY>
+                <SUBAGY>Federal Aviation Administration </SUBAGY>
+                <CFR>14 CFR Part 39 </CFR>
+                <DEPDOC>[Docket No. 98-NM-11-AD] </DEPDOC>
+                <RIN>RIN 2120-AA64 </RIN>
+                <SUBJECT>Airworthiness Directives; Boeing Model 737-100, -200, -200C, -300, -400, and -500 Series Airplanes </SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration, DOT. </P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Supplemental notice of proposed rulemaking; reopening of comment period. </P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>
+                        This document revises an earlier proposed airworthiness directive (AD), applicable to certain Boeing Model 737 series airplanes, that would have required inspections of certain bonded skin panels to detect delamination of the skin doublers (tear straps) from the skin panels, and follow-on corrective actions if necessary. This new action revises the proposed rule by revising certain inspection methods and expanding the area of certain inspections. This new action also proposes to extend the compliance time for certain inspections. The actions specified by this new proposed AD are intended to prevent skin doublers from 
+                        <PRTPAGE P="39486"/>
+                        delaminating from their skin panels, which could result in fatigue cracks in the skin doublers and skin panels and consequent rapid decompression of the airplane. 
+                    </P>
+                </SUM>
+                <DATES>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>Comments must be received by July 28, 2003. </P>
+                </DATES>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>
+                        Submit comments in triplicate to the Federal Aviation Administration (FAA), Transport Airplane Directorate, ANM-114, Attention: Rules Docket No. 98-NM-11-AD, 1601 Lind Avenue, SW., Renton, Washington 98055-4056. Comments may be inspected at this location between 9 a.m. and 3 p.m., Monday through Friday, except Federal holidays. Comments may be submitted via fax to (425) 227-1232. Comments may also be sent via the Internet using the following address: 
+                        <E T="03">9-anm-nprmcomment@faa.gov.</E>
+                         Comments sent via fax or the Internet must contain “Docket No. 98-NM-11-AD” in the subject line and need not be submitted in triplicate. Comments sent via the Internet as attached electronic files must be formatted in Microsoft Word 97 for Windows or ASCII text. 
+                    </P>
+                    <P>The service information referenced in the proposed rule may be obtained from Boeing Commercial Airplane Group, P.O. Box 3707, Seattle, Washington 98124-2207. This information may be examined at the FAA, Transport Airplane Directorate, 1601 Lind Avenue, SW., Renton, Washington. </P>
+                </ADD>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>Duong Tran, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Transport Airplane Directorate, Seattle Aircraft Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 917-6452; fax (425) 917-6590. </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <HD SOURCE="HD1">Comments Invited </HD>
+                <P>Interested persons are invited to participate in the making of the proposed rule by submitting such written data, views, or arguments as they may desire. Communications shall identify the Rules Docket number and be submitted in triplicate to the address specified above. All communications received on or before the closing date for comments, specified above, will be considered before taking action on the proposed rule. The proposals contained in this action may be changed in light of the comments received. </P>
+                <P>Submit comments using the following format:</P>
+                <P>• Organize comments issue-by-issue. For example, discuss a request to change the compliance time and a request to change the service bulletin reference as two separate issues. </P>
+                <P>• For each issue, state what specific change to the proposed AD is being requested. </P>
+                <P>
+                    • Include justification (
+                    <E T="03">e.g.</E>
+                    , reasons or data) for each request. 
+                </P>
+                <P>Comments are specifically invited on the overall regulatory, economic, environmental, and energy aspects of the proposed rule. All comments submitted will be available, both before and after the closing date for comments, in the Rules Docket for examination by interested persons. A report summarizing each FAA-public contact concerned with the substance of this proposal will be filed in the Rules Docket. </P>
+                <P>Commenters wishing the FAA to acknowledge receipt of their comments submitted in response to this action must submit a self-addressed, stamped postcard on which the following statement is made: “Comments to Docket Number 98-NM-11-AD.” The postcard will be date stamped and returned to the commenter. </P>
+                <HD SOURCE="HD1">Availability of NPRMs </HD>
+                <P>Any person may obtain a copy of this NPRM by submitting a request to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules Docket No. 98-NM-11-AD, 1601 Lind Avenue, SW., Renton, Washington 98055-4056. </P>
+                <HD SOURCE="HD1">Discussion </HD>
+                <P>
+                    A proposal to amend part 39 of the Federal Aviation Regulations (14 CFR part 39) to add an airworthiness directive (AD), applicable to certain Boeing Model 737 series airplanes, was published as a supplemental notice of proposed rulemaking (NPRM) in the 
+                    <E T="04">Federal Register</E>
+                     on August 10, 2000 (65 FR 48937). That original supplemental NPRM (hereafter referred to as “the first supplemental NPRM”) would have required inspections of certain bonded skin panels to detect delamination of the skin doublers (tear straps) from the skin panels, and follow-on corrective actions if necessary. The first supplemental NPRM was prompted by reports that certain skin doublers were delaminated from their skin panels due to improper processing of certain skin panels. That condition, if not corrected, could result in fatigue cracks in the skin doublers and skin panels and consequent rapid decompression of the airplane. 
+                </P>
+                <HD SOURCE="HD1">Explanation of New Service Information </HD>
+                <P>Since the issuance of the first supplemental NPRM, Boeing has issued Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001. (The first supplemental NPRM refers to Revision 1 of that service bulletin, dated September 30, 1999, as the appropriate source of service information for the actions proposed in that first supplemental NPRM.) Revision 2 of the service bulletin does the following: </P>
+                <P>• Revises the inspection method from close visual to detailed visual for the one-time internal inspection for cracks or corrosion of bonded skin panels. </P>
+                <P>• Extends the compliance time for the one-time internal inspection to 50,000 total flight cycles (or 50,000 flight cycles after skin panel replacement, as applicable), or 20,000 flight cycles after service bulletin release, whichever is later. </P>
+                <P>• Expands the area of the external inspection from under stringer 17 to under all stringers. </P>
+                <P>• Expands the inspection area following a finding of delamination to include all fasteners common to the delamination area plus two fasteners on each side of the delamination area. </P>
+                <P>• Expands the effectivity to include certain airplanes not listed in the effectivity listing of Revision 1 of the service bulletin. </P>
+                <P>Accomplishment of the actions specified in Revision 2 of the service bulletin is intended to adequately address the unsafe condition. </P>
+                <HD SOURCE="HD1">Explanation of Changes to Proposal </HD>
+                <P>We have revised the preamble and body of this second supplemental NPRM to identify affected airplane models more specifically. </P>
+                <P>We have changed all references to “detailed visual inspection” in the first supplemental NPRM to “detailed inspection” in this second supplemental NPRM. Also, for clarification, we have revised the definition of a “general visual inspection” in this second supplemental NPRM. </P>
+                <P>In addition, because the language in Note 6 of the first supplemental NPRM is regulatory in nature, that note has been redesignated as paragraph (g) of this second supplemental NPRM. </P>
+                <HD SOURCE="HD1">Comments </HD>
+                <P>
+                    Due consideration has been given to the comments received in response to the first supplemental NPRM. While one commenter supports the proposal, certain comments have resulted in changes to the proposal that are reflected in this second supplemental NPRM. Certain other comments received in response to the original NPRM and first supplemental NPRM are no longer relevant to this proposal because of the changes in the proposal related to Revision 2 of the service 
+                    <PRTPAGE P="39487"/>
+                    bulletin. Certain other comments that are still relevant but that have not resulted in any change to the proposal will be addressed in the final rule, along with any additional comments received in response to this second supplemental NPRM. 
+                </P>
+                <HD SOURCE="HD1">Revise References to Inspection Methods and Procedures </HD>
+                <P>One commenter, the airplane manufacturer, requests that the FAA revise certain references to inspection methods and procedures in various places in the first supplemental NPRM: </P>
+                <P>• In paragraphs (a)(2)(i) and (b)(2)(i) of the first supplemental NPRM, change the method for the inspection for cracks or corrosion of bonded “Zone A” skin panels from internal general visual to internal detailed visual. The procedures in the service bulletin describe a detailed visual inspection rather than a general visual inspection. </P>
+                <P>• In paragraphs (a)(2)(i), (a)(2)(ii), (b)(2)(i), and (b)(2)(ii) of the first supplemental NPRM, clarify the inspection requirements for “Zone A” and “Zone B” skin panels by referring to the figures in the service bulletin that define those inspections. </P>
+                <P>• In Note 6 of the first supplemental NPRM, clarify that the internal inspections described in that paragraph apply only to “Zone A” areas, and that accomplishment of those internal inspections is acceptable specifically for compliance with paragraph (a)(2)(i) of the proposed AD. </P>
+                <P>• For clarification, if the changes above are implemented, delete Note 7 of the first supplemental NPRM. </P>
+                <P>We concur with the commenter's requests and, accordingly, have made the following changes to this second supplemental NPRM: </P>
+                <P>• We have revised paragraphs (a)(2)(i) and (b)(2)(i) of this second supplemental NPRM to specify a one-time internal detailed inspection to detect cracks or corrosion of “Zone A” skin panels. </P>
+                <P>• We have revised paragraphs (a)(2)(i), (a)(2)(ii), (b)(2)(i), and (b)(2)(ii) of this second supplemental NPRM to refer to the Accomplishment Instructions of Revision 2 of the service bulletin. (We find that referring to the Accomplishment Instructions of the service bulletin meets the commenter's intent with regard to referring to the specific figures.) </P>
+                <P>• We have revised paragraph (g) of this second supplemental NPRM (which contains the provisions of Note 6 of the first supplemental NPRM) to state that internal detailed inspections of “Zone A” skin panels that are accomplished before the effective date of the AD per previous revisions of the service bulletin are acceptable for compliance with paragraph (a)(2)(i) of this AD. </P>
+                <P>• We have not included the contents of Note 7 of the first supplemental NPRM in this second supplemental NPRM. </P>
+                <HD SOURCE="HD1">Give Credit for Inspections Accomplished per Existing Programs </HD>
+                <P>One commenter to the first supplemental NPRM, as well as one commenter to the original NPRM, requests that we allow credit for visual inspections of areas subject to this proposal if they were previously accomplished per an FAA-approved Corrosion Prevention and Control Program (CPCP). </P>
+                <P>We concur with the commenters' requests. We have previously issued AD 90-25-01, amendment 39-6789 (55 FR 49263, November 27, 1990), to require the implementation of a CPCP on all Boeing Model 737 series airplanes. Inspections accomplished per that CPCP are an acceptable method of compliance for certain inspections that would be required by this proposed AD, provided that these inspections are accomplished within the compliance times specified in this proposed AD. Operators must note that this credit applies only for general visual inspections of “Zone A” skin panels. Accordingly, we have added a new paragraph (h) to this second supplemental NPRM to provide this credit. </P>
+                <HD SOURCE="HD1">Allow Repair per Structural Repair Manual </HD>
+                <P>Two commenters request that any subject area that has been repaired previously per the Boeing 737 Structural Repair Manual (SRM) be exempted from the inspection requirements of this proposal. One of the commenters notes that repair by installation of solid fasteners is defined in Chapter 51-00-01, Figure 225, of the SRM, which the commenter states is referenced in the proposal. The other commenter asks whether we intend to require an alternative method of compliance (AMOC) for each fuselage flush or external repair in the inspection area. That commenter specifically requests that all repairs per the SRM be approved as an AMOC to the proposed AD, and that we allow Boeing Designated Engineering Representatives to approve repairs. </P>
+                <P>We partially concur with the commenters' requests. We do not find it appropriate to give “blanket” approval of any repair per the SRM, and we note that neither the first supplemental NPRM nor the service bulletin refers to the specific section and figure of the SRM referred to by the commenter. However, we find that repairs accomplished according to specific sections of the SRM referred to in Boeing Service Bulletin 737-53-1179, Revision 2, eliminate the need for the proposed inspections for the area of the repair only. All other repairs must be approved by the FAA or per data meeting the type certification basis of the airplane approved by a Boeing Company Designated Engineering Representative who has been authorized by the FAA to make such findings. Therefore, we have added a new paragraph (f) to this second supplemental NPRM (and reordered subsequent paragraphs accordingly) to specify that, where the service bulletin refers to specific sections of the SRM for repair instructions, repairs per those SRM sections eliminate the requirement to do the inspections required by this proposed AD for the repaired area only. </P>
+                <HD SOURCE="HD1">Define Method for Determining Configuration </HD>
+                <P>One commenter requests clarification on what method to use to determine the configuration of skin panels as “Zone A” or “Zone B,” as specified in Figure 2, Sheet 4 of 4, in the service bulletin. </P>
+                <P>We concur that some clarification may be necessary. As stated previously, we have revised paragraphs (a)(2)(i), (a)(2)(ii), (b)(2)(i), and (b)(2)(ii) of this second supplemental NPRM to refer to the Accomplishment Instructions and Figure 2 of the service bulletin as the appropriate reference for determining whether a skin panel is “Zone A” or “Zone B.” The criteria for determining the category of a skin panel are shown under paragraph 3.A. in the Accomplishment Instructions of the service bulletin. We find that these criteria are adequate for determining the applicable inspection method for each skin panel. No further change to this second supplemental NPRM is necessary in this regard. </P>
+                <HD SOURCE="HD1">Give Credit for Actions Accomplished Previously </HD>
+                <P>One commenter requests clarification that an operator is in compliance with the proposed AD if the terminating inspection has been done prior to the effective date of the AD. </P>
+                <P>
+                    We find that no change is necessary to meet the intent of the commenter's request. We give credit for actions accomplished before the effective date of an AD by means of the phrase “Compliance: Required as indicated, unless accomplished previously,” which appears in every AD. 
+                    <PRTPAGE P="39488"/>
+                </P>
+                <HD SOURCE="HD1">Explanation of New Requirements of Proposal </HD>
+                <P>Since an unsafe condition has been identified that is likely to exist or develop on other products of this same type design, this second supplemental NPRM would require accomplishment of the actions specified in Boeing Service Bulletin 737-53-1179, Revision 2, described previously, except as discussed below. </P>
+                <HD SOURCE="HD1">Explanation of Applicability </HD>
+                <P>The applicability statement of this second supplemental NPRM includes Model 737-100, -200, -200C, -300, -400, and -500 series airplanes; having line numbers 1 through 2947 inclusive. As explained in the first supplemental NPRM, in determining the applicability of this proposed AD, we considered the possibility that any airplane delivered prior to October 1, 1997, might be equipped with an improperly processed skin panel. We have determined that line number 2947 corresponds to a delivery date of October 1, 1997. </P>
+                <HD SOURCE="HD1">Differences Between Second Supplemental NPRM and Service Bulletin </HD>
+                <P>Operators also should note that, although the service bulletin specifies that the manufacturer may be contacted for disposition of certain repair conditions, this second supplemental NPRM would require the repair of those conditions to be accomplished in accordance with a method approved by the FAA; or in accordance with data meeting the type certification basis of the airplane approved by a Boeing Company Designated Engineering Representative who has been authorized by the Manager, Seattle Aircraft Certification Office, to make such findings. </P>
+                <P>Additionally, the service bulletin specifies that certain inspections may be accomplished in accordance with “an equivalent” procedure. However, this second supplemental NPRM would require that those inspections be accomplished in accordance with the procedures specified in the chapter of the 737 Nondestructive Test Manual specified in the service bulletin. An “equivalent” procedure may be used only if approved as an alternative method of compliance in accordance with the provisions of paragraph (i) of this second supplemental NPRM. </P>
+                <HD SOURCE="HD1">Conclusion </HD>
+                <P>Since certain changes expand the scope of the originally proposed rule, the FAA has determined that it is necessary to reopen the comment period to provide additional opportunity for public comment. </P>
+                <HD SOURCE="HD1">Cost Impact </HD>
+                <P>There are approximately 2,083 airplanes of the affected design in the worldwide fleet. The FAA estimates that 863 airplanes of U.S. registry would be affected by this proposed AD. </P>
+                <P>It would take approximately 10 work hours per airplane to accomplish the proposed external general visual and detailed inspections, at an average labor rate of $60 per work hour. Based on these figures, the cost impact of these external inspections proposed by this AD on U.S. operators is estimated to be $517,800, or $600 per airplane, per inspection cycle. </P>
+                <P>It would take approximately 360 work hours per airplane to accomplish the proposed internal detailed and ultrasonic inspections, at an average labor rate of $60 per work hour. Based on these figures, the cost impact of this inspection proposed by this AD on U.S. operators is estimated to be $18,640,800, or $21,600 per airplane. </P>
+                <P>The cost impact figures discussed above are based on assumptions that no operator has yet accomplished any of the proposed requirements of this AD action, and that no operator would accomplish those actions in the future if this proposed AD were not adopted. The cost impact figures discussed in AD rulemaking actions represent only the time necessary to perform the specific actions actually required by the AD. These figures typically do not include incidental costs, such as the time required to gain access and close up, planning time, or time necessitated by other administrative actions. </P>
+                <HD SOURCE="HD1">Regulatory Impact </HD>
+                <P>The regulations proposed herein would not have a substantial direct effect on the States, on the relationship between the national Government and the States, or on the distribution of power and responsibilities among the various levels of government. Therefore, it is determined that this proposal would not have federalism implications under Executive Order 13132. </P>
+                <P>For the reasons discussed above, I certify that this proposed regulation: (1) is not a “significant regulatory action” under Executive Order 12866; (2) is not a “significant rule” under the DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); and (3) if promulgated, will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act. A copy of the draft regulatory evaluation prepared for this action is contained in the Rules Docket. A copy of it may be obtained by contacting the Rules Docket at the location provided under the caption ADDRESSES.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39 </HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">The Proposed Amendment </HD>
+                <P>Accordingly, pursuant to the authority delegated to me by the Administrator, the Federal Aviation Administration proposes to amend part 39 of the Federal Aviation Regulations (14 CFR part 39) as follows: </P>
+                <PART>
+                    <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES </HD>
+                    <P>1. The authority citation for part 39 continues to read as follows: </P>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P>49 U.S.C. 106(g), 40113, 44701. </P>
+                    </AUTH>
+                    <SECTION>
+                        <SECTNO>§ 39.13 </SECTNO>
+                        <SUBJECT>[Amended] </SUBJECT>
+                        <P>2. Section 39.13 is amended by adding the following new airworthiness directive: </P>
+                        <EXTRACT>
+                            <FP SOURCE="FP-2">
+                                <E T="04">Boeing:</E>
+                                 Docket 98-NM-11-AD. 
+                            </FP>
+                            <P>
+                                <E T="03">Applicability:</E>
+                                 Model 737-100, 737-200, -200C, -300, -400, and -500 series airplanes; line numbers (L/N) 1 through 2947 inclusive; certified in any category. 
+                            </P>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 1:</HD>
+                                <P>This AD applies to each airplane identified in the preceding applicability provision, regardless of whether it has been modified, altered, or repaired in the area subject to the requirements of this AD. For airplanes that have been modified, altered, or repaired so that the performance of the requirements of this AD is affected, the owner/operator must request approval for an alternative method of compliance in accordance with paragraph (i) of this AD. The request should include an assessment of the effect of the modification, alteration, or repair on the unsafe condition addressed by this AD; and, if the unsafe condition has not been eliminated, the request should include specific proposed actions to address it. </P>
+                            </NOTE>
+                            <P>
+                                <E T="03">Compliance:</E>
+                                 Required as indicated, unless accomplished previously. 
+                            </P>
+                            <P>To prevent skin doublers (tear straps) from delaminating from their skin panels, which could result in fatigue cracks in the skin doublers and skin panels and consequent rapid decompression of the airplane, accomplish the following: </P>
+                            <HD SOURCE="HD1">Initial and Repetitive Inspections (L/N 611 through 2725 inclusive) </HD>
+                            <P>(a) For airplanes having L/N 611 through 2725 inclusive: Accomplish the actions required by paragraphs (a)(1) and (a)(2) of this AD on any bonded skin panel assembly that has NOT been replaced with any new or serviceable bonded skin panel assembly, in accordance with the Accomplishment Instructions of Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001. </P>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 2:</HD>
+                                <P>
+                                    For the purposes of this AD, bonded skin panels consist of skin doublers 
+                                    <PRTPAGE P="39489"/>
+                                    (tear straps) that are bonded to skin panels located above stringer S-26 from body station (BS) 259 to BS 1016 on both sides of the airplane. 
+                                </P>
+                            </NOTE>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 3:</HD>
+                                <P>If the skin panel is solid with no doublers (tear straps) bonded to it, the inspections required by this AD are not necessary for that skin panel. </P>
+                            </NOTE>
+                            <P>(1) Prior to the accumulation of 20,000 total flight cycles, or within 5,000 flight cycles after the effective date of this AD, whichever occurs later, accomplish paragraphs (a)(1)(i) and (a)(1)(ii) of this AD, in accordance with the Accomplishment Instructions of the service bulletin. Repeat the inspections thereafter at intervals not to exceed 5,000 flight cycles, until accomplishment of paragraph (a)(2) of this AD. </P>
+                            <P>(i) Perform an external general visual inspection of all affected areas NOT specified in paragraph (a)(1)(ii) of this AD to detect cracks or corrosion of bonded skin panels. </P>
+                            <P>(ii) Perform an external detailed inspection to detect cracks or corrosion of bonded skin panels at all stringers, window belts, lap joints, and butt splice joints. </P>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 4:</HD>
+                                <P>For the purposes of this AD, a general visual inspection is defined as: “A visual examination of an interior or exterior area, installation, or assembly to detect obvious damage, failure, or irregularity. This level of inspection is made from within touching distance unless otherwise specified. A mirror may be necessary to enhance visual access to all exposed surfaces in the inspection area. This level of inspection is made under normally available lighting conditions such as daylight, hangar lighting, flashlight, or droplight and may require removal or opening of access panels or doors. Stands, ladders, or platforms may be required to gain proximity to the area being checked.” </P>
+                            </NOTE>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 5:</HD>
+                                <P>For the purposes of this AD, a detailed inspection is defined as: “An intensive visual examination of a specific structural area, system, installation, or assembly to detect damage, failure, or irregularity. Available lighting is normally supplemented with a direct source of good lighting at intensity deemed appropriate by the inspector. Inspection aids such as mirror, magnifying lenses, etc., may be used. Surface cleaning and elaborate access procedures may be required.” </P>
+                            </NOTE>
+                            <P>(2) Prior to the accumulation of 50,000 total flight cycles, but after the accumulation of 4,500 total flight cycles; or within 20,000 flight cycles after the effective date of this AD; whichever occurs later; accomplish paragraphs (a)(2)(i) and (a)(2)(ii) of this AD. Accomplishment of the requirements of paragraphs (a)(2)(i) and (a)(2)(ii) of this AD constitutes terminating action for the repetitive inspection requirement of paragraph (a)(1) of this AD. </P>
+                            <P>(i) For “Zone A” areas (as defined in the Accomplishment Instructions and Figure 2 of the service bulletin): Perform a one-time internal detailed inspection to detect cracks or corrosion of bonded skin panels, or delamination of the skin doublers from the bonded skin panels. </P>
+                            <P>(ii) For “Zone B” areas (as defined in the Accomplishment Instructions and Figure 2 of the service bulletin): Perform an internal or external ultrasonic inspection to detect cracks or corrosion of bonded skin panels, or delamination of the skin doublers from the bonded skin panels. </P>
+                            <HD SOURCE="HD1">Initial and Repetitive Inspections (L/N 1 through 2947 inclusive) </HD>
+                            <P>(b) For airplanes having L/N 1 through 2947 inclusive, on which any bonded skin panel was replaced with a new or serviceable, Boeing-built, bonded skin panel prior to October 1, 1997: Accomplish the actions required by paragraphs (b)(1) and (b)(2) of this AD, in accordance with the Accomplishment Instructions of Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001. </P>
+                            <P>(1) Within 20,000 flight cycles after replacement of the bonded skin panel, or within 5,000 flight cycles after the effective date of this AD, whichever occurs later, accomplish paragraphs (b)(1)(i) and (b)(1)(ii) of this AD. Repeat the inspections thereafter at intervals not to exceed 5,000 flight cycles, until accomplishment of paragraph (b)(2) of this AD. </P>
+                            <P>(i) Perform an external general visual inspection of all affected areas NOT specified in paragraph (b)(1)(ii) to detect cracks or corrosion of bonded skin panels. </P>
+                            <P>(ii) Perform a detailed inspection to detect cracks or corrosion of bonded skin panels at all stringers, window belts, lap joints, and butt splice joints. </P>
+                            <P>(2) Within 50,000 flight cycles after replacement of the bonded skin panel, but after the accumulation of 4,500 flight cycles after such replacement; or within 20,000 flight cycles after the effective date of this AD; whichever occurs later; accomplish paragraphs (b)(2)(i) and (b)(2)(ii) of this AD. Accomplishment of the requirements of paragraphs (b)(2)(i) and (b)(2)(ii) of this AD constitutes terminating action for the repetitive inspection requirement of paragraph (b)(1) of this AD. </P>
+                            <P>(i) For “Zone A” areas (as defined in the Accomplishment Instructions and Figure 2 of the service bulletin): Perform a one-time internal detailed inspection to detect cracks or corrosion of bonded skin panels or delamination of the skin doublers from the bonded skin panels. </P>
+                            <P>(ii) For “Zone B” areas (as defined in the Accomplishment Instructions and Figure 2 of the service bulletin): Perform an internal or external ultrasonic inspection to detect cracks or corrosion of bonded skin panels, or delamination of the skin doublers from the bonded skin panels. </P>
+                            <HD SOURCE="HD1">Corrective Actions </HD>
+                            <P>(c) If any crack, corrosion, or delamination is detected during any inspection required by paragraph (a) or (b) of this AD, prior to further flight, accomplish the actions required by either paragraph (c)(1) or (c)(2) of this AD. </P>
+                            <P>(1) Replace the cracked, corroded, or delaminated skin panel with a new or serviceable skin panel manufactured by Boeing on or after April 1, 1997, in accordance with Figure 2 and the Accomplishment Instructions of Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001. </P>
+                            <P>(2) Accomplish corrective actions (including additional inspections and repairs) in accordance with Figure 2 and the “Delamination and Crack Repair” section of the Accomplishment Instructions of Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001, except as provided by paragraph (d) of this AD.</P>
+                            <HD SOURCE="HD1">Exception to Repair Procedures</HD>
+                            <P>(d) Where Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001, specifies that repair of a cracked, corroded, or delaminated skin panel is to be accomplished in accordance with instructions received from Boeing, this AD requires that the repair be accomplished in accordance with a method approved by the Manager, Seattle Aircraft Certification Office (ACO), FAA; or in accordance with data meeting the type certification basis of the airplane approved by a Boeing Company Designated Engineering Representative who has been authorized by the Manager, Seattle ACO, to make such findings. For a repair method to be approved by the Manager, Seattle ACO, as required by this paragraph, the approval letter must specifically reference this AD.</P>
+                            <HD SOURCE="HD1">Operator's Equivalent Procedures</HD>
+                            <P>(e) Where Boeing Service Bulletin 737-53-1179, Revision 2, dated October 25, 2001, specifies that the inspections required by this AD may be accomplished in accordance with an “equivalent” procedure, the inspections must be accomplished in accordance with the chapter of the Boeing 737 Nondestructive Test Manual specified in the service bulletin. </P>
+                            <HD SOURCE="HD1">Credit for Actions Accomplished Previously </HD>
+                            <P>(f) Where the service bulletin refers to specific sections of the Boeing 737 Structural Repair Manual (SRM) for repair instructions, repairs accomplished before the effective date of this AD per those SRM sections eliminate the requirement to do the inspections required by this proposed AD for the repaired area only. </P>
+                            <P>(g) Internal detailed inspections of “Zone A” skin panels accomplished before the effective date of this AD in accordance with the original issue of Boeing Service Bulletin 737-53-1179, dated June 22, 1995, or Revision 1, dated September 30, 1999, are acceptable for compliance with paragraph (a)(2)(i) of this AD, provided that they were accomplished after the accumulation of 4,500 total flight cycles. </P>
+                            <P>(h) Inspections accomplished per the Corrosion Prevention and Control Program established by AD 90-25-01, amendment 39-6789, are acceptable for compliance with the external general visual inspections of “Zone A” skin panels required by paragraphs (a)(1)(i) and (b)(1)(i) of this AD, provided that the inspections are accomplished within the applicable compliance times specified in paragraphs (a) and (b) of this AD. </P>
+                            <HD SOURCE="HD1">Alternative Methods of Compliance </HD>
+                            <P>
+                                (i) An alternative method of compliance or adjustment of the compliance time that provides an acceptable level of safety may be used if approved by the Manager, Seattle ACO. Operators shall submit their requests through an appropriate FAA Principal 
+                                <PRTPAGE P="39490"/>
+                                Maintenance Inspector, who may add comments and then send it to the Manager, Seattle ACO.
+                            </P>
+                            <NOTE>
+                                <HD SOURCE="HED">Note 6:</HD>
+                                <P>Information concerning the existence of approved alternative methods of compliance with this AD, if any, may be obtained from the Seattle ACO. </P>
+                            </NOTE>
+                            <HD SOURCE="HD1">Special Flight Permits</HD>
+                            <P>(j) Special flight permits may be issued in accordance with sections 21.197 and 21.199 of the Federal Aviation Regulations (14 CFR 21.197 and 21.199) to operate the airplane to a location where the requirements of this AD can be accomplished.</P>
+                        </EXTRACT>
+                    </SECTION>
+                    <SIG>
+                        <DATED>Issued in Renton, Washington, on June 26, 2003.</DATED>
+                        <NAME>Ali Bahrami,</NAME>
+                        <TITLE>Acting Manager, Transport Airplane Directorate, Aircraft Certification Service.</TITLE>
+                    </SIG>
+                </PART>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 03-16693 Filed 7-1-03; 8:45 am]</FRDOC>
+            <BILCOD>BILLING CODE 4910-13-P</BILCOD>
+        </PRORULE>
