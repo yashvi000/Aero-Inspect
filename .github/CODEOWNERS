@@ -1,1 +1,47 @@
 * @yashvi000
+
+# Shared layer
+src/shared/   @yashvi000 @Shankhdhardaksh
+
+# Defect Detection
+src/backend/detection/   @yashvi000 @yashika1231
+
+# Intelligence Agent
+src/backend/intelligence/   @yashvi000 @Saloni-coder03
+src/backend/reports/   @yashvi000 @Saloni-coder03
+
+# Backend
+src/backend/core/    @Shankhdhardaksh
+src/backend/db/    @Shankhdhardaksh
+src/backend/auth/    @Shankhdhardaksh
+src/backend/inspections/   @Shankhdhardaksh
+src/backend/zones/    @Shankhdhardaksh
+
+# Frontend
+src/web/app/    @Aayushi-C1  
+src/web/features/   @Aayushi-C1  
+src/web/components/   @Aayushi-C1  
+src/web/hooks/    @Aayushi-C1  
+src/web/lib/    @Aayushi-C1  
+src/web/types/   @Aayushi-C1  
+
+# Digital Twin
+src/web/three/   @Saloni-coder03
+src/web/public/models/   @Saloni-coder03
+
+# Twin page
+src/web/app/twin/   @Aayushi-C1  @Saloni-coder03
+src/web/features/twin/  @Aayushi-C1  @Saloni-coder03
+
+# Data
+data/datasets/   @yashika1231
+data/corpus/   @yashvi000 @Saloni-coder03
+
+# Scripts
+scripts/   @yashvi000 @Shankhdhardaksh
+
+# Docker and config
+docker/ @Shankhdhardaksh
+config/ @Shankhdhardaksh
+docker-compose.yml @Shankhdhardaksh
+pyproject.toml @Shankhdhardaksh
