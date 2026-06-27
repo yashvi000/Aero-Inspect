@@ -36,3 +36,50 @@ ingestion:
     - "FRDOC"
     - "BILCOD"
     - "GPH"
+  
+  defect_keywords:
+    crack:
+      - "crack"
+      - "cracking"
+      - "fatigue"
+      - "fracture"
+      - "flaw"
+
+    corrosion:
+      - "corrosion"
+      - "corroded"
+      - "corrode"
+      - "rust"
+      - "oxidation"
+
+    scratch:
+      - "scratch"
+      - "scratched"
+      - "gouge"
+      - "abrasion"
+      - "nick"
+      - "scoring"
+
+    dent:
+      - "dent"
+      - "dented"
+      - "impact damage"
+      - "deformation"
+      - "bulge"
+
+    paint_damage:
+      - "paint"
+      - "coating"
+      - "bare metal"
+      - "primer"
+      - "topcoat"
+      - "peeling"
+      - "chipping"
+      - "blistering"
+  
+  chunk_separators:
+    - "\n\n"
+    - "\n"
+    - ". "
+    - " "
+    - ""
