@@ -2,8 +2,9 @@ import logging
 from pathlib import Path
 
 import fitz  # PyMuPDF
+from src.shared.utils.logging import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger("ingestion")
 
 
 class PDFLoadError(Exception):
