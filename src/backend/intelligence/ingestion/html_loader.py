@@ -1,8 +1,9 @@
 import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
+from src.shared.utils.logging import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger("ingestion")
 
 
 class HTMLLoadError(Exception):

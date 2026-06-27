@@ -4,8 +4,9 @@ import yaml
 from lxml import etree
 
 from src.shared.utils.paths import CONFIG_DIR
+from src.shared.utils.logging import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger("ingestion")
 
 class XMLLoadError(Exception):
     # Raised when XML parsing fails
