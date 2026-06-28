@@ -1,0 +1,19 @@
+{
+  "zones": [
+    {"id": "zone_01", "zone_name": "nose_section", "zone_label": "Nose Section", "criticality": "HIGH"},
+    {"id": "zone_02", "zone_name": "cockpit", "zone_label": "Cockpit", "criticality": "CRITICAL"},
+    {"id": "zone_03", "zone_name": "left_fwd_fuselage", "zone_label": "Left Forward Fuselage", "criticality": "HIGH"},
+    {"id": "zone_04", "zone_name": "right_fwd_fuselage", "zone_label": "Right Forward Fuselage", "criticality": "HIGH"},
+    {"id": "zone_05", "zone_name": "left_wing_root", "zone_label": "Left Wing Root", "criticality": "CRITICAL"},
+    {"id": "zone_06", "zone_name": "right_wing_root", "zone_label": "Right Wing Root", "criticality": "CRITICAL"},
+    {"id": "zone_07", "zone_name": "left_wing_tip", "zone_label": "Left Wing Tip", "criticality": "MEDIUM"},
+    {"id": "zone_08", "zone_name": "right_wing_tip", "zone_label": "Right Wing Tip", "criticality": "MEDIUM"},
+    {"id": "zone_09", "zone_name": "left_engine", "zone_label": "Left Engine Pylon", "criticality": "CRITICAL"},
+    {"id": "zone_10", "zone_name": "right_engine", "zone_label": "Right Engine Pylon", "criticality": "CRITICAL"},
+    {"id": "zone_11", "zone_name": "left_aft_fuselage", "zone_label": "Left Aft Fuselage", "criticality": "HIGH"},
+    {"id": "zone_12", "zone_name": "right_aft_fuselage", "zone_label": "Right Aft Fuselage", "criticality": "HIGH"},
+    {"id": "zone_13", "zone_name": "tail_section", "zone_label": "Tail Section", "criticality": "HIGH"},
+    {"id": "zone_14", "zone_name": "left_horizontal_stab", "zone_label": "Left Horizontal Stabiliser", "criticality": "HIGH"},
+    {"id": "zone_15", "zone_name": "right_horizontal_stab", "zone_label": "Right Horizontal Stabiliser", "criticality": "HIGH"}
+  ]
+}
