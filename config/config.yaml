@@ -1,0 +1,85 @@
+corpus:
+  base_dir: "data/corpus"
+  folders:
+    dgca_cars: "dgca_cars"
+    faa_ads: "faa_ads"
+    faa_sdrs: "faa_sdrs"
+    nasa_asrs: "nasa_asrs"
+
+ingestion:
+  chunk_size: 2500
+  chunk_overlap: 250
+  source_map:
+    dgca_cars: "dgca_car"
+    faa_ads: "faa_ads"
+    faa_sdrs: "faa_sdrs"
+    nasa_asrs: "nasa_asrs"
+  supported_extensions:
+    - ".pdf"
+    - ".xml"
+    - ".html"
+    - ".htm"
+  aircraft_type: "Boeing 737"
+  xml_content_tags:
+    - "P"
+    - "HD"
+    - "FP"
+    - "E"
+    - "SUBJECT"
+    - "SUM"
+    - "DATES"
+    - "EXTRACT"
+    - "AMDPAR"
+    - "CHED"
+    - "ENT"
+  xml_skip_tags:
+    - "FRDOC"
+    - "BILCOD"
+    - "GPH"
+  
+  defect_keywords:
+    crack:
+      - "crack"
+      - "cracking"
+      - "fatigue"
+      - "fracture"
+      - "flaw"
+
+    corrosion:
+      - "corrosion"
+      - "corroded"
+      - "corrode"
+      - "rust"
+      - "oxidation"
+
+    scratch:
+      - "scratch"
+      - "scratched"
+      - "gouge"
+      - "abrasion"
+      - "nick"
+      - "scoring"
+
+    dent:
+      - "dent"
+      - "dented"
+      - "impact damage"
+      - "deformation"
+      - "bulge"
+
+    paint_damage:
+      - "paint"
+      - "coating"
+      - "bare metal"
+      - "primer"
+      - "topcoat"
+      - "peeling"
+      - "chipping"
+      - "blistering"
+  
+  chunk_separators:
+    - "\n\n"
+    - "\n"
+    - ". "
+    - " "
+    - ""
