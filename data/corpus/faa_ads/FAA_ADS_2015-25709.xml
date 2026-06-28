@@ -1,0 +1,254 @@
+<PRORULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2015-3984; Directorate Identifier 2015-NM-033-AD]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Notice of proposed rulemaking (NPRM).</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>We propose to supersede Airworthiness Directive (AD) 2008-13-12 R1, which applies to certain The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. AD 2008-13-12 R1 currently requires various repetitive inspections for cracking of the upper frame to side frame splice of the fuselage, and other specified and corrective actions if necessary; and also provides for an optional preventive modification, which terminates the repetitive inspections. Since we issued AD 2008-13-12 R1, we have received reports of additional fatigue cracking of the upper frame to side frame splice of the fuselage, and two reports of severed frames. This proposed AD would add, for certain airplanes, an inspection to determine if the existing frame repair meets all specified requirements; for certain other airplanes, a new modification of the upper frame to side frame splice, which would terminate the repetitive inspections; and reduce certain inspection thresholds and repetitive intervals. We are proposing this AD to detect and correct fatigue cracking of the upper frame to side frame splice of the fuselage, which could result in reduced structural integrity of the frame and adjacent lap joint, causing increased loading in the fuselage skin, which will accelerate skin crack growth and result in decompression of the airplane.</P>
+                </SUM>
+                <DATES>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>We must receive comments on this proposed AD by November 23, 2015.</P>
+                </DATES>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>You may send comments, using the procedures found in 14 CFR 11.43 and 11.45, by any of the following methods:</P>
+                    <P>
+                        • 
+                        <E T="03">Federal eRulemaking Portal:</E>
+                         Go to 
+                        <E T="03">http://www.regulations.gov.</E>
+                         Follow the instructions for submitting comments.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Fax:</E>
+                         202-493-2251.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Mail:</E>
+                         U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Hand Delivery:</E>
+                         Deliver to Mail address above between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+                    </P>
+                    <P>
+                        For service information identified in this proposed AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For information on the availability of this material at the FAA, call 425-227-1221. It is also available on the Internet at 
+                        <E T="03">http://www.regulations.gov</E>
+                         by searching for and locating Docket No. FAA-2015-3984.
+                    </P>
+                </ADD>
+                <HD SOURCE="HD2">Examining the AD Docket</HD>
+                <P>
+                    You may examine the AD docket on the Internet at 
+                    <E T="03">http://www.regulations.gov</E>
+                     by searching for and locating Docket No. FAA-2015-3984; or in person at the Docket Management Facility between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this proposed AD, the regulatory evaluation, any comments received, and other information. The street address for the Docket Office (phone: 800-647-5527) is in the 
+                    <E T="02">ADDRESSES</E>
+                     section. Comments will be available in the AD docket shortly after receipt.
+                </P>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Wayne Lockett, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-6447; fax: 425-917-6590; email: 
+                        <E T="03">wayne.lockett@faa.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <P/>
+                <HD SOURCE="HD1">Comments Invited</HD>
+                <P>
+                    We invite you to send any written relevant data, views, or arguments about this proposed AD. Send your comments to an address listed under the 
+                    <E T="02">ADDRESSES</E>
+                     section. Include “Docket No. FAA-2015-3984; Directorate Identifier 
+                    <PRTPAGE P="61134"/>
+                    2015-NM-033-AD” at the beginning of your comments. We specifically invite comments on the overall regulatory, economic, environmental, and energy aspects of this proposed AD. We will consider all comments received by the closing date and may amend this proposed AD because of those comments.
+                </P>
+                <P>
+                    We will post all comments we receive, without change, to 
+                    <E T="03">http://www.regulations.gov</E>
+                    , including any personal information you provide. We will also post a report summarizing each substantive verbal contact we receive about this proposed AD.
+                </P>
+                <HD SOURCE="HD1">Discussion</HD>
+                <P>On June 12, 2008, we issued AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008), which was revised by AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008), for certain The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. AD 2008-13-12 R1 requires various repetitive inspections for cracking of the upper frame to side frame splice of the fuselage, and other specified and corrective actions if necessary. AD 2008-13-12 R1 also provides for an optional preventive modification, which terminates the repetitive inspections. AD 2008-13-12 R1 resulted from a report that the upper frame of the fuselage was severed between stringers S-13L and S-14L at station 747, and the adjacent frame at station 767 had a 1.3-inch-long crack at the same stringer location. We issued AD 2008-13-12 R1 to detect and correct fatigue cracking of the upper frame to side frame splice of the fuselage, which could result in reduced structural integrity of the frame and adjacent lap joint. This reduced structural integrity can increase loading in the fuselage skin, which will accelerate skin crack growth and result in decompression of the airplane.</P>
+                <HD SOURCE="HD1">Widespread Fatigue Damage (WFD)</HD>
+                <P>Structural fatigue damage is progressive. It begins as minute cracks, and those cracks grow under the action of repeated stresses. This can happen because of normal operational conditions and design attributes, or because of isolated situations or incidents such as material defects, poor fabrication quality, or corrosion pits, dings, or scratches. Fatigue damage can occur locally, in small areas or structural design details, or globally. Global fatigue damage is general degradation of large areas of structure with similar structural details and stress levels. Multiple-site damage is global damage that occurs in a large structural element such as a single rivet line of a lap splice joining two large skin panels. Global damage can also occur in multiple elements such as adjacent frames or stringers. Multiple-site-damage and multiple-element-damage cracks are typically too small initially to be reliably detected with normal inspection methods. Without intervention, these cracks will grow, and eventually compromise the structural integrity of the airplane, in a condition known as WFD. As an airplane ages, WFD will likely occur, and will certainly occur if the airplane is operated long enough without any intervention.</P>
+                <P>The FAA's WFD final rule (75 FR 69746, November 15, 2010) became effective on January 14, 2011. The WFD rule requires certain actions to prevent structural failure due to WFD throughout the operational life of certain existing transport category airplanes and all of these airplanes that will be certificated in the future. For existing and future airplanes subject to the WFD rule, the rule requires that design approval holder (DAHs) establish a limit of validity (LOV) of the engineering data that support the structural maintenance program. Operators affected by the WFD rule may not fly an airplane beyond its LOV, unless an extended LOV is approved.</P>
+                <P>The WFD rule (75 FR 69746, November 15, 2010) does not require identifying and developing maintenance actions if the DAHs can show that such actions are not necessary to prevent WFD before the airplane reaches the LOV. Many LOVs, however, do depend on accomplishment of future maintenance actions. As stated in the WFD rule, any maintenance actions necessary to reach the LOV will be mandated by airworthiness directives through separate rulemaking actions.</P>
+                <P>In the context of WFD, this action is necessary to enable DAHs to propose LOVs that allow operators the longest operational lives for their airplanes, and still ensure that WFD will not occur. This approach allows for an implementation strategy that provides flexibility to DAHs in determining the timing of service information development (with FAA approval), while providing operators with certainty regarding the LOV applicable to their airplanes.</P>
+                <HD SOURCE="HD1">Actions Since AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008) Was Issued</HD>
+                <P>Since AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008) was issued, we have received reports of additional fatigue cracking of the upper frame to side frame splice of the fuselage, and two reports of severed frames.</P>
+                <HD SOURCE="HD1">Related Service Information Under 1 CFR Part 51</HD>
+                <P>
+                    We reviewed Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015. The service information describes procedures for various repetitive inspections for cracking of the upper frame to side frame splice of the fuselage, an inspection to determine if the existing frame repair meets all specified requirements, and corrective actions if necessary. The service information also describes procedures for a new preventive modification, which would eliminate the need for the repetitive inspections. This service information is reasonably available because the interested parties have access to it through their normal course of business or by the means identified in the 
+                    <E T="02">ADDRESSES</E>
+                     section of this NPRM.
+                </P>
+                <HD SOURCE="HD1">FAA's Determination</HD>
+                <P>We are proposing this AD because we evaluated all the relevant information and determined the unsafe condition described previously is likely to exist or develop in other products of the same type design.</P>
+                <HD SOURCE="HD1">Proposed AD Requirements</HD>
+                <P>Although this proposed AD does not explicitly restate the requirements of AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008), revised by AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008), this proposed AD would retain all of the requirements of those ADs. Those requirements are referenced in the service information identified previously, which, in turn, is referenced in paragraph (g) of this proposed AD. This proposed AD would require accomplishing the actions specified in the service information described previously. Refer to this service information for information on the procedures and compliance times.</P>
+                <HD SOURCE="HD1">Explanation of Proposed Compliance Time</HD>
+                <P>
+                    The compliance time for the modification specified in this proposed AD for addressing WFD was established to ensure that discrepant structure is modified before WFD develops in airplanes. Standard inspection techniques cannot be relied on to detect WFD before it becomes a hazard to flight. We will not grant any extensions of the compliance time to complete any AD-mandated service bulletin related to 
+                    <PRTPAGE P="61135"/>
+                    WFD without extensive new data that would substantiate and clearly warrant such an extension.
+                </P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>We estimate that this proposed AD affects 391 airplanes of U.S. registry.</P>
+                <P>We estimate the following costs to comply with this proposed AD:</P>
+                <GPOTABLE COLS="5" OPTS="L2,i1" CDEF="s50,r100,12,r50,r50">
+                    <TTITLE>Estimated Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                        <CHED H="1">Cost on U.S. operators</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Retained inspections from AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008)</ENT>
+                        <ENT>Between 18 and 38 work-hours × $85 per hour, depending on airplane configuration = between $1,530 and $3,230 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>Between $1,530 and $3,230 per inspection cycle</ENT>
+                        <ENT>Between $598,230 and $1,262,930 per inspection cycle.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">New inspections</ENT>
+                        <ENT>213 work-hours × $85 per hour, $18,105 per inspection cycle</ENT>
+                        <ENT>0</ENT>
+                        <ENT>$18,105 per inspection cycle</ENT>
+                        <ENT>$7,079,055 per inspection cycle.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">New modification</ENT>
+                        <ENT>256 work-hours × $85 per hour = $21,760</ENT>
+                        <ENT/>
+                        <ENT>$21,760</ENT>
+                        <ENT>$8,508,160.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>We currently have no specific cost estimates associated with the parts necessary for the proposed modification.</P>
+                <P>We have received no definitive data that would enable us to provide a cost estimate for the on-condition actions specified in this proposed AD.</P>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, Section 106, describes the authority of the FAA Administrator. Subtitle VII, Aviation Programs, describes in more detail the scope of the Agency's authority.</P>
+                <P>We are issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701, “General requirements.” Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>We have determined that this proposed AD would not have federalism implications under Executive Order 13132. This proposed AD would not have a substantial direct effect on the States, on the relationship between the national Government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>For the reasons discussed above, I certify that the proposed regulation:</P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Is not a “significant rule” under the DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979),</P>
+                <P>(3) Will not affect intrastate aviation in Alaska, and</P>
+                <P>(4) Will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">The Proposed Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA proposes to amend 14 CFR part 39 as follows:</P>
+                <PART>
+                    <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                </PART>
+                <AMDPAR>1. The authority citation for part 39 continues to read as follows:</AMDPAR>
+                <AUTH>
+                    <HD SOURCE="HED">Authority:</HD>
+                    <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                </AUTH>
+                <SECTION>
+                    <SECTNO>§ 39.13 </SECTNO>
+                    <SUBJECT>[Amended]</SUBJECT>
+                </SECTION>
+                <AMDPAR>2. The FAA amends § 39.13 by removing Airworthiness Directive (AD) 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008), and adding the following new AD:</AMDPAR>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">
+                        <E T="04">The Boeing Company:</E>
+                         Docket No. FAA-2015-3984; Directorate Identifier 2015-NM-033-AD.
+                    </FP>
+                    <HD SOURCE="HD1">(a) Comments Due Date</HD>
+                    <P>The FAA must receive comments on this AD action by November 23, 2015.</P>
+                    <HD SOURCE="HD1">(b) Affected ADs</HD>
+                    <P>This AD replaces AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008).</P>
+                    <HD SOURCE="HD1">(c) Applicability</HD>
+                    <P>This AD applies to The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes, certificated in any category, as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015.</P>
+                    <HD SOURCE="HD1">(d) Subject</HD>
+                    <P>Air Transport Association (ATA) of America Code 53, Fuselage.</P>
+                    <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                    <P>This AD was prompted by reports of fatigue cracking of the upper frame to side frame splice of the fuselage, and two reports of severed frames. We are issuing this AD to detect and correct fatigue cracking of the upper frame to side frame splice of the fuselage, which could result in reduced structural integrity of the frame and adjacent lap joint, causing increased loading in the fuselage skin, which will accelerate skin crack growth and result in decompression of the airplane.</P>
+                    <HD SOURCE="HD1">(f) Compliance</HD>
+                    <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                    <HD SOURCE="HD1">(g) Repetitive Inspections and Corrective Actions for Certain Airplanes</HD>
+                    <P>(1) For Groups 1 through 3, Configurations 1, 3, 4, and 5 airplanes; Group 7, Configurations 1, 3, 4, and 5 airplanes; Groups 4 through 6, Configurations 1, 3, 4, and 6 airplanes; and Groups 8 through 11, Configurations 1, 3, 4, and 6 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Do the actions specified in paragraphs (g)(1)(i) and (g)(1)(ii) of this AD, and all applicable corrective actions, in accordance with the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraph (i)(3) of this AD. Do all applicable corrective actions before further flight.</P>
+                    <P>(i) At the applicable time specified in Tables 1, 2, 3, 5, 6, and 8 of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraphs (i)(1) and (i)(2) of this AD: Do medium frequency eddy current inspections for cracking of the upper frame to side frame splice of the fuselage.</P>
+                    <P>
+                        (ii) Repeat the inspections specified in paragraph (g)(1)(i) of this AD at the applicable time specified in Tables 1, 2, 3, 5, 6, and 8 of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015.
+                        <PRTPAGE P="61136"/>
+                    </P>
+                    <P>(2) For Groups 4 through 6, Configurations 2 and 5 airplanes; and Groups 8 through 11, Configurations 2 and 5 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Do the actions specified in paragraphs (g)(2)(i) and (g)(2)(ii) of this AD, and all applicable corrective actions, in accordance with the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraph (i)(3) of this AD. Do all applicable corrective actions before further flight.</P>
+                    <P>(i) At the applicable time specified in Tables 4 and 7 of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraphs (i)(1) and (i)(2) of this AD: Do a detailed inspection to determine if the existing frame repair meets all requirements specified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, and for any frame that does meet all requirements, do detailed and high frequency eddy current (HFEC) inspections for cracking of certain tied frames.</P>
+                    <P>(ii) Repeat the inspections for cracking specified in paragraph (g)(2)(i) of this AD at the applicable time specified in Tables 4 and 7 of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015.</P>
+                    <HD SOURCE="HD1">(h) Post-Repair and Post-Modification Actions for Certain Airplanes</HD>
+                    <P>For Group 1, Configurations 2 and 6 airplanes; Group 2, Configurations 2 and 6 airplanes; Group 3, Configurations 2 and 6 airplanes; and Group 7, Configurations 2 and 6 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Within 120 days after the effective date of this AD, do post-repair and post-modification actions using a method approved in accordance with the procedures specified in paragraph (n) of this AD.</P>
+                    <HD SOURCE="HD1">(i) Exceptions to Service Bulletin Specifications</HD>
+                    <P>(1) Where Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, specifies a compliance time “after the Revision 1 date of this service bulletin,” this AD requires compliance within the specified compliance time after the effective date of this AD.</P>
+                    <P>(2) Where the Condition column of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, specifies a condition based on whether an airplane has or has not been inspected, this AD bases the condition on whether an airplane has or has not been inspected as of the effective date of this AD.</P>
+                    <P>(3) Where Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, specifies to contact Boeing for repair instructions: Before further flight, repair using a method approved in accordance with the procedures specified in paragraph (n) of this AD.</P>
+                    <HD SOURCE="HD1">(j) Post-Repair/Post-Modification Inspections Not Required</HD>
+                    <P>The post-repair/post-modification inspections specified in Tables 12 through 17 of paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, are not required by this AD, but may be used in support of compliance with section 121.1109(c)(2) or 129.109(c)(2) of the Federal Aviation Regulations (14 CFR 121.1109(c)(2) or 14 CFR 129.109(c)(2)).</P>
+                    <HD SOURCE="HD1">(k) Preventative Modification for Certain Airplanes</HD>
+                    <P>For Groups 4 through 6, Configurations 1, 3, 4, and 6 airplanes; and Groups 8 through 11, Configurations 1, 3, 4, and 6 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Except as provided by paragraphs (i)(1) and (i)(2) of this AD, at the applicable time specified in Tables 3, 5, 6, and 8 in paragraph 1.E., “Compliance,” of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, do the preventive modification, including doing detailed and HFEC inspections for cracking and applicable corrective actions in accordance with Part 4 of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraph (i)(3) of this AD. Do all applicable corrective actions before further flight. Accomplishing the modification required by this paragraph terminates the inspections required by paragraph (g)(1) of this AD for the modified area only.</P>
+                    <HD SOURCE="HD1">(l) Terminating Action</HD>
+                    <P>(1) For Groups 4 through 6, Configurations 1, 3, 4, and 6 airplanes; and Groups 8 through 11, Configurations 1, 3, 4, and 6 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Accomplishing the preventive modification, including detailed and HFEC inspections for cracking and applicable corrective actions, in accordance with Part 4 of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraph (i)(3) of this AD, terminates the inspections required by paragraph (g)(1) of this AD for the modified area only.</P>
+                    <P>(2) For Groups 4 through 6, Configurations 3 and 6 airplanes; and Groups 8 through 11, Configurations 3 and 6 airplanes; as identified in Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015: Accomplishing the repair, including HFEC inspections for cracking and applicable corrective actions, in accordance with Part 3 of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1261, Revision 1, dated January 30, 2015, except as required by paragraph (i)(3) of this AD, terminates the repetitive inspections required by paragraph (g)(1) of this AD for the repaired area only.</P>
+                    <P>(3) Accomplishment of the repair or the preventative modification specified in Boeing Message M-7200-02-1294, dated August 20, 2002, before the effective date of this AD terminates the repetitive inspections required by paragraph (g)(1) of this AD for the repaired or modified area only.</P>
+                    <P>(4) Accomplishment of the repair or the preventative modification in accordance with a method approved by the Manager, Los Angeles Aircraft Certification Office (ACO) terminates the repetitive inspections required by paragraph (g)(1) of this AD for the repaired or modified area only.</P>
+                    <HD SOURCE="HD1">(m) Credit for Previous Actions</HD>
+                    <P>(1) This paragraph provides credit for the inspections required by paragraph (g) of this AD, if those inspections were performed before the effective date of this AD using Boeing Alert Service Bulletin 737-53A1261, dated January 19, 2006, which was incorporated by reference in AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008).</P>
+                    <P>(2) This paragraph provides credit for the modification specified in paragraphs (k) and (l)(1) of this AD, if performed before the effective date of this AD using Boeing Alert Service Bulletin 737-53A1261, dated January 19, 2006, which was incorporated by reference in AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008).</P>
+                    <HD SOURCE="HD1">(n) Alternative Methods of Compliance (AMOCs)</HD>
+                    <P>
+                        (1) The Manager, Los Angeles ACO, FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or local Flight Standards District Office, as appropriate. If sending information directly to the manager of the ACO, send it to the attention of the person identified in paragraph (o)(1) of this AD. Information may be emailed to: 
+                        <E T="03">9-ANM-LAACO-AMOC-Requests@faa.gov.</E>
+                    </P>
+                    <P>(2) Before using any approved AMOC, notify your appropriate principal inspector, or lacking a principal inspector, the manager of the local flight standards district office/certificate holding district office.</P>
+                    <P>(3) An AMOC that provides an acceptable level of safety may be used for any repair required by this AD if it is approved by the Boeing Commercial Airplanes Organization Designation Authorization (ODA) that has been authorized by the Manager, Los Angeles ACO, to make those findings. For a repair method to be approved, the repair must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                    <P>(4) AMOCs approved for AD 2008-13-12, Amendment 39-15575 (73 FR 38905, July 8, 2008); and AD 2008-13-12 R1, Amendment 39-15719 (73 FR 67383, November 14, 2008); are approved as AMOCs for the corresponding provisions of paragraph (g) of this AD.</P>
+                    <HD SOURCE="HD1">(o) Related Information</HD>
+                    <P>
+                        (1) For more information about this AD, contact Wayne Lockett, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-6447; fax: 425-917-6590; email: 
+                        <E T="03">wayne.lockett@faa.gov.</E>
+                    </P>
+                    <P>
+                        (2) For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services 
+                        <PRTPAGE P="61137"/>
+                        Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, Washington. For information on the availability of this material at the FAA, call 425-227-1221.
+                    </P>
+                </EXTRACT>
+                <SIG>
+                    <DATED>Issued in Renton, Washington, on September 29, 2015.</DATED>
+                    <NAME>Jeffrey E. Duven,</NAME>
+                    <TITLE>Manager, Transport Airplane Directorate, Aircraft Certification Service.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2015-25709 Filed 10-8-15; 8:45 am]</FRDOC>
+            <BILCOD> BILLING CODE 4910-13-P</BILCOD>
+        </PRORULE>

@@ -1,0 +1,262 @@
+<RULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2013-0694; Directorate Identifier 2013-NM-097-AD; Amendment 39-17775; AD 2014-05-02]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Final rule.</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>We are superseding Airworthiness Directive (AD) 2002-10-11, which applied to certain The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. AD 2002-10-11 required repetitive inspections for cracking and corrosion of the aft pressure bulkhead, and corrective actions if necessary; and, for certain airplanes, enlargement of frame chord drain holes, and repetitive inspections of the frame chord drain path for debris, and corrective actions if necessary. This new AD specifies a drain path inspection for all airplanes. For certain airplanes, this new AD reduces the repetitive inspection interval; and adds repetitive inspections of the frame chord drain path for obstructions and debris, and corrective actions if necessary. This AD was prompted by three reports of severe corrosion in the area affected by AD 2002-10-11. We are issuing this AD to detect and correct corrosion or cracking of the aft pressure bulkhead, which could result in loss of the aft pressure bulkhead web and stiffeners, and consequent rapid decompression of the airplane.</P>
+                </SUM>
+                <EFFDATE>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>This AD is effective April 8, 2014.</P>
+                    <P>The Director of the Federal Register approved the incorporation by reference of certain publications listed in this AD as of June 27, 2002 (67 FR 36085, May 23, 2002).</P>
+                </EFFDATE>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>
+                        For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For information on the availability of this material at the FAA, call 425-227-1221.
+                        <PRTPAGE P="12046"/>
+                    </P>
+                </ADD>
+                <HD SOURCE="HD1">Examining the AD Docket</HD>
+                <P>
+                    You may examine the AD docket on the Internet at 
+                    <E T="03">http://www.regulations.gov</E>
+                     by searching for and locating Docket No. FAA-2013-0694; or in person at the Docket Management Facility between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this AD, the regulatory evaluation, any comments received, and other information. The address for the Docket Office (phone: 800-647-5527) is Docket Management Facility, U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+                </P>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Alan Pohl, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-6450; fax: 425-917-6590; email: 
+                        <E T="03">alan.pohl@faa.gov</E>
+                        .
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <P/>
+                <HD SOURCE="HD1">Discussion</HD>
+                <P>
+                    We issued a notice of proposed rulemaking (NPRM) to amend 14 CFR part 39 to supersede AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002). AD 2002-10-11 applied to certain The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. The NPRM published in the 
+                    <E T="04">Federal Register</E>
+                     on August 16, 2013 (78 FR 49978). The NPRM was prompted by three reports of severe corrosion in the area affected by AD 2002-10-11. The NPRM proposed to continue to require repetitive inspections for cracking and corrosion of the aft pressure bulkhead, and corrective actions if necessary; and, for certain airplanes, enlargement of frame chord drain holes, repetitive inspections of the frame chord drain path for obstructions and debris, and corrective actions if necessary. The NPRM also proposed to specify a drain path inspection for all airplanes. For certain airplanes, the NPRM also proposed to reduce the repetitive inspection interval; and add repetitive inspections of the frame chord drain path for obstructions and debris, and corrective actions if necessary. Additionally, the NPRM proposed to limit corrosion and cracking repairs of the aft pressure bulkhead accomplished after the effective date of this AD to those approved by the FAA. We are issuing this AD to detect and correct corrosion or cracking of the aft pressure bulkhead, which could result in loss of the aft pressure bulkhead web and stiffeners, and consequent rapid decompression of the airplane.
+                </P>
+                <HD SOURCE="HD1">Comments</HD>
+                <P>We gave the public the opportunity to participate in developing this AD. The following presents the comments received on the proposal (78 FR 49978, August 16, 2013) and the FAA's response to each comment.</P>
+                <HD SOURCE="HD1">Support for the NPRM (78 FR 49978, August 16, 2013)</HD>
+                <P>Boeing stated that it concurs with the contents of the proposed rule (78 FR 49978, August 16, 2013).</P>
+                <HD SOURCE="HD1">Clarification of Effect of Winglet Installation</HD>
+                <P>Aviation Partners Boeing (the commenter) stated that the installation of winglets per STC ST01219SE does not affect the accomplishment of the manufacturer's service instructions.</P>
+                <P>
+                    We concur with the commenter. We have re-designated paragraph (c) as paragraph (c)(1) and added paragraph (c)(2) to this final rule to state that installation of STC ST01219SE (
+                    <E T="03">http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgstc.nsf/0/be866b732f6cf31086257b9700692796/$FILE/ST01219SE.pdf</E>
+                    ) does not affect the ability to accomplish the actions required by this final rule.
+                </P>
+                <HD SOURCE="HD1">Request To Clarify Corrosion Inhibiting Compound (CIC) Replacement</HD>
+                <P>Alaska Airlines requested that we clarify whether the intent of paragraph (n) of the NPRM (78 FR 49978, August 16, 2013) is to require CIC removal and replacement following every inspection, or only when the CIC is deteriorated.</P>
+                <P>We agree to clarify. CIC removal is not required at each inspection. This was not the intent of paragraph (n) of the NPRM (78 FR 49978, August 16, 2013). The Accomplishment Instructions in Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, specify when removal and replacement of CIC is required. We have revised paragraph (n) of this final rule to specify performing the CIC treatment as specified in the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000.</P>
+                <HD SOURCE="HD1">Request To Delay Issuance of the Final Rule</HD>
+                <P>All Nippon Airways (ANA) requested we consider issuing this final rule after Revision 4 to Boeing Service Bulletin 737-53A1075 is released, or include required repair methods in this final rule. ANA stated that paragraph (m) of the NPRM (78 FR 49978, August 16, 2013) would require approval of an alternative method of compliance (AMOC) if corrosion or cracking is found. ANA commented that having to request repair methods with an AMOC for any damage will burden operators during any new inspection.</P>
+                <P>We disagree with ANA's request. We do not consider that delaying this final rule while waiting for additional service information is warranted due to the history and severity of corrosion reports from the fleet. Boeing Commercial Airplanes has received an Organization Designation Authorization (ODA). This authorization allows delegation of the authority to approve an AMOC for any repair required by this AD to the Boeing Commercial Airplanes ODA. We have not changed this final rule in this regard.</P>
+                <HD SOURCE="HD1">Request To Clarify Drain Path Inspection Requirements</HD>
+                <P>ANA requested we clarify the inspection requirements for the drain path in the chord frame. ANA stated that the inspection area is not clear because the NPRM (78 FR 49978, August 16, 2013) has no figure of the inspection area.</P>
+                <P>We agree to clarify. We have revised paragraph (n) of this final rule to specify a figure in the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, for doing the drain path inspection.</P>
+                <HD SOURCE="HD1">Request To Clarify Aft Pressure Bulkhead Inspection</HD>
+                <P>ANA requested that we clarify paragraph (o) of the NPRM (78 FR 49978, August 16, 2013) for the optional aft pressure bulkhead inspection, to specify whether the actions terminate the requirements of paragraph (l) of the NPRM. ANA also stated that the last sentence of paragraph (o) of the NPRM incorrectly refers to paragraph (k) of the NPRM instead of paragraph (l) of the NPRM.</P>
+                <P>
+                    We agree to clarify paragraph (o) of this final rule. We have revised paragraph (o) of this final rule to clarify that the requirement for the first inspection done after the effective date of this final rule that is required by paragraph (l)(2) of this final rule may be satisfied by doing the actions specified in paragraph (o) of this final rule. We have also revised paragraph (o) in this final rule to clarify that the repetitive inspection requirements are required at intervals not to exceed 90 days for a period not to exceed 2 years, until the actions required by paragraph (l)(2) of this final rule are accomplished.
+                    <PRTPAGE P="12047"/>
+                </P>
+                <HD SOURCE="HD1">Changes to This Final Rule</HD>
+                <P>We have revised paragraph (i)(1) of this final rule to clarify that contacting the FAA or a Boeing Company Designated Engineering Representative for repairs, as specified in AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), is still acceptable.</P>
+                <P>We have also revised paragraph (m)(2) of this final rule to clarify that the compliance time is on or after the effective date of this final rule.</P>
+                <HD SOURCE="HD1">Conclusion</HD>
+                <P>We reviewed the relevant data, considered the comments received, and determined that air safety and the public interest require adopting this AD with the changes described and minor editorial changes. We have determined that these minor changes:</P>
+                <P>• Are consistent with the intent that was proposed in the NPRM (78 FR 49978, August 16, 2013) for correcting the unsafe condition; and</P>
+                <P>• Do not add any additional burden upon the public than was already proposed in the NPRM (78 FR 49978, August 16, 2013).</P>
+                <P>We also determined that these changes will not increase the economic burden on any operator or increase the scope of this AD.</P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>We estimate that this AD affects 419 airplanes of U.S. registry.</P>
+                <P>We estimate the following costs to comply with this AD:</P>
+                <GPOTABLE COLS="5" OPTS="L2,i1" CDEF="s25,r50,12C,r50,r50">
+                    <TTITLE>Estimated Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                        <CHED H="1">Cost on U.S. operators</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Inspection</ENT>
+                        <ENT>4 work-hours × $85 per hour = $340 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$340 per inspection cycle</ENT>
+                        <ENT>$142,460 per inspection cycle.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>The new requirements of this AD add no additional economic burden.</P>
+                <P>We estimate the following costs to do any necessary repairs that would be required based on the results of the inspection. We have no way of determining the number of aircraft that might need these repairs.</P>
+                <GPOTABLE COLS="4" OPTS="L2,i1" CDEF="s25,r25,12C,xs60">
+                    <TTITLE>On-Condition Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Repair</ENT>
+                        <ENT>Up to 136 work-hours × $85 per hour = Up to $11,560</ENT>
+                        <ENT>$5,217</ENT>
+                        <ENT>Up to $16,777.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, Section 106, describes the authority of the FAA Administrator. Subtitle VII, Aviation Programs, describes in more detail the scope of the Agency's authority.</P>
+                <P>We are issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701, “General requirements.” Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>We have determined that this AD will not have federalism implications under Executive Order 13132. This AD will not have a substantial direct effect on the States, on the relationship between the national government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>For the reasons discussed above, I certify that this AD:</P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Is not a “significant rule” under DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979),</P>
+                <P>(3) Will not affect intrastate aviation in Alaska, and</P>
+                <P>(4) Will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">Adoption of the Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA amends 14 CFR part 39 as follows:</P>
+                <REGTEXT TITLE="14" PART="39">
+                    <PART>
+                        <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                    </PART>
+                    <AMDPAR>1. The authority citation for part 39 continues to read as follows:</AMDPAR>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                    </AUTH>
+                </REGTEXT>
+                <REGTEXT TITLE="14" PART="39">
+                    <SECTION>
+                        <SECTNO>§ 39.13 </SECTNO>
+                        <SUBJECT>[Amended]</SUBJECT>
+                    </SECTION>
+                    <AMDPAR>2. The FAA amends § 39.13 by removing Airworthiness Directive (AD) 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), and adding the following new AD:</AMDPAR>
+                    <EXTRACT>
+                        <FP SOURCE="FP-2">
+                            <E T="04">2014-05-02 The Boeing Company:</E>
+                             Amendment 39-17775 ; Docket No. FAA-2013-0694; Directorate Identifier 2013-NM-097-AD.
+                        </FP>
+                        <HD SOURCE="HD1">(a) Effective Date</HD>
+                        <P>This AD is effective April 8, 2014.</P>
+                        <HD SOURCE="HD1">(b) Affected ADs</HD>
+                        <P>This AD supersedes AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002).</P>
+                        <HD SOURCE="HD1">(c) Applicability</HD>
+                        <P>(1) This AD applies to The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes, certificated in any category, line numbers 1 through 3132 inclusive.</P>
+                        <P>
+                            (2) Installation of Supplemental Type Certificate (STC) ST01920SE (
+                            <E T="03">http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgstc.nsf/0/be866b732f6cf31086257b9700692796/$FILE/ST01219SE.pdf</E>
+                            ) does not affect the ability to accomplish the actions required by this AD. Therefore, for airplanes on which STC ST01920SE is installed, a ”change in product” alternative method of compliance (AMOC) approval request is not necessary to 
+                            <PRTPAGE P="12048"/>
+                            comply with the requirements of 14 CFR 39.17.
+                        </P>
+                        <HD SOURCE="HD1">(d) Subject</HD>
+                        <P>Air Transport Association (ATA) of America Code 53, Fuselage.</P>
+                        <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                        <P>This AD was prompted by three reports of severe corrosion in the area affected by AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002). We are issuing this AD to detect and correct corrosion or cracking of the aft pressure bulkhead, which could result in loss of the aft pressure bulkhead web and stiffeners, and consequent rapid decompression of the airplane.</P>
+                        <HD SOURCE="HD1">(f) Compliance</HD>
+                        <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                        <HD SOURCE="HD1">(g) Retained Initial Aft Pressure Bulkhead Inspection</HD>
+                        <P>This paragraph restates the requirements of paragraph (a) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with clarification of the drain path inspection. For Model 737 series airplanes having line numbers (L/N) 1 through 929 inclusive, with more than 20,000 hours time-in-service or 7 years since date of manufacture, whichever occurs first: Within 120 days after January 20, 1986 (the effective date of AD 84-20-03 R1, Amendment 39-5183 (50 FR 51235, December 16, 1985)), unless already accomplished within 21 months before January 20, 1986, visually inspect the body station (BS) 1016 pressure bulkhead, including inspecting for cracking and corrosion of the pressure bulkhead, and for debris in the drain path in the chord frame, according to Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983; Revision 2, dated July 13, 1984; or Revision 3, dated June 8, 2000. Remove any obstruction to the drain hole in the frame chord and replace any deteriorated leveling compound as noted in Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983; Revision 2, dated July 13, 1984; or Revision 3, dated June 8, 2000. Treat the area of inspection with corrosion inhibitor BMS 3-23, or equivalent. After the effective date of this AD, use only Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, to do the actions required by this paragraph.</P>
+                        <HD SOURCE="HD1">(h) Retained Drain Hole Enlargement</HD>
+                        <P>This paragraph restates the requirements of paragraph (b) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised service bulletin requirements. For airplanes identified in paragraph (g) of this AD: Within 1 year after January 20, 1986 (the effective date of AD 84-20-03 R1, Amendment 39-5183 (50 FR 51235, December 16, 1985)), accomplish the drain hole enlargement as shown in Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983; Revision 2, dated July 13, 1984; or Revision 3, dated June 8, 2000. After the effective date of this AD, use only Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, to do the actions required by this paragraph.</P>
+                        <HD SOURCE="HD1">(i) Retained Corrective Action</HD>
+                        <P>This paragraph restates the requirements of paragraph (c) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised compliance methods. If cracking or corrosion is found during any inspection required by paragraph (g) or (j) of this AD: Before further flight, repair according to paragraph (i)(1) or (i)(2) of this AD, as applicable.</P>
+                        <P>(1) If the inspection was done before the effective date of this AD: Repair according to Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983; Revision 2, dated July 13, 1984; or Revision 3, dated June 8, 2000; or according to a method approved by the Manager, Seattle Aircraft Certification Office (ACO), FAA; or per data meeting the type certification basis of the airplane approved by a Boeing Company Designated Engineering Representative (DER) who has been authorized by the Manager, Seattle ACO, to make such findings. For a repair method to be approved by the Manager, Seattle ACO, as required by this paragraph, the Manager's approval letter must specifically reference this AD.</P>
+                        <P>(2) If the inspection was done on or after the effective date of this AD: Repair using a method approved in accordance with the procedures specified in paragraph (p) of this AD.</P>
+                        <HD SOURCE="HD1">(j) Retained Repetitive Visual Inspections of Aft Pressure Bulkhead</HD>
+                        <P>This paragraph restates the requirements of paragraph (d) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised actions. For airplanes identified in paragraph (g) of this AD: Repeat the visual inspections and corrosion inhibitor treatment specified in paragraph (g) of this AD at intervals not to exceed 2 years. Accomplishment of the initial aft pressure bulkhead inspection required by paragraph (k) of this AD terminates the inspection required by this paragraph.</P>
+                        <HD SOURCE="HD1">(k) Retained Aft Pressure Bulkhead Detailed Inspection</HD>
+                        <P>This paragraph restates the requirements of paragraph (e) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised terminating action. Do a detailed inspection for cracking or corrosion of the aft pressure bulkhead at BS 1016 (including the forward and aft sides of the pressure web, forward and aft sides of the pressure chord, pressure chord radius, forward and aft sides of the angle stiffener, forward and aft chord, stringer end fitting, system penetration doublers, channel stiffeners and fasteners, “Z” stiffeners and fasteners, and fasteners common to the pressure chord and pressure web), according to Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. Do this inspection at the applicable time shown in paragraph (k)(1), (k)(2), or (k)(3) of this AD.</P>
+                        <P>(1) For airplanes on which an inspection has previously been done according to the requirements of paragraph (g) of this AD: Do the inspection within 2 years since the most recent inspection according to paragraph (g) or (j) of this AD, as applicable. For the airplanes identified in paragraph (g) of this AD, accomplishment of the inspection required by paragraph (k) of this AD terminates the inspections for cracking and corrosion required by paragraph (j) of this AD.</P>
+                        <P>(2) For airplanes having L/Ns 930 through 1042 inclusive, on which an inspection has not previously been done according to paragraph (g) of this AD: Do the inspection within 2 years after June 27, 2002 (the effective date AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002)).</P>
+                        <P>(3) For airplanes having L/Ns 1043 through 3132 inclusive, on which an inspection has not previously been done according to paragraph (g) of this AD: Do the inspection within 6 years since the airplane's date of manufacture, or within 2 years after June 27, 2002 (the effective date AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002)), whichever occurs later.</P>
+                        <HD SOURCE="HD1">(l) Retained Repetitive Detailed Inspections of Aft Pressure Bulkhead</HD>
+                        <P>This paragraph restates the requirements of paragraph (f) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised compliance times. Repeat the inspection in paragraph (k) of this AD at the applicable time shown in paragraph (l)(1) or (l)(2) of this AD.</P>
+                        <P>(1) For airplanes having L/Ns 1 through 1042 inclusive: Repeat the inspection thereafter at intervals not to exceed 2 years.</P>
+                        <P>(2) For airplanes having L/Ns 1043 through 3132 inclusive: Repeat the inspection thereafter within 2 years since the last inspection or within 120 days after the effective date of this AD, whichever occurs later.</P>
+                        <HD SOURCE="HD1">(m) Retained Repair</HD>
+                        <P>This paragraph restates the requirements of paragraph (g) of AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), with revised repair requirements. If any corrosion or cracking is found during any inspection according to paragraph (k) or (l) of this AD: Do the applicable action specified in paragraph (m)(1) or (m)(2) of this AD.</P>
+                        <P>
+                            (1) If the inspection was done prior to the effective date of this AD: Before further flight, repair according to Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. Exception: If corrosion or cracking of the web and stiffeners is outside the limits specified in Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, or if corrosion or cracking is found in any structure not covered by the repair instructions in Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000, before further flight, repair according to a method approved by the Manager, Seattle ACO, or per data meeting the type certification basis of the airplane approved by the Boeing Commercial Airplanes Organization Designation Authorization (ODA) who has been authorized by the Manager, Seattle ACO, to make such findings. For a repair method to be approved by the Manager, Seattle ACO, as required by this paragraph, the Manager's 
+                            <PRTPAGE P="12049"/>
+                            approval letter must specifically reference this AD.
+                        </P>
+                        <P>(2) On or after the effective date of this AD, if any corrosion or cracking is found during any inspection required by this AD: Before further flight, repair the corrosion or cracking using a method approved in accordance with the procedures specified in paragraph (p) of this AD.</P>
+                        <HD SOURCE="HD1">(n) New Repetitive Drain Path Inspections</HD>
+                        <P>For airplanes having L/N 1 through 3132 inclusive: Within 2 years since the last inspection in accordance with paragraph (k) of this AD or within 2 years after the effective date of this AD, whichever occurs later: Do a general visual inspection of the drain path in the chord frame for debris, in accordance with Figure 2, Steps 1 through 6, of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. Remove any obstruction to the drain hole in the frame chord and replace any deteriorated leveling compound. Treat the area of inspection with corrosion inhibitor BMS 3-23, or equivalent, as specified in the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. Repeat the actions required by this paragraph at intervals not to exceed 2 years. Do all actions required by this paragraph in accordance with the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. For the purposes of this AD, a general visual inspection is a visual examination of an interior or exterior area, installation, or assembly to detect obvious damage, failure, or irregularity. This level of inspection is made from within touching distance unless otherwise specified. A mirror may be necessary to ensure visual access to all surfaces in the inspection area. This level of inspection is made under normally available lighting conditions such as daylight, hangar lighting, flashlight, or droplight and may require removal or opening of access panels or doors. Stands, ladders, or platforms may be required to gain proximity to the area being checked.</P>
+                        <HD SOURCE="HD1">(o) New Optional Repetitive Aft Pressure Bulkhead Inspections and Corrective Action</HD>
+                        <P>For airplanes having L/Ns 1043 through 3132 inclusive: In lieu of performing the first inspection after the effective date of this AD required by paragraph (l)(2) of this AD, operators may do the actions specified in this paragraph. Within 2 years from the most recent aft pressure bulkhead inspection done as specified in the service information identified in paragraph (o)(1), (o)(2), or (o)(3) of this AD, or within 120 days after the effective date of this AD, whichever occurs later: Do a detailed inspection for cracking or corrosion of the aft side of the aft pressure bulkhead at BS 1016 (including the aft sides of the pressure web, aft sides of the pressure chord, pressure chord radius, aft chord, stringer end fitting, system penetration doublers, and fasteners common to the pressure chord and pressure web), in accordance with the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000. If any corrosion or cracking is found: Before further flight, repair the corrosion or cracking using a method approved in accordance with the procedures specified in paragraph (p) of this AD. Repeat the inspection thereafter at intervals not to exceed 90 days for a period not to exceed 2 years, until the actions required by paragraph (l)(2) of this AD are accomplished.</P>
+                        <P>(1) Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983.</P>
+                        <P>(2) Boeing Alert Service Bulletin 737-53A1075, Revision 2, dated July 13, 1984.</P>
+                        <P>(3) Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000.</P>
+                        <HD SOURCE="HD1">(p) Alternative Methods of Compliance (AMOCs)</HD>
+                        <P>
+                            (1) The Manager, Seattle ACO, FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or local Flight Standards District Office, as appropriate. If sending information directly to the manager of the ACO, send it to the attention of the person identified in paragraph (q) of this AD. Information may be emailed to 
+                            <E T="03">9-ANM-Seattle-ACO-AMOC-Requests@faa.gov</E>
+                            .
+                        </P>
+                        <P>(2) Before using any approved AMOC, notify your appropriate principal inspector, or lacking a principal inspector, the manager of the local flight standards district office/certificate holding district office.</P>
+                        <P>(3) An AMOC that provides an acceptable level of safety may be used for any repair required by this AD if it is approved by the Boeing Commercial Airplanes ODA that has been authorized by the Manager, Seattle ACO, to make those findings. For a repair method to be approved, the repair must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                        <P>(4) AMOCs approved previously in accordance with AD 2002-10-11, Amendment 39-12757 (67 FR 36085, May 23, 2002), are approved as AMOCs for the corresponding provisions of this AD.</P>
+                        <HD SOURCE="HD1">(q) Related Information</HD>
+                        <P>
+                            For more information about this AD, contact Alan Pohl, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: (425) 917-6450; fax: (425) 917-6590; email: 
+                            <E T="03">alan.pohl@faa.gov</E>
+                            .
+                        </P>
+                        <HD SOURCE="HD1">(r) Material Incorporated by Reference</HD>
+                        <P>(1) The Director of the Federal Register approved the incorporation by reference (IBR) of the service information listed in this paragraph under 5 U.S.C. 552(a) and 1 CFR part 51.</P>
+                        <P>(2) You must use this service information as applicable to do the actions required by this AD, unless the AD specifies otherwise.</P>
+                        <P>(3) The following service information was approved for IBR on June 27, 2002 (67 FR 36085, May 23. 2002).</P>
+                        <P>(i) Boeing Alert Service Bulletin 737-53A1075, Revision 1, dated September 2, 1983.</P>
+                        <P>(ii) Boeing Alert Service Bulletin 737-53A1075, Revision 2, dated July 13, 1984.</P>
+                        <P>(iii) Boeing Alert Service Bulletin 737-53A1075, Revision 3, dated June 8, 2000.</P>
+                        <P>
+                            (4) For Boeing service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                            <E T="03">https://www.myboeingfleet.com.</E>
+                        </P>
+                        <P>(5) You may view this service information at FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For information on the availability of this material at the FAA, call 425-227-1221.</P>
+                        <P>
+                            (6) You may view this service information that is incorporated by reference at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030, or go to: 
+                            <E T="03">http://www.archives.gov/federal-register/cfr/ibr-locations.html</E>
+                            .
+                        </P>
+                    </EXTRACT>
+                </REGTEXT>
+                <SIG>
+                    <DATED>Issued in Renton, Washington, on February 18, 2014.</DATED>
+                    <NAME>Ross Landes,</NAME>
+                    <TITLE>Acting Manager, Transport Airplane Directorate, Aircraft Certification Service.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2014-04546 Filed 3-3-14; 8:45 am]</FRDOC>
+            <BILCOD>BILLING CODE 4910-13-P</BILCOD>
+        </RULE>

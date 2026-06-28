@@ -1,0 +1,378 @@
+<RULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2014-0454; Directorate Identifier 2013-NM-138-AD; Amendment 39-18298; AD 2015-21-06]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Final rule.</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>
+                        We are superseding Airworthiness Directive (AD) 2002-07-08 for certain The Boeing Company 
+                        <PRTPAGE P="69840"/>
+                        Model 737 airplanes. AD 2002-07-08 required repetitive inspections for cracking of the lower skin at the lower row of fasteners in the lap joints of the fuselage; repair of any cracking found; modification of the fuselage lap joints at certain locations, which terminated the repetitive inspections of the modified areas; and replacement of a certain preventive modification with an improved modification. This new AD adds repetitive inspections for cracking at certain window corner fastener holes, a preventive modification, and repair if necessary. This AD was prompted by the FAA's determination that certain modifications of the fuselage lap joints do not provide an adequate level of safety, and the subsequent discovery of cracks in additional fastener locations in the window belt skin panels, adjacent stringers, and window frames in locations outside the previous inspection area. We are issuing this AD to detect and correct fatigue cracking of the fuselage lap joints and window belt skin panels, which could result in reduced structural integrity and sudden decompression of the airplane.
+                    </P>
+                </SUM>
+                <DATES>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>This AD is effective December 17, 2015.</P>
+                    <P>The Director of the Federal Register approved the incorporation by reference of a certain publication listed in this AD as of December 17, 2015.</P>
+                    <P>The Director of the Federal Register approved the incorporation by reference of certain other publications listed in this AD as of May 17, 2002 (67 FR 17917, April 12, 2002).</P>
+                </DATES>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>
+                        For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may view this referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For information on the availability of this material at the FAA, call 425-227-1221. It is also available on the Internet at 
+                        <E T="03">http://www.regulations.gov</E>
+                         by searching for and locating Docket No. FAA-2014-0454.
+                    </P>
+                </ADD>
+                <HD SOURCE="HD1">Examining the AD Docket</HD>
+                <P>
+                    You may examine the AD docket on the Internet at 
+                    <E T="03">http://www.regulations.gov</E>
+                     by searching for and locating Docket No. FAA-2014-0454; or in person at the Docket Management Facility between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this AD, the regulatory evaluation, any comments received, and other information. The address for the Docket Office (phone: 800-647-5527) is Docket Management Facility, U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+                </P>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Jennifer Tsakoumakis, Aerospace Engineer, Airframe Branch, ANM-120L, FAA, Los Angeles Aircraft Certification Office (ACO), 3960 Paramount Boulevard, Lakewood, CA 90712-4137; phone: 562-627-5264; fax: 562-627-5210; email: 
+                        <E T="03">Jennifer.Tsakoumakis@faa.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <HD SOURCE="HD1">Discussion</HD>
+                <P>
+                    We issued a notice of proposed rulemaking (NPRM) to amend 14 CFR part 39 to supersede AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002). AD 2002-07-08 applied to certain The Boeing Company Model 737 airplanes. The NPRM published in the 
+                    <E T="04">Federal Register</E>
+                     on July 23, 2014 (79 FR 42710). The NPRM was prompted by the FAA's determination that certain modifications of the fuselage lap joints do not provide an adequate level of safety, and the subsequent discovery of cracks in additional fastener locations in the window belt skin panels, adjacent stringers and window frames in locations outside the previous inspection area. The NPRM proposed to continue to require repetitive inspections for cracking of the lower skin at the lower row of fasteners in the lap joints of the fuselage; repair of any cracking found; modification of the fuselage lap joints at certain locations, which would terminate the repetitive inspections of the modified areas; and replacement of a certain preventive modification with an improved modification. The NPRM also proposed to require repetitive inspections for cracking at certain window corner fastener holes, a preventive modification, and repair if necessary. We are issuing this AD to detect and correct fatigue cracking of the fuselage lap joints and window belt skin panels, which could result in reduced structural integrity and sudden decompression of the airplane.
+                </P>
+                <HD SOURCE="HD1">Comments</HD>
+                <P>We gave the public the opportunity to participate in developing this AD. The following presents the comments received on the NPRM (79 FR 42710, July 23, 2014) and the FAA's response to each comment.</P>
+                <HD SOURCE="HD1">Request To Identify New Inspection Locations</HD>
+                <P>Boeing requested that we revise the preamble of the NPRM (79 FR 42710, July 23, 2014), by adding references to new inspection locations on the window belt skin panels. Boeing pointed out that the NPRM preamble defined structure that has been found to crack since release of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002). Boeing also indicated that Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, provides inspections for skin cracking at nine additional fastener holes in the corners of certain passenger windows from what is mandated by AD 2002-07-08.</P>
+                <P>
+                    We agree that clarification is necessary. We have added the description of the new inspection locations in the 
+                    <E T="02">SUMMARY</E>
+                     of this final rule accordingly. The unspecified inspection areas were accounted for in paragraph (p) of the proposed AD (79 FR 42710, July 23, 2014), which is retained in this AD.
+                </P>
+                <HD SOURCE="HD1">Request To Remove Post Repair/Modification Requirements</HD>
+                <P>Boeing requested that we revise the NPRM (79 FR 42710, July 23, 2014) to remove the “post-repair/alteration and butt joint repetitive inspections” requirement as specified in paragraph (r) of the proposed AD. Boeing pointed out that one of the proposed actions, “post-repair/alteration and butt joint repetitive inspections,” defined in paragraph (r) of the proposed AD, refers to damage-tolerance-based structural post-repair/post-alteration inspections. Boeing also stated that the inspections are provided in the service bulletin for operators' use to comply with the operational requirements of 14 CFR part 121.1109 and Part 129.109 and, therefore, the inspections do not need to be mandated separately in the NPRM.</P>
+                <P>
+                    We agree with the request. As Boeing stated, the inspections that were specified in paragraph (r) of the proposed AD (79 FR 42710, July 23, 2014) may be used in support of compliance with section 121.1109(c)(2) or 129.109(b)(2) of the Federal Aviation Regulations (14 CFR 121.1109(c)(2) or 129.109(b)(2)). However, this AD does not require those post-modification inspections. We have therefore removed paragraph (r) of the proposed AD and redesignated subsequent paragraphs accordingly. We have also revised the 
+                    <E T="02">SUMMARY</E>
+                     of this final rule to remove reference to the inspections.
+                    <PRTPAGE P="69841"/>
+                </P>
+                <HD SOURCE="HD1">Request To Reference Related AD</HD>
+                <P>Boeing requested that we clarify the “Difference Between the Proposed AD and the Service Information” section of the NPRM (79 FR 42710, July 23, 2014), by adding a reference to AD 2002-07-11, Amendment 39-12705 (67 FR 17931, April 12, 2002), for Model 737 airplanes, line numbers 1 through 291 inclusive. Boeing pointed out that the “Difference Between the Proposed AD and the Service Information” section of the NPRM (79 FR 42710, July 23, 2014) defined the applicability of the NPRM as Model 737 airplanes, line numbers 292 through 2565 inclusive, and explained that Model 737 airplanes, line numbers 1 through 291 inclusive, have been addressed by AD 2003-23-03, Amendment 39-13367 (68 FR 64980, November 18, 2003). Boeing also indicated that AD 2002-07-11, Amendment 39-12705 (67 FR 17931, April 12, 2002), addresses Model 737 airplanes line numbers 1 through 291 inclusive, and mandates the actions defined in Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001.</P>
+                <P>Although the “Difference Between the Proposed AD and the Service Information” section of the NPRM (79 FR 42710, July 23, 2014) is not restated in this final rule, we agree with the commenter's clarification of the applicability. Paragraph (c) of this AD is retained as proposed in the NPRM, and no change has been made to this AD regarding this issue.</P>
+                <HD SOURCE="HD1">Request for Additional Exception</HD>
+                <P>Boeing requested that we clarify paragraph (g) of the proposed AD (79 FR 42710, July 23, 2014), to include an additional exception. Boeing pointed out that paragraph (g) of the proposed AD provided an exception for paragraph (h) of the proposed AD to address lap joint modification (repair) instructions for certain lap joint areas on 737-200 and 737-200C airplanes. Boeing also indicated that paragraph (q)(2) of the proposed AD addresses an optional terminating action, window belt replacement for 737-300 and 737-500 airplanes, for the lap joint modification. Boeing also stated that paragraph (q)(2) of the proposed AD should be included as an exception for the lap joint modification (repair) defined in paragraph (g) of the proposed AD.</P>
+                <P>We agree with the request for an additional exception. We revised paragraph (g) of this AD to include a reference to paragraph (q)(2) of this AD as an exception.</P>
+                <HD SOURCE="HD1">Request for New Exception</HD>
+                <P>Boeing requested that we clarify paragraph (m) of the proposed AD (79 FR 42710, July 23, 2014), to include an exception. Boeing indicated that Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, added an optional window belt skin panel replacement as terminating action for the S-10 and S-14 lap joint inspections and for the window corner inspections on Model 737-300 and 737-500 airplanes. Boeing also stated that paragraph (q) of the proposed AD addressed the optional terminating action, and that follow-on inspections are also necessary for the optional window belt skin panel replacement, and paragraph (q) of the proposed AD should be added as an exception to paragraph (m) of the proposed AD.</P>
+                <P>We disagree with the request to include an exception. Paragraph (q) of this AD is an optional action and terminates only paragraph (g) of this AD. If an operator chooses to use the modification option in paragraph (q) of this AD to do the repair required by paragraph (g) of this AD, the requirements of paragraph (m) of this AD have not been terminated, and those inspections must be accomplished. We have not changed this AD regarding this issue.</P>
+                <HD SOURCE="HD1">Request for Additional Instruction</HD>
+                <P>Boeing requested that we clarify paragraph (m) of the proposed AD (79 FR 42710, July 23, 2014), to include instruction for any crack found by the inspections. Boeing stated that paragraph (m) of the proposed AD contains follow-on inspections of the lap joint modification, which are contained in the Compliance and Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. Boeing also stated that if any crack is found during the follow-on inspections, the Compliance section of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, instructs operators to contact Boeing for repair instructions; therefore, reference to paragraph (s)(2) of the proposed AD should be added to paragraph (m) of the proposed AD.</P>
+                <P>We agree with the request to include instruction for any crack found by the inspections. The instructions for repair were inadvertently omitted in paragraph (m) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002). The associated service information recommended that this repair be done by contacting Boeing for instructions. However paragraph (s)(2) of the proposed AD (79 FR 42710, July 23, 2014) specifically directed operators to contact the FAA for instructions when the service information specified to contact Boeing. We revised paragraph (m) of this AD to refer to paragraph (t) of this AD, which provides directions to request approval of an alternative method of compliance (AMOC).</P>
+                <HD SOURCE="HD1">Request To Remove Reference to Paragraphs (m) and (n) of the Proposed AD (79 FR 42710, July 23, 2014)</HD>
+                <P>Boeing requested that we clarify paragraph (o) of the proposed AD (79 FR 42710, July 23, 2014), by removing references to paragraphs (m) and (n) of the proposed AD. Boeing indicated that paragraph (o) of the proposed AD addresses repair of crack damage and references PART II of the Accomplishment Instructions of Boeing Service Bulletin SB 737-53A1177, Revision 7, dated June 14, 2013. Boeing also stated that PART II of Boeing Service Bulletin SB 737-53A1177, Revision 7, dated June 14, 2013, provides instructions for repair of cracks found in the lower skin of the lower row of the production lap joint, which could be found by the inspections defined in paragraphs (i), (j), and (k) of the proposed AD. Boeing pointed out that cracks found by the inspections in paragraphs (m) and (n) of the proposed AD are addressed individually by the same paragraphs respectively (with changes to paragraph (m) of the proposed AD, as discussed in the previous comment); therefore, repair of any crack found during the inspections in paragraphs (m) and (n) of the proposed AD should not be included in paragraph (o) of the proposed AD.</P>
+                <P>We agree with the request to revise paragraph (o) of this AD (79 FR 42710, July 23, 2014) to remove references to paragraphs (m) and (n) of the AD, for the reasons provided by the commenter. We revised paragraph (o) of this AD accordingly.</P>
+                <HD SOURCE="HD1">Request To Revise Paragraph (q)(1) of the Proposed AD (79 FR 42710, July 23, 2014)</HD>
+                <P>
+                    Boeing requested that we clarify paragraph (q)(1) of the proposed AD (79 FR 42710, July 23, 2014), by revising the wording for consistency with paragraph (q)(2) of the proposed AD, adding references to inspections in paragraph (n) of the proposed AD that are terminated by the actions in paragraph (q)(2) of the proposed AD, and adding wording to limit the number of window inspections that can be terminated by the replacement panel. Boeing pointed out that paragraphs (q)(1) and (q)(2) of the proposed AD address the same action, replacement of window belt skin 
+                    <PRTPAGE P="69842"/>
+                    panels. Boeing also pointed out that the inspections in paragraph (n) of the proposed AD, Retained Repetitive HFEC Inspections of the Window Corners, can also be terminated by replacement of the window belt panel and therefore, wording should be added to paragraph (q)(1) of the proposed AD to ensure inspections would only be terminated at window corners common to the replaced panel.
+                </P>
+                <P>We partially agree. We agree to reword paragraph (q)(1) of this AD because consistent language makes the AD easier to read, and replacement of a panel will terminate the inspections only for the panel that is replaced. We disagree to add references to inspections in paragraph (n) of this AD, as Boeing proposed. Paragraph (q)(1) of this AD terminates the actions required by paragraph (p) of this AD, and doing the actions required by paragraph (p) of this AD terminates the inspections required by paragraph (n) of this AD.</P>
+                <HD SOURCE="HD1">Request To Revise Paragraph (q)(2) of the Proposed AD (79 FR 42710, July 23, 2014)</HD>
+                <P>Boeing requested that we clarify paragraph (q)(2) of the proposed AD (79 FR 42710, July 23, 2014), by revising the wording to show that the optional window belt skin panel replacement terminates the lap joint lower row inspections of AD 2013-09-01, Amendment 39-17442 (78 FR 27001, May 9, 2013), rather than terminating the lap joint modification. Boeing pointed out that paragraph (q)(2) of the proposed AD addresses an optional window belt skin panel replacement. Boeing also indicated that the skin panel replacement was included in Boeing Service Bulletin SB 737-53A1177, Revision 7, dated June 14, 2013, to provide an option for operators to terminate the lap joint lower row inspections, and was mandated by paragraphs (g) and (i) of AD 2013-09-01, in lieu of the lap joint modification which is addressed by paragraph (g) of the proposed AD.</P>
+                <P>We agree with the request for the reasons provided by the commenter. There is a direct AMOC connection between the window belt skin panel replacement and the inspections required by paragraphs (g) and (i) of this AD. However, we have added new paragraph (q)(3) of this AD to explain that the skin panel replacement terminates the specified inspections required by paragraphs (g) and (i) of AD 2013-09-01, Amendment 39-17442 (78 FR 27001, May 9, 2013), for the replaced skin panel only.</P>
+                <HD SOURCE="HD1">Request To Change FAA Contact Information</HD>
+                <P>Boeing requested that we clarify paragraphs (t)(1) and (t)(2) of the proposed AD (79 FR 42710, July 23, 2014), by revising the wording to reference the Manager of the Los Angeles ACO instead of the Manager of the Seattle ACO. Boeing indicated that responsibility for the 737 Classic models (which include the airplanes affected by this AD) has been transferred from the Seattle ACO to the Los Angeles ACO and that authority for approval of AMOCs for the proposed AD should be changed from the Manager, Seattle ACO, to the Manager, Los Angeles ACO.</P>
+                <P>We infer that Boeing requested that we clarify paragraphs (t)(1) and (t)(3) of the proposed AD (79 FR 42710, July 23, 2014).</P>
+                <P>
+                    We agree with the request, and have revised paragraphs (t)(1) and (t)(3) of this AD as requested, and included the following in paragraph (t)(1) of this AD: 
+                    <E T="03">9-ANM-LAACO-AMOC-Requests@faa.gov.</E>
+                     We also revised paragraph (u) of this AD to include the appropriate contact information.
+                </P>
+                <HD SOURCE="HD1">Additional Changes to This Final Rule</HD>
+                <P>We have included a new paragraph (s) in this AD to provide credit for accomplishing lap joint repair before the effective date of this AD using Boeing Service Bulletin 737-53A1177, Revision 4, dated September 2, 1999; Boeing Service Bulletin 737-53A1177, Revision 5, dated February 15, 2001; or Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001. The subsequent paragraphs have been redesignated accordingly.</P>
+                <HD SOURCE="HD1">Conclusion</HD>
+                <P>We reviewed the relevant data, considered the comments received, and determined that air safety and the public interest require adopting this AD with the changes described previously and minor editorial changes. We have determined that these minor changes:</P>
+                <P>• Are consistent with the intent that was proposed in the NPRM (79 FR 42710, July 23, 2014) for correcting the unsafe condition; and</P>
+                <P>• Do not add any additional burden upon the public than was already proposed in the NPRM (79 FR 42710, July 23, 2014).</P>
+                <P>We also determined that these changes will not increase the economic burden on any operator or increase the scope of this AD.</P>
+                <HD SOURCE="HD1">Related Service Information Under 1 CFR Part 51</HD>
+                <P>
+                    Boeing has issued Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. The service information procedures for repetitive inspections for cracking of the lower skin at the lower row of fasteners in the lap joints of the fuselage; repair of any cracking found; modification of the fuselage lap joints at certain locations to terminate the repetitive inspections of the modified areas; replacement of a certain preventive modification with an improved modification; repetitive inspections for cracking at certain window corner fastener holes; a preventive modification; and repair. This service information is reasonably available because the interested parties have access to it through their normal course of business or by the means identified in the 
+                    <E T="02">ADDRESSES</E>
+                     section of this AD.
+                </P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>We estimate that this AD affects 247 airplanes of U.S. registry. We estimate the following costs to comply with this AD:</P>
+                <GPOTABLE COLS="5" OPTS="L2,i1" CDEF="s50,r50,r50,r50,r50">
+                    <TTITLE>Estimated Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">
+                            Cost per 
+                            <LI>product</LI>
+                        </CHED>
+                        <CHED H="1">
+                            Cost on U.S. 
+                            <LI>operators</LI>
+                        </CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Retained lap joint modification</ENT>
+                        <ENT>4,650 work-hours × $85 per hour = $395,250</ENT>
+                        <ENT>Up to $204,000</ENT>
+                        <ENT>$599,250</ENT>
+                        <ENT>$95,280,750 (estimated 159 airplanes).</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">Retained lap joint inspection</ENT>
+                        <ENT>90 work-hours × $85 per hour = $7,650 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$7,650 per inspection cycle</ENT>
+                        <ENT>$1,889,550 per inspection cycle.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">Retained post-NACA inspection</ENT>
+                        <ENT>110 work-hours × $85 per hour = $9,350 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$9,350 per inspection cycle</ENT>
+                        <ENT>$308,550 per inspection cycle (estimated 33 airplanes).</ENT>
+                    </ROW>
+                    <ROW>
+                        <PRTPAGE P="69843"/>
+                        <ENT I="01">Retained window corner inspection</ENT>
+                        <ENT>36 work-hours × $85 per hour = $3,060 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$3,060 per inspection cycle</ENT>
+                        <ENT>$755,820 per inspection cycle.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">New window corner inspection</ENT>
+                        <ENT>108 work-hours × $85 per hour = $9,180 per inspection cycle</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$9,180 per inspection cycle</ENT>
+                        <ENT>$2,267,460 per inspection cycle.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <GPOTABLE COLS="4" OPTS="L2,i1" CDEF="s50,r50,12C,12C">
+                    <TTITLE>Estimated Costs: Optional Actions</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">
+                            Cost per 
+                            <LI>product</LI>
+                        </CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">New preventive modification</ENT>
+                        <ENT>134 work-hours × $85 per hour = $11,390</ENT>
+                        <ENT>$0</ENT>
+                        <ENT>$11,390</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>We estimate the following costs to do any necessary corrective actions that will be required based on the results of the inspection. We have no way of determining the number of aircraft that might need these corrective actions:</P>
+                <GPOTABLE COLS="4" OPTS="L2,i1" CDEF="s50,r50,12C,12C,">
+                    <TTITLE>On-Condition Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">
+                            Cost per 
+                            <LI>product</LI>
+                        </CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Window corner repair, per corner</ENT>
+                        <ENT>9 work-hours × $85 per hour = $765</ENT>
+                        <ENT>
+                            (
+                            <SU>1</SU>
+                            )
+                        </ENT>
+                        <ENT>$765</ENT>
+                    </ROW>
+                    <TNOTE>
+                        <SU>1</SU>
+                        Parts fabricated by operator; cost unknown.
+                    </TNOTE>
+                </GPOTABLE>
+                <P>The cost estimate figures discussed above are based on assumptions that no operator has yet accomplished any of the actions required by this AD, and that no operator will accomplish those actions in the future if this AD is not adopted. However, we have been advised that the lap joint modification has already been installed on some affected airplanes. Therefore, based on the current number of U.S.-registered airplanes below the threshold of 50,000 total flight cycles, the future economic cost impact of this AD on U.S. operators is expected to be less than the cost impact figure indicated above.</P>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, Section 106, describes the authority of the FAA Administrator. Subtitle VII, Aviation Programs, describes in more detail the scope of the Agency's authority.</P>
+                <P>We are issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701, “General requirements.” Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>We have determined that this AD will not have federalism implications under Executive Order 13132. This AD will not have a substantial direct effect on the States, on the relationship between the national government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>For the reasons discussed above, I certify that this AD:</P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Is not a “significant rule” under DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979),</P>
+                <P>(3) Will not affect intrastate aviation in Alaska, and</P>
+                <P>(4) Will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">Adoption of the Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA amends 14 CFR part 39 as follows:</P>
+                <REGTEXT TITLE="14" PART="39">
+                    <PART>
+                        <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                    </PART>
+                    <AMDPAR>1. The authority citation for part 39 continues to read as follows:</AMDPAR>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                    </AUTH>
+                </REGTEXT>
+                <REGTEXT TITLE="14" PART="39">
+                    <SECTION>
+                        <SECTNO>§ 39.13 </SECTNO>
+                        <SUBJECT>[Amended]</SUBJECT>
+                    </SECTION>
+                    <AMDPAR>2. The FAA amends § 39.13 by removing Airworthiness Directive (AD) 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), and adding the following new AD:</AMDPAR>
+                    <EXTRACT>
+                        <FP SOURCE="FP-2">
+                            <E T="04">2015-21-06 The Boeing Company:</E>
+                             Amendment 39-18298; Docket No. FAA-2014-0454; Directorate Identifier 2013-NM-138-AD.
+                        </FP>
+                        <HD SOURCE="HD1">(a) Effective Date</HD>
+                        <P>This AD is effective December 17, 2015.</P>
+                        <HD SOURCE="HD1">(b) Affected ADs</HD>
+                        <P>This AD replaces AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002). Certain provisions of this AD affect certain requirements of AD 2013-09-01, Amendment 39-17442 (78 FR 27001, May 9, 2013).</P>
+                        <HD SOURCE="HD1">(c) Applicability</HD>
+                        <P>
+                            This AD applies to The Boeing Company Model 737-200, -200C, -300, -400, and -500 series airplanes, certificated in any category, line numbers 292 through 2565 inclusive.
+                            <PRTPAGE P="69844"/>
+                        </P>
+                        <HD SOURCE="HD1">(d) Subject</HD>
+                        <P>Air Transport Association (ATA) of America Code 53, Fuselage.</P>
+                        <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                        <P>This AD was prompted by an evaluation by the design approval holder (DAH) indicating that certain fuselage lap joints are subject to widespread fatigue damage (WFD). We are issuing this AD to detect and correct fatigue cracking of the fuselage lap joints, which could result in reduced structural integrity and sudden decompression of the airplane.</P>
+                        <HD SOURCE="HD1">(f) Compliance</HD>
+                        <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                        <HD SOURCE="HD1">(g) Retained Lap Joint Modification (Repair)—Crown Areas</HD>
+                        <P>This paragraph restates the actions required by paragraph (g) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. Except as provided by paragraphs (h) and (q)(2) of this AD: Install the lap joint repair as specified in Part 1.E.1. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 4, dated September 2, 1999; Boeing Service Bulletin 737-53A1177, Revision 5, dated February 15, 2001; or Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; per PART III or IV (“Lap Joint Repair”), as applicable; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; per PART III, IV, VI, or VII (“Lap Joint Modification (Repair)”), as applicable, of the Accomplishment Instructions of the applicable service bulletin; at the time specified in paragraph (g)(1), (g)(2), (g)(3), (g)(4), or (g)(5) of this AD, as applicable. Accomplishment of this repair terminates the repetitive inspections required by paragraph (j) of this AD. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph. A lap splice modification (repair) done in accordance with the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, terminates the inspections required by paragraphs (g) and (i) of AD 2013-09-01, Amendment 39-17442 (78 FR 27001, May 9, 2013), for the modified (repaired) area only.</P>
+                        <P>(1) For airplanes that have accumulated 70,000 total flight cycles or more as of May 17, 2002 (the effective date of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002)): Within 600 flight cycles after May 17, 2002, do the lap joint repair.</P>
+                        <P>(2) For airplanes that have accumulated 65,000 total flight cycles or more, but fewer than 70,000 total flight cycles as of May 17, 2002 (the effective date of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002)): Do the repair at the later of the times specified in paragraphs (g)(2)(i) and (g)(2)(ii) of this AD.</P>
+                        <P>(i) Before the accumulation of 70,000 total flight cycles.</P>
+                        <P>(ii) Within 600 flight cycles after May 17, 2002 (the effective date of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002)).</P>
+                        <P>(3) For airplanes that have accumulated 45,000 total flight cycles or more, but fewer than 65,000 total flight cycles as of May 17, 2002 (the effective date of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002)): Within 5,000 flight cycles after May 17, 2002.</P>
+                        <P>(4) For airplanes that have accumulated less than 45,000 total flight cycles as of May 17, 2002 (the effective date of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002)): Before the accumulation of 50,000 total flight cycles.</P>
+                        <P>(5) Notwithstanding the times specified in paragraphs (g)(1), (g)(2), (g)(3), and (g)(4) of this AD, for airplanes on which the “Preventive Change” (NACA modification) has been accomplished per PART III of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1177, Revision 1, dated September 19, 1996; Revision 2, dated July 24, 1997; or Revision 3, dated September 18, 1997: Within 18,000 flight cycles after accomplishment of the NACA modification.</P>
+                        <HD SOURCE="HD1">(h) Retained Lap Joint Modification for Certain Airplanes</HD>
+                        <P>This paragraph restates the requirements of paragraph (h) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information and revised airplane groups.</P>
+                        <P>(1) For airplanes identified as Groups 3 and 5 in Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001: Install the lap joint repair at stringers 4R and 10R, as specified in Part 1.E.1. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001, at the time specified in paragraph (g)(1), (g)(2), (g)(3), (g)(4), or (g)(5) of this AD, as applicable, using a method approved in accordance with the procedures specified in paragraph (t) of this AD.</P>
+                        <P>(2) For airplanes identified in Groups 6, 7, and 8 in Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013: Install the lap joint repair at stringers 4R and 10R, in accordance with the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, at the time specified in paragraph (g)(1), (g)(2), (g)(3), (g)(4), or (g)(5) of this AD, as applicable, unless previously accomplished as specified in paragraph (h)(1) of this AD.</P>
+                        <HD SOURCE="HD1">(i) Retained Repetitive Low Frequency Eddy Current (LFEC) Inspections—Outside Crown Areas</HD>
+                        <P>This paragraph restates the actions required by paragraph (i) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. Before the accumulation of 70,000 total flight cycles, or within 2,500 flight cycles after May 17, 2002 (the effective date of AD 2002-07-08), whichever comes later: Do an LFEC inspection to find cracking of the lap joints of the fuselage, as specified in Part 1.E.2. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; and as identified in Figures 2 through 6 of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or as identified in Figures 50 through 64 of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. Do the inspection per Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph. Repeat the inspection after that at intervals not to exceed 5,000 flight cycles.</P>
+                        <HD SOURCE="HD1">(j) Retained Post-NACA Modification Inspections—Crown Areas</HD>
+                        <P>This paragraph restates the actions required by paragraph (j) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. For airplanes that have the “Preventive Change” (NACA modification) of the crown lap joint stringers (“Crown Laps”) done per PART III of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1177, Revision 1, dated September 19, 1996; Boeing Service Bulletin 737-53A1177, Revision 2, dated July 24, 1997; or Boeing Service Bulletin 737-53A1177, Revision 3, dated September 18, 1997: Within 12,000 flight cycles after accomplishment of the NACA modification, or within 750 flight cycles after May 17, 2002 (the effective date of AD 2002-07-08), whichever is later, do either an external or internal LFEC inspection to find cracking and corrosion as specified in Part 1.E.4.a. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; per PART I (“Inspection”) of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. The external and internal LFEC inspections are specified in Figures 8 and 9, respectively, of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; and Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph.</P>
+                        <P>(1) If the external inspection is done: Repeat the inspection after that at intervals not to exceed 1,500 flight cycles until accomplishment of the lap joint repair required by paragraph (g) of this AD.</P>
+                        <P>(2) If the internal inspection is done: Repeat the inspection after that at intervals not to exceed 4,500 flight cycles until accomplishment of the lap joint repair required by paragraph (g) of this AD.</P>
+                        <HD SOURCE="HD1">(k) Retained Post-NACA Modification Inspections—Outside Crown Areas</HD>
+                        <P>
+                            This paragraph restates the actions required by paragraph (k) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. For airplanes that have the “Preventive 
+                            <PRTPAGE P="69845"/>
+                            Change” (NACA modification) outside the crown areas done per PART III of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1177, Revision 1, dated September 19, 1996; Boeing Service Bulletin 737-53A1177, Revision 2, dated July 24, 1997; or Boeing Service Bulletin 737-53A1177, Revision 3, dated September 18, 1997: Before the accumulation of 20,000 flight cycles after accomplishment of the NACA modification, or within 750 flight cycles after May 17, 2002 (the effective date of AD 2002-07-08), whichever is later, do either an external or internal LFEC inspection to find cracking and corrosion as specified in Part 1.E.4.b. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; per PART I (“Inspection”) of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. The external and internal LFEC inspections are specified in Figures 8 and 9, respectively, of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; and Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph.
+                        </P>
+                        <P>(1) If the external inspection is done: Repeat the external inspection after that at intervals not to exceed 1,500 flight cycles.</P>
+                        <P>(2) If the internal inspection is done: Repeat the internal inspection after that at intervals not to exceed 4,500 flight cycles.</P>
+                        <HD SOURCE="HD1">(l) Retained Modification of Tear Strap Splice Straps</HD>
+                        <P>This paragraph restates the actions required by paragraph (l) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. For airplanes that have the “lap joint repair,” as specified in Part IV of the Accomplishment Instructions of Boeing Alert Service Bulletin 737-53A1177, Revision 2, dated July 24, 1997; or Revision 3, dated September 18, 1997: Within 45,000 flight cycles after accomplishment of this lap joint repair, modify the splice straps per Figures 10, 11, and 12 of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph.</P>
+                        <HD SOURCE="HD1">(m) Retained Follow-On LFEC Inspections</HD>
+                        <P>This paragraph restates the actions required by paragraph (m) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. Within 45,000 flight cycles after accomplishment of the lap joint repair required by paragraph (g) or (h) of this AD, as applicable: Do either an external or internal LFEC inspection as specified in Part 1.E.7. (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; to find cracking of the lap joint repair, per PART I (“Inspection”) of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. Repair any crack found before further flight using a method approved in accordance with the procedures specified in paragraph (t) of this AD. The internal LFEC inspection is specified in Figure 9 of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; and Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph. Repeat the inspection after that at intervals not to exceed 2,800 flight cycles.</P>
+                        <HD SOURCE="HD1">(n) Retained Repetitive High Frequency Eddy Current (HFEC) Inspections—Window Corners</HD>
+                        <P>This paragraph restates the actions required by paragraph (n) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. For airplanes having line numbers 520 through 2565 inclusive: Before the accumulation of 50,000 total flight cycles, or within 2,250 flight cycles after May 17, 2002 (the effective date of AD 2002-07-08), whichever comes later, do an HFEC inspection to find cracking as specified in Part 1.E.10 (“Compliance”) of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001, or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; per PART V (“Window Corner Fastener Hole Cracking, Inspection and Repair”) of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. Repeat the inspection after that at intervals not to exceed 4,500 flight cycles, until the initial actions required by paragraph (p) of this AD have been done. Accomplishment of the modification (which includes removing and discarding fasteners, oversizing fastener holes, and installing rivets or Hi-Lok fasteners, as applicable), per PART V of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 5, dated February 15, 2001; or Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; constitutes terminating action for the inspections required by this paragraph.</P>
+                        <HD SOURCE="HD1">(o) Retained Crack Repair</HD>
+                        <P>This paragraph restates the actions required by paragraph (d) of AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), with revised service information. If any crack is found during any inspection required by paragraph (i), (j), or (k) of this AD: Before further flight, repair per PART II (“Crack Repair”) of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; or Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; except as required by paragraph (r)(2) of this AD. As of the effective date of this AD, only Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, may be used to do the actions required by this paragraph.</P>
+                        <HD SOURCE="HD1">(p) New Inspections, Repair, and Preventive Modification</HD>
+                        <P>For airplanes identified as Groups 2 through 28 in Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013: At the applicable times specified in tables 8, 9, 10, and 11 of paragraph 1.E.10, “Compliance,” of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, except as required by paragraph (r)(1) of this AD, do a surface HFEC inspection for cracking at the applicable window corner fastener holes, and do a preventive modification, as applicable, in accordance with Part V of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, except as required by paragraph (r)(2) of this AD. Repair any crack found before further flight, in accordance with Part V of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, except as required by paragraph (r)(2) of this AD. Repeat the applicable inspection thereafter at the applicable times specified in tables 8, 9, 10, and 11 of paragraph 1.E.10, “Compliance,” of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013. Accomplishment of the initial inspection specified in this paragraph terminates the repetitive inspection requirements of paragraph (n) of this AD. Accomplishment of the preventive modification specified in this paragraph terminates the repetitive inspection requirements of this paragraph for the applicable corner fastener locations specified in Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013.</P>
+                        <HD SOURCE="HD1">(q) Optional Terminating Action</HD>
+                        <P>(1) Replacement of the skin panel as specified in Part VIII or Part IX, as applicable, of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, terminates the repetitive inspections at the window corners specified in paragraph (p) of this AD for the windows common to the replaced panel only.</P>
+                        <P>(2) Replacement of the skin panel as specified in Part VIII or Part IX, as applicable, of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, terminates the lap joint modification required by paragraph (g) of this AD for the S-10 and S-14 lap joints common to the replaced panel only.</P>
+                        <P>
+                            (3) Replacement of the skin panels as specified in Part VIII or Part IX, as applicable, of the Accomplishment Instructions of Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, terminates the inspections required by paragraphs (g) 
+                            <PRTPAGE P="69846"/>
+                            and (i) of AD 2013-09-01, Amendment 39-17442 (78 FR 27001, May 9, 2013), for the replaced skin panel only.
+                        </P>
+                        <HD SOURCE="HD1">(r) Exceptions to Service Information Specifications</HD>
+                        <P>(1) Where Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013, specifies a compliance time “after the Revision 7 date of this service bulletin,” this AD requires compliance within the specified compliance time after the effective date of this AD.</P>
+                        <P>(2) Where Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; and Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; specify to contact Boeing for certain procedures: Do the specified actions before further flight using a method approved in accordance with the procedures specified in paragraph (t) of this AD.</P>
+                        <P>(3) Where Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001; and Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013; include the phrase “or is Boeing or FAA approved,” this AD requires the “Boeing Approval” to be requested in accordance with the procedures specified in paragraph (t) of this AD.</P>
+                        <HD SOURCE="HD1">(s) Credit for Previous Actions</HD>
+                        <P>(1) This paragraph provides credit for the actions required by paragraph (g) of this AD, if those actions were performed before the effective date of this AD using the applicable service information specified in paragraphs (s)(1)(i), (s)(1)(ii), and (s)(1)(iii) of this AD, which were incorporated by reference in AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002).</P>
+                        <P>(i) Boeing Service Bulletin 737-53A1177, Revision 4, dated September 2, 1999.</P>
+                        <P>(ii) Boeing Service Bulletin 737-53A1177, Revision 5, dated February 15, 2001, which continues to be incorporated by reference in this AD.</P>
+                        <P>(iii) Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001, which continues to be incorporated by reference in this AD.</P>
+                        <P>(2) This paragraph provides credit for the actions required by paragraphs (i) through (o) of this AD, if those actions were performed before the effective date of this AD using Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001, which was incorporated by reference in AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002) and continues to be incorporated by reference in this AD.</P>
+                        <HD SOURCE="HD1">(t) Alternative Methods of Compliance (AMOCs)</HD>
+                        <P>
+                            (1) The Manager, Los Angeles Aircraft Certification Office (ACO), FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or local Flight Standards District Office, as appropriate. If sending information directly to the manager of the ACO, send it to the attention of the person identified in paragraph (u)(1) of this AD. Information may be emailed to: 
+                            <E T="03">9-ANM-LAACO-AMOC-Requests@faa.gov</E>
+                            .
+                        </P>
+                        <P>(2) Before using any approved AMOC, notify your appropriate principal inspector, or lacking a principal inspector, the manager of the local flight standards district office/certificate holding district office.</P>
+                        <P>(3) An AMOC that provides an acceptable level of safety may be used for any repair required by this AD if it is approved by the Boeing Commercial Airplanes Organization Designation Authorization (ODA) that has been authorized by the Manager, Los Angeles ACO, to make those findings. For a repair method to be approved, the repair must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                        <P>(4) AMOCs approved for AD 2002-07-08, Amendment 39-12702 (67 FR 17917, April 12, 2002), are approved as AMOCs for the corresponding provisions of this AD.</P>
+                        <HD SOURCE="HD1">(u) Related Information</HD>
+                        <P>
+                            (1) For more information about this AD, contact Jennifer Tsakoumakis, Aerospace Engineer, Airframe Branch, ANM-120L, FAA, Los Angeles Aircraft Certification Office (ACO), 3960 Paramount Boulevard, Lakewood, CA 90712-4137; phone: 562-627-5264; fax: 562-627-5210; email: 
+                            <E T="03">Jennifer.Tsakoumakis@faa.gov</E>
+                            .
+                        </P>
+                        <P>(2) Service information identified in this AD that is not incorporated by reference is available at the addresses specified in paragraphs (v)(3) and (v)(4) of this AD.</P>
+                        <HD SOURCE="HD1">(v) Material Incorporated by Reference</HD>
+                        <P>(1) The Director of the Federal Register approved the incorporation by reference (IBR) of the service information listed in this paragraph under 5 U.S.C. 552(a) and 1 CFR part 51.</P>
+                        <P>(2) You must use this service information as applicable to do the actions required by this AD, unless the AD specifies otherwise.</P>
+                        <P>(i) Boeing Service Bulletin 737-53A1177, Revision 7, dated June 14, 2013.</P>
+                        <P>(ii) Reserved.</P>
+                        <P>(3) The following service information was approved for IBR on May 17, 2002 (67 FR 17917, April 12, 2002).</P>
+                        <P>(i) Boeing Service Bulletin 737-53A1177, Revision 5, dated February 15, 2001.</P>
+                        <P>(ii) Boeing Service Bulletin 737-53A1177, Revision 6, dated May 31, 2001.</P>
+                        <P>
+                            (4) For Boeing service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; Internet 
+                            <E T="03">https://www.myboeingfleet.com</E>
+                            .
+                        </P>
+                        <P>(5) You may view this service information at FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For information on the availability of this material at the FAA, call 425-227-1221.</P>
+                        <P>
+                            (6) You may view this service information that is incorporated by reference at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030, or go to: 
+                            <E T="03">http://www.archives.gov/federal-register/cfr/ibr-locations.html</E>
+                            .
+                        </P>
+                    </EXTRACT>
+                </REGTEXT>
+                <SIG>
+                    <DATED>Issued in Renton, Washington, on October 11, 2015.</DATED>
+                    <NAME>Jeffrey E. Duven,</NAME>
+                    <TITLE>Manager, Transport Airplane Directorate, Aircraft Certification Service.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2015-26616 Filed 11-10-15; 8:45 am]</FRDOC>
+            <BILCOD> BILLING CODE 4910-13-P</BILCOD>
+        </RULE>

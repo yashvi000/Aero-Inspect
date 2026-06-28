@@ -1,0 +1,263 @@
+<PRORULE>
+            <PREAMB>
+                <AGENCY TYPE="S">DEPARTMENT OF TRANSPORTATION</AGENCY>
+                <SUBAGY>Federal Aviation Administration</SUBAGY>
+                <CFR>14 CFR Part 39</CFR>
+                <DEPDOC>[Docket No. FAA-2010-0036; Directorate Identifier 2009-NM-077-AD]</DEPDOC>
+                <RIN>RIN 2120-AA64</RIN>
+                <SUBJECT>Airworthiness Directives; The Boeing Company Airplanes</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Federal Aviation Administration (FAA), DOT.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Supplemental notice of proposed rulemaking (NPRM); reopening of comment period.</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>
+                        We are revising an earlier proposed airworthiness directive (AD) for certain The Boeing Company Model 737-200, -200C, -300, -400, and -500 series airplanes. That NPRM proposed to require inspections for cracking and corrosion under the number 3 very high frequency (VHF) antenna, and corrective actions if necessary; and, for certain airplanes, replacing bonded skin panels with solid skin panels if not previously accomplished. That NPRM was prompted by reports of cracks in the skin and surrounding structure under the number 3 VHF antenna on the lower external surface of the airplane at buttock line 0.0, aft of the main landing gear wheel well. This action revises that NPRM by adding an optional preventive 
+                        <PRTPAGE P="15641"/>
+                        modification, which would terminate the inspection requirements for certain airplanes; changing certain repairs; and adding inspections. We are proposing this supplemental NPRM to detect and correct cracks and corrosion of the skin and surrounding structure under the number 3 VHF antenna, which could result in separation of the antenna from the airplane, and rapid depressurization of the airplane. Since these actions impose an additional burden over that proposed in the original NPRM, we are reopening the comment period to allow the public the chance to comment on these proposed changes.
+                    </P>
+                </SUM>
+                <EFFDATE>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>We must receive comments on this supplemental NPRM by April 30, 2012.</P>
+                </EFFDATE>
+                <ADD>
+                    <HD SOURCE="HED">ADDRESSES:</HD>
+                    <P>You may send comments by any of the following methods:</P>
+                    <P>
+                        • 
+                        <E T="03">Federal eRulemaking Portal:</E>
+                         Go to 
+                        <E T="03">http://www.regulations.gov.</E>
+                         Follow the instructions for submitting comments.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Fax:</E>
+                         202-493-2251.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Mail:</E>
+                         U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+                    </P>
+                    <P>
+                        • 
+                        <E T="03">Hand Delivery:</E>
+                         U.S. Department of Transportation, Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590, between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+                    </P>
+                    <P>
+                        For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O. Box 3707, MC 2H-65, Seattle, Washington 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; email 
+                        <E T="03">me.boecom@boeing.com;</E>
+                         Internet 
+                        <E T="03">https://www.myboeingfleet.com.</E>
+                         You may review copies of the referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, Washington. For information on the availability of this material at the FAA, call 425-227-1221.
+                    </P>
+                </ADD>
+                <HD SOURCE="HD1">Examining the AD Docket</HD>
+                <P>
+                    You may examine the AD docket on the Internet at 
+                    <E T="03">http://www.regulations.gov;</E>
+                     or in person at the Docket Management Facility between 9 a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD docket contains this proposed AD, the regulatory evaluation, any comments received, and other information. The street address for the Docket Office (phone: 800-647-5527) is in the 
+                    <E T="02">ADDRESSES</E>
+                     section. Comments will be available in the AD docket shortly after receipt.
+                </P>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Wayne Lockett, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, Washington 98057-3356; phone: (425) 917-6447; fax: (425) 917-6590; email: 
+                        <E T="03">wayne.lockett@faa.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <HD SOURCE="HD1">Comments Invited</HD>
+                <P>
+                    We invite you to send any written relevant data, views, or arguments about this proposed AD. Send your comments to an address listed under the 
+                    <E T="02">ADDRESSES</E>
+                     section. Include “Docket No. FAA-2010-0036; Directorate Identifier 2009-NM-077-AD” at the beginning of your comments. We specifically invite comments on the overall regulatory, economic, environmental, and energy aspects of this proposed AD. We will consider all comments received by the closing date and may amend this proposed AD because of those comments.
+                </P>
+                <P>
+                    We will post all comments we receive, without change, to 
+                    <E T="03">http://www.regulations.gov,</E>
+                     including any personal information you provide. We will also post a report summarizing each substantive verbal contact we receive about this proposed AD.
+                </P>
+                <HD SOURCE="HD1">Discussion</HD>
+                <P>
+                    We issued an NPRM to amend 14 CFR part 39 to include an airworthiness directive (AD) that would apply to certain The Boeing Company Model 737-200, -200C, -300, -400, and -500 series airplanes. That original NPRM was published in the 
+                    <E T="04">Federal Register</E>
+                     on April 15, 2010 (75 FR 19564). That original NPRM proposed to require repetitive inspections for cracking and corrosion of the skin and surrounding structure under the number 3 VHF antenna, and corrective actions if necessary. Also, for certain airplanes, that original NPRM proposed to require replacing bonded skin panels with solid skin panels if not previously accomplished.
+                </P>
+                <HD SOURCE="HD1">Actions Since Previous NPRM (75 FR 19564, April 15, 2010) Was Issued</HD>
+                <P>The original NPRM (75 FR 19564, April 15, 2010) referred to Boeing Special Attention Service Bulletin 737-53-1287, dated March 11, 2009. Since we issued the original NPRM, we have reviewed Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010. Among other things, this service bulletin provides the following changes:</P>
+                <P>• Adds an optional preventive modification for certain airplane groups, which would eliminate the need for the repetitive inspections of those airplanes. The modification involves various high frequency eddy current (HFEC) and detailed inspections for cracking and corrosion of the skin, support channel, holes, and support structure in the area of the number 3 VHF antenna; and repair if necessary, or replacing a cracked or corroded support channel with a new or serviceable support channel, if necessary. The modification also entails installing antenna support structure.</P>
+                <P>• Reassigns certain airplanes to different groups.</P>
+                <P>• Gives instructions for doing repairs if a crack is found, for certain airplane groups and certain conditions.</P>
+                <P>• Adds HFEC inspections (that are done along with previously specified internal detailed inspections) with the antenna removed.</P>
+                <P>• Adds Group 7 airplanes (line numbers 1-291) and specifies that, for these airplanes, operators must contact Boeing for inspection, repair, and preventive modification instructions. These airplanes are subject to a prior or concurrent action of replacing bonded skin panels with solid skin panels, as specified in Part V of Boeing Service Bulletin 737-53A1042, Revision 9, dated July 25, 1991. (The actions specified in that service bulletin are already required by AD 90-06-02, Amendment 39-6489 (55 FR 8372, March 7, 1990)).</P>
+                <HD SOURCE="HD1">Comments</HD>
+                <P>We gave the public the opportunity to comment on the original NPRM (75 FR 19564, April 15, 2010). The following presents the comment received on the NPRM and the FAA's response to the comment.</P>
+                <HD SOURCE="HD1">Request To Change Requirements for Certain Airplanes</HD>
+                <P>Boeing submitted a comment related to the service information. However, the substance of the comment is addressed in Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010 as discussed above in “Actions Since Previous NPRM (75 FR 19564, April 15, 2010) Was Issued.”</P>
+                <HD SOURCE="HD1">FAA's Determination</HD>
+                <P>
+                    We are proposing this supplemental NPRM because we evaluated all the relevant information and determined the unsafe condition described previously is likely to exist or develop in other products of these same type designs. Certain changes described above expand the scope of the original 
+                    <PRTPAGE P="15642"/>
+                    NPRM (75 FR 19564, April 15, 2010). As a result, we have determined that it is necessary to reopen the comment period to provide additional opportunity for the public to comment on this supplemental NPRM.
+                </P>
+                <HD SOURCE="HD1">Proposed Requirements of the Supplemental NPRM</HD>
+                <P>This supplemental NPRM would require accomplishing the actions specified in the revised service information described previously, except as discussed under “Differences Between the Supplemental NPRM and the Service Information.”</P>
+                <HD SOURCE="HD1">Differences Between the Supplemental NPRM and the Service Information</HD>
+                <P>Where paragraph 1.A., “Effectivity,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, places Model 737-200 and -200C airplanes having line numbers 1-291 into group 7, for purposes of this supplemental NPRM, these airplanes would be subject to the proposed requirements for Group 2, Configuration 1, 2, or 3, as applicable. There are no configuration differences for airplanes having line numbers 1-291 from the Group 2 airplanes.</P>
+                <P>Table 10 in paragraph 1.E., “Compliance,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010; and Part 8 of the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010; specify post-repair/modification inspections at the number 3 VHF antenna location, which may be used in support of compliance with section 121.1109(c)(2) or 129.109(c)(2) of the Federal Aviation Regulations (14 CFR 121.1109(c)(2) or 129.109(c)(2)), but this supplemental NPRM does not propose to require those post-repair/modification inspections. This difference has been coordinated with Boeing.</P>
+                <HD SOURCE="HD1">Costs of Compliance</HD>
+                <P>We estimate that this proposed AD will affect 629 airplanes of U.S. registry.</P>
+                <P>We estimate the following costs to comply with this proposed AD:</P>
+                <GPOTABLE COLS="6" OPTS="L2,i1" CDEF="s50,r50,xs48,r50,12,r50">
+                    <TTITLE>Estimated Costs</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Action</CHED>
+                        <CHED H="1">Labor cost</CHED>
+                        <CHED H="1">Parts cost</CHED>
+                        <CHED H="1">Cost per product</CHED>
+                        <CHED H="1">
+                            Number of U.S.- 
+                            <LI>registered </LI>
+                            <LI>airplanes</LI>
+                        </CHED>
+                        <CHED H="1">Cost on U.S. operators</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">Inspection</ENT>
+                        <ENT>Up to 13 work-hours × $85 per hour = Up to $1,105 per inspection cycle</ENT>
+                        <ENT>None</ENT>
+                        <ENT>Up to $1,105 per inspection cycle</ENT>
+                        <ENT>629</ENT>
+                        <ENT>Up to $695,045 per inspection cycle.</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">
+                            Concurrent Replacement for Group 2 and Group 7 airplanes 
+                            <SU>1</SU>
+                        </ENT>
+                        <ENT>2,112 work-hours × $85 per hour = $179,520</ENT>
+                        <ENT>$35,000</ENT>
+                        <ENT>$214,520</ENT>
+                        <ENT>387</ENT>
+                        <ENT>$83,019,240.</ENT>
+                    </ROW>
+                    <TNOTE>
+                        <SU>1</SU>
+                         The concurrent modification for Group 2 and Group 7 airplanes required by this proposed AD is already required by AD 90-06-02, Amendment 39-6489 (55 FR 8372, March 7, 1990). AD 90-06-02 mandated the skin replacement within 20 years of the manufacture date of the airplane. All Group 2 and Group 7 airplanes have exceeded the 20-year threshold.
+                    </TNOTE>
+                </GPOTABLE>
+                <P>We have received no definitive data that would enable us to provide a cost estimate for the on-condition actions specified in this AD.</P>
+                <HD SOURCE="HD1">Authority for This Rulemaking</HD>
+                <P>Title 49 of the United States Code specifies the FAA's authority to issue rules on aviation safety. Subtitle I, section 106, describes the authority of the FAA Administrator. “Subtitle VII: Aviation Programs” describes in more detail the scope of the Agency's authority.</P>
+                <P>We are issuing this rulemaking under the authority described in Subtitle VII, Part A, Subpart III, Section 44701: “General requirements.” Under that section, Congress charges the FAA with promoting safe flight of civil aircraft in air commerce by prescribing regulations for practices, methods, and procedures the Administrator finds necessary for safety in air commerce. This regulation is within the scope of that authority because it addresses an unsafe condition that is likely to exist or develop on products identified in this rulemaking action.</P>
+                <HD SOURCE="HD1">Regulatory Findings</HD>
+                <P>We determined that this proposed AD would not have federalism implications under Executive Order 13132. This proposed AD would not have a substantial direct effect on the States, on the relationship between the national Government and the States, or on the distribution of power and responsibilities among the various levels of government.</P>
+                <P>
+                    <E T="03">For the reasons discussed above, I certify this proposed regulation:</E>
+                </P>
+                <P>(1) Is not a “significant regulatory action” under Executive Order 12866,</P>
+                <P>(2) Is not a “significant rule” under the DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 1979),</P>
+                <P>(3) Will not affect intrastate aviation in Alaska, and</P>
+                <P>(4) Will not have a significant economic impact, positive or negative, on a substantial number of small entities under the criteria of the Regulatory Flexibility Act.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 14 CFR Part 39</HD>
+                    <P>Air transportation, Aircraft, Aviation safety, Incorporation by reference, Safety.</P>
+                </LSTSUB>
+                <HD SOURCE="HD1">The Proposed Amendment</HD>
+                <P>Accordingly, under the authority delegated to me by the Administrator, the FAA proposes to amend 14 CFR part 39 as follows:</P>
+                <PART>
+                    <HD SOURCE="HED">PART 39—AIRWORTHINESS DIRECTIVES</HD>
+                    <P>1. The authority citation for part 39 continues to read as follows:</P>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P> 49 U.S.C. 106(g), 40113, 44701.</P>
+                    </AUTH>
+                    <SECTION>
+                        <SECTNO>§ 39.13 </SECTNO>
+                        <SUBJECT>[Amended]</SUBJECT>
+                        <P>2. The FAA amends § 39.13 by adding the following new airworthiness directive (AD):</P>
+                        <EXTRACT>
+                            <FP SOURCE="FP-2">
+                                <E T="04">The Boeing Company:</E>
+                                 Docket No. FAA-2010-0036; Directorate Identifier 2009-NM-077-AD.
+                            </FP>
+                            <HD SOURCE="HD1">(a) Comments Due Date</HD>
+                            <P>
+                                We must receive comments by April 30, 2012.
+                                <PRTPAGE P="15643"/>
+                            </P>
+                            <HD SOURCE="HD1">(b) Affected ADs</HD>
+                            <P>AD 90-06-02, Amendment 39-6489 (55 FR 8372, March 7, 1990), affects this AD.</P>
+                            <HD SOURCE="HD1">(c) Applicability</HD>
+                            <P>This AD applies to The Boeing Company Model 737-200, -200C, -300, -400, -500 series airplanes, certificated in any category, as identified in Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010.</P>
+                            <HD SOURCE="HD1">(d) Subject</HD>
+                            <P>Joint Aircraft System Component (JASC)/Air Transport Association (ATA) of America Code 53: Fuselage.</P>
+                            <HD SOURCE="HD1">(e) Unsafe Condition</HD>
+                            <P>This AD was prompted by reports of cracks of the skin and surrounding structure under the number 3 very high frequency (VHF) antenna on the lower external surface of the airplane at buttock line 0.0, aft of the main landing gear wheel well. We are issuing this AD to detect and correct cracks and corrosion of the skin and surrounding structure under the number 3 VHF antenna, which could result in separation of the antenna from the airplane, and rapid depressurization of the airplane.</P>
+                            <HD SOURCE="HD1">(f) Compliance</HD>
+                            <P>Comply with this AD within the compliance times specified, unless already done.</P>
+                            <HD SOURCE="HD1">(g) Inspections</HD>
+                            <P>Except as required by paragraph (i)(1) of this AD, at the applicable times specified in tables 1 through 9, paragraph 1.E., “Compliance,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010: Do the applicable inspections (external detailed and high frequency eddy current (HFEC), external detailed, external HFEC, or internal detailed and HFEC) for cracks or corrosion in the skin, support, frames, stringers, or antenna, as applicable. Do the inspections in accordance with Parts 1, 3, 4, and 5 of the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, except as required by paragraphs (i)(2) and (i)(3) of this AD. Repeat the applicable inspections thereafter at the applicable times specified in tables 1 through 9, paragraph 1.E., “Compliance,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, until the actions required by paragraph (j) of this AD are done.</P>
+                            <HD SOURCE="HD1">(h) Repair</HD>
+                            <P>(1) If any crack or corrosion is found during any inspection required by paragraph (g) of this AD: Repair before further flight, in accordance with the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, except as required by paragraphs (i)(2) and (i)(3) of this AD. Repair of any crack or corrosion terminates the repetitive inspection requirements of paragraph (g) of this AD for the repaired area only.</P>
+                            <P>(2) Operators must obtain an approved damage tolerance evaluation for any repair installed to comply with Section 121.1109(c)(2) or 129.109(c)(2) of the Code of Federal Regulations (14 CFR 121.1109(c)(2) or 129.109(c)(2)).</P>
+                            <P>Note 1 to paragraph (h)(2) of this AD: Additional guidance on damage tolerance evaluation for repairs can be found in table 10 in paragraph 1.E., “Compliance,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010; and Part 8 of the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010.</P>
+                            <HD SOURCE="HD1">(i) Exceptions</HD>
+                            <P>(1) Where Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, specifies a compliance time “after the original issue date of this service bulletin:” this AD requires compliance within the specified compliance time after the effective date of this AD.</P>
+                            <P>(2) Where Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010, specifies contacting Boeing for inspection or repair instructions: Do the applicable action using a method approved in accordance with the procedures specified in paragraph (m) of this AD.</P>
+                            <P>(3) For Group 7 airplanes, as identified in paragraph 1.A., “Effectivity,” of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010: Use the applicable instructions for Group 2, Configuration 1, 2, or 3, as identified in Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010.</P>
+                            <HD SOURCE="HD1">(j) Optional Terminating Action</HD>
+                            <P>For Groups 1, 2, 3, 4, 6, and 7 airplanes, as identified in Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010: Except as provided by paragraphs (i)(2) and (i)(3) of this AD, accomplishment of the preventive modification, including all applicable HFEC and detailed inspections for cracking or corrosion inside or outside the repair skin cutout area, in the frame fastener holes, or in the support channel; and all applicable repairs or replacements; as specified in the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010: Terminates the repetitive inspection requirements of paragraph (g) of this AD.</P>
+                            <HD SOURCE="HD1">(k) Concurrent Skin Panel Replacement</HD>
+                            <P>For Groups 2 and 7 airplanes, as identified in Boeing Special Attention Service Bulletin 737-53-1287, Revision 1, dated November 15, 2010: Before or concurrently with accomplishing the requirements of paragraph (g) of this AD, do the replacement of the bonded skin panels with solid skin panels, in accordance with the Accomplishment Instructions of Boeing Service Bulletin 737-53A1042, Revision 9, dated July 25, 1991; except as required by paragraph (i)(3) of this AD. The actions specified in paragraph (k) of this AD are also required by AD 90-06-02, Amendment 39-6489 (55 FR 8372, March 7, 1990).</P>
+                            <HD SOURCE="HD1">(l) Credit for Previous Actions</HD>
+                            <P>(1) This paragraph gives credit for the replacement required by paragraph (k) of this AD, if the replacement of bonded skin panels with solid skin panels was accomplished before the effective date of this AD using the Accomplishment Instructions of the service information identified in paragraphs (l)(1)(i), (l)(1)(ii), (l)(1)(iii), and (l)(1)(iv) of this AD:</P>
+                            <P>(i) Boeing Service Bulletin 737-53A1042 Revision 5, dated October 5, 1984.</P>
+                            <P>(ii) Boeing Service Bulletin 737-53A1042 Revision 6, dated August 10, 1989.</P>
+                            <P>(iii) Boeing Service Bulletin 737-53A1042 Revision 7, dated October 19, 1989.</P>
+                            <P>(iv) Boeing Service Bulletin 737-53A1042 Revision 8, dated July 19, 1990.</P>
+                            <P>(2) This paragraph gives credit for the inspections required by paragraph (g) of this AD, if the inspections were accomplished before the effective date of this AD using the Accomplishment Instructions of Boeing Special Attention Service Bulletin 737-53-1287, dated March 11, 2009.</P>
+                            <HD SOURCE="HD1">(m) Alternative Methods of Compliance (AMOCs)</HD>
+                            <P>
+                                (1) The Manager, Seattle Aircraft Certification Office (ACO), FAA, has the authority to approve AMOCs for this AD, if requested using the procedures found in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request to your principal inspector or local Flight Standards District Office, as appropriate. If sending information directly to the manager of the ACO, send it to the attention of the person identified in the Related Information section of this AD. Information may be emailed to 
+                                <E T="03">9-ANM-Seattle-ACO-AMOC-Requests@faa.gov.</E>
+                            </P>
+                            <P>(2) Before using any approved AMOC, notify your Principal Maintenance Inspector or Principal Avionics Inspector, as appropriate, or lacking a principal inspector, your local Flight Standards District Office.</P>
+                            <P>(3) An AMOC that provides an acceptable level of safety may be used for any repair required by this AD if it is approved by the Boeing Commercial Airplanes Organization Designation Authorization (ODA) that has been authorized by the Manager, Seattle ACO to make those findings. For a repair method to be approved, the repair must meet the certification basis of the airplane, and the approval must specifically refer to this AD.</P>
+                            <HD SOURCE="HD1">(n) Related Information</HD>
+                            <P>
+                                (1) For more information about this AD, contact Wayne Lockett, Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle ACO, 1601 Lind Avenue SW., Renton, Washington 98057-3356; phone: 425-917-6447; fax: 425-917-6590; email: 
+                                <E T="03">wayne.lockett@faa.gov.</E>
+                            </P>
+                            <P>
+                                (2) For service information identified in this AD, contact Boeing Commercial Airplanes, Attention: Data &amp; Services Management, P.O.  Box 3707, MC 2H-65, Seattle, Washington 98124-2207; telephone 206-544-5000, extension 1; fax 206-766-5680; email 
+                                <E T="03">me.boecom@boeing.com;</E>
+                                 Internet 
+                                <E T="03">https://www.myboeingfleet.com.</E>
+                                 You may review copies of the referenced service information at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, Washington. For information on the 
+                                <PRTPAGE P="15644"/>
+                                availability of this material at the FAA, call 425-227-1221.
+                            </P>
+                        </EXTRACT>
+                    </SECTION>
+                    <SIG>
+                        <DATED>Issued in Renton, Washington, on March 1, 2012.</DATED>
+                        <NAME>Jeffrey E. Duven,</NAME>
+                        <TITLE>Acting Manager, Transport Airplane Directorate, Aircraft Certification Service.</TITLE>
+                    </SIG>
+                </PART>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2012-6470 Filed 3-15-12; 8:45 am]</FRDOC>
+            <BILCOD>BILLING CODE 4910-13-P</BILCOD>
+        </PRORULE>
