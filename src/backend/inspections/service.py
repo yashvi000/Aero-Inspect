@@ -1,10 +1,11 @@
-import os
 import shutil
+from pathlib import Path
 from sqlalchemy.orm import Session
 from src.backend.inspections import repository
+from src.shared.utils.paths import UPLOADS_DIR, ensure_dirs
 
-UPLOAD_DIR = "data/uploads"
-os.makedirs(UPLOAD_DIR, exist_ok=True)
+ensure_dirs()
+UPLOAD_DIR = UPLOADS_DIR
 
 def create_inspection(db: Session, aircraft_type: str, notes: str = None):
     return repository.create_inspection(db, aircraft_type, notes)
@@ -16,7 +17,7 @@ def get_all_inspections(db: Session, page: int = 1, per_page: int = 20):
     return repository.get_all_inspections(db, page, per_page)
 
 def save_image(inspection_id: str, file):
-    file_path = f"{UPLOAD_DIR}/{inspection_id}_{file.filename}"
+    file_path = str(UPLOAD_DIR / f"{inspection_id}_{file.filename}")
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
     return file_path

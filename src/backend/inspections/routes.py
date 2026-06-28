@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from typing import Optional
 from src.backend.db.session import get_db
 from src.backend.inspections import service
+from src.shared.utils.paths import REPORTS_DIR
 
 router = APIRouter(prefix="/inspections", tags=["Inspections"])
 
@@ -118,8 +119,8 @@ def generate_reports(inspection_id: str, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
     if not inspection:
         raise HTTPException(status_code=404, detail="Inspection not found")
-    defect_path = f"artifacts/reports/defect_report_{inspection_id}.pdf"
-    work_order_path = f"artifacts/reports/work_order_{inspection_id}.pdf"
+    defect_path = str(REPORTS_DIR / f"defect_report_{inspection_id}.pdf")
+    work_order_path = str(REPORTS_DIR / f"work_order_{inspection_id}.pdf")
     service.save_report(db, inspection_id, defect_path, work_order_path)
     service.update_status(db, inspection_id, "COMPLETE")
     return {
