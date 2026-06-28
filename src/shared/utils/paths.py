@@ -1,37 +1,18 @@
-import os
 from pathlib import Path
 
-# Root directory of the project
-ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
-# Data directories
-UPLOADS_DIR = ROOT_DIR / "data" / "uploads"
-VECTORSTORE_DIR = ROOT_DIR / "data" / "vectorstore"
-CORPUS_DIR = ROOT_DIR / "data" / "corpus"
-DEMO_IMAGES_DIR = ROOT_DIR / "data" / "demo_images"
+CONFIG_DIR = PROJECT_ROOT / "config"
+CORPUS_DIR = PROJECT_ROOT / "data" / "corpus"
+VECTORSTORE_DIR = PROJECT_ROOT / "data" / "vectorstore"
+UPLOADS_DIR = PROJECT_ROOT / "data" / "uploads"
+WEIGHTS_DIR = PROJECT_ROOT / "artifacts" / "weights"
+REPORTS_DIR = PROJECT_ROOT / "artifacts" / "reports"
+METRICS_DIR = PROJECT_ROOT / "artifacts" / "metrics"
+LOGS_DIR = PROJECT_ROOT / "logs"
 
-# Artifacts directories
-REPORTS_DIR = ROOT_DIR / "artifacts" / "reports"
-WEIGHTS_DIR = ROOT_DIR / "artifacts" / "weights"
-PREDICTIONS_DIR = ROOT_DIR / "artifacts" / "predictions"
-METRICS_DIR = ROOT_DIR / "artifacts" / "metrics"
-
-# Logs
-LOGS_DIR = ROOT_DIR / "logs"
-BACKEND_LOGS_DIR = LOGS_DIR / "backend"
-
-# Create directories if they don't exist
+# Added by Person 3 — creates required directories on startup
 def ensure_dirs():
-    dirs = [
-        UPLOADS_DIR,
-        VECTORSTORE_DIR,
-        CORPUS_DIR,
-        DEMO_IMAGES_DIR,
-        REPORTS_DIR,
-        WEIGHTS_DIR,
-        PREDICTIONS_DIR,
-        METRICS_DIR,
-        BACKEND_LOGS_DIR,
-    ]
+    dirs = [UPLOADS_DIR, REPORTS_DIR, METRICS_DIR, LOGS_DIR / "backend"]
     for d in dirs:
         d.mkdir(parents=True, exist_ok=True)
