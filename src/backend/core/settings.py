@@ -31,7 +31,11 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
 
-settings = Settings()
+
+@lru_cache(maxsize=1)
+def get_settings() -> Settings:
+    # Load and cache Settings from .env
+    return Settings()
 
 
 @lru_cache(maxsize=1)
