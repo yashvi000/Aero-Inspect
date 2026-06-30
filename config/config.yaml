@@ -103,3 +103,18 @@ retrieval:
         "faa_sdrs": 2,
         "nasa_asrs": 3,
     }
+  chunk_preview_length: 500
+
+llm:
+  host: "localhost"
+  url: "http://localhost:11434"
+  model: "mistral:7b"
+  timeout: 120
+  temperature: 0.2
+  max_retries: 2
+
+  valid_airworthiness_statuses: {
+    "AIRWORTHY",
+    "AIRWORTHY_WITH_CONDITIONS",
+    "GROUND_AIRCRAFT",
+  }
