@@ -13,7 +13,7 @@ REPORTS_DIR = PROJECT_ROOT / "artifacts" / "reports"
 METRICS_DIR = PROJECT_ROOT / "artifacts" / "metrics"
 PREDICTIONS_DIR = PROJECT_ROOT / "artifacts" / "predictions"
 
-LOGS_DIR = PROJECT_ROOT / "logs"
+BACKEND_LOGS_DIR = PROJECT_ROOT / "logs" / "backend"
 
 # Create directories if they don't exist
 def ensure_dirs():
