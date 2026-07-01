@@ -118,3 +118,6 @@ llm:
     "AIRWORTHY_WITH_CONDITIONS",
     "GROUND_AIRCRAFT",
   }
+
+reports:
+  organization: "Air India Engineering Services Limited"
