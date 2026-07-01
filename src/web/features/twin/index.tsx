@@ -15,7 +15,7 @@ export default function DigitalTwinFeature() {
   const [filter, setFilter] = useState('All')
   const [defectFilter, setDefectFilter] = useState('All')
 
-  const filteredZones = ZONES.filter(z => {
+  const filteredZones = ZONES.filter((z: Zone) => {
     if (selectedZone) return z.id === selectedZone.id
     if (filter === 'Critical') return z.status === 'critical'
     if (filter === 'Warning')  return z.status === 'warning'
