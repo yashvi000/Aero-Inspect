@@ -21,3 +21,5 @@ logs/
 
 # smoke tests
 scripts/smoke_test_loaders.py
+scripts/test_llm_pipeline.py
+scripts/test_full_agent.py

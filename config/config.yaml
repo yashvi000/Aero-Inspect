@@ -44,6 +44,7 @@ ingestion:
       - "fatigue"
       - "fracture"
       - "flaw"
+      - "inspection"
 
     corrosion:
       - "corrosion"
@@ -51,6 +52,8 @@ ingestion:
       - "corrode"
       - "rust"
       - "oxidation"
+      - "repair"
+      - "inspection"
 
     scratch:
       - "scratch"
@@ -59,6 +62,8 @@ ingestion:
       - "abrasion"
       - "nick"
       - "scoring"
+      - "surface damage"
+      - "skin"
 
     dent:
       - "dent"
@@ -66,6 +71,7 @@ ingestion:
       - "impact damage"
       - "deformation"
       - "bulge"
+      - "skin panel"
 
     paint_damage:
       - "paint"
@@ -83,3 +89,32 @@ ingestion:
     - ". "
     - " "
     - ""
+  embedding_model: "all-MiniLM-L6-v2"
+
+retrieval:
+  collection_name: "aeroinspect_corpus"
+  persist_directory: "data/vectorstore"
+  top_k: 5
+  score_threshold: 0.3
+  chunk_batch_size: 500
+  priority_order: {
+        "dgca_car": 0,
+        "faa_ads": 1,
+        "faa_sdrs": 2,
+        "nasa_asrs": 3,
+    }
+  chunk_preview_length: 500
+
+llm:
+  host: "localhost"
+  url: "http://localhost:11434"
+  model: "mistral:7b"
+  timeout: 120
+  temperature: 0.2
+  max_retries: 2
+
+  valid_airworthiness_statuses: {
+    "AIRWORTHY",
+    "AIRWORTHY_WITH_CONDITIONS",
+    "GROUND_AIRCRAFT",
+  }
