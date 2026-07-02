@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['scratch']
+
+roboflow:
+  workspace: cartest
+  project: scratch-7wdoc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cartest/scratch-7wdoc/dataset/2

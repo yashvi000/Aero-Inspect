@@ -8,6 +8,10 @@ VECTORSTORE_DIR = PROJECT_ROOT / "data" / "vectorstore"
 UPLOADS_DIR = PROJECT_ROOT / "data" / "uploads"
 DEMO_IMAGES_DIR = PROJECT_ROOT / "data" / "demo_images"
 
+RAW_DATASET_DIR = PROJECT_ROOT / "data" / "datasets" / "raw"
+INTERIM_DATASET_DIR = PROJECT_ROOT / "data" / "datasets" / "interim"
+PROCESSED_DATASET_DIR = PROJECT_ROOT / "data" / "datasets" / "processed"
+
 WEIGHTS_DIR = PROJECT_ROOT / "artifacts" / "weights"
 REPORTS_DIR = PROJECT_ROOT / "artifacts" / "reports"
 METRICS_DIR = PROJECT_ROOT / "artifacts" / "metrics"
@@ -22,6 +26,9 @@ def ensure_dirs():
         VECTORSTORE_DIR,
         CORPUS_DIR,
         DEMO_IMAGES_DIR,
+        RAW_DATASET_DIR,
+        INTERIM_DATASET_DIR,
+        PROCESSED_DATASET_DIR,
         REPORTS_DIR,
         WEIGHTS_DIR,
         PREDICTIONS_DIR,
