@@ -14,9 +14,9 @@ Thumbs.db
 .vscode/
 
 # Big / generated stuff
-artifacts/weights/
+artifacts/weights/best.pt
+artifacts/reports
 data/vectorstore/
-data/uploads/
 logs/
 
 # smoke tests
@@ -25,3 +25,22 @@ scripts/smoke_test_llm.py
 scripts/smoke_test_agent.py
 scripts/smoke_test_reports.py
 scripts/smoke_test_full_agent.py
+
+# Dataset images and labels
+data/datasets/raw/**/*.jpg
+data/datasets/raw/**/*.jpeg
+data/datasets/raw/**/*.png
+data/datasets/raw/**/*.txt
+data/datasets/processed/**/*.jpg
+data/datasets/processed/**/*.jpeg
+data/datasets/processed/**/*.png
+data/datasets/processed/**/*.txt
+data/datasets/interim/**/*.jpg
+data/datasets/interim/**/*.jpeg
+data/datasets/interim/**/*.png
+data/datasets/interim/**/*.txt
+
+# Explicitly allowing yaml, md, and gitkeep
+!data/datasets/**/*.yaml
+!data/datasets/**/*.md
+!data/datasets/**/.gitkeep
