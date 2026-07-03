@@ -11,7 +11,7 @@ logger = get_logger("detection_service")
 
 
 def detection_service(image_path: str) -> dict:
-    low and medium 
+
     logger.info("Starting detection pipeline.")
 
     # Runtime preprocessing
