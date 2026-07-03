@@ -159,10 +159,26 @@ dataset_preparation:
     valid: 200
     test: 200
 
+  runtime_preprocessing:
   supported_image_extensions:
     - ".jpg"
     - ".jpeg"
     - ".png"
+
+  max_image_size: 4096
+
+  severity:
+  low_threshold: 5.0
+  medium_threshold: 15.0
+
+  training:
+  epochs: 50
+  image_size: 640
+  batch_size: -1
+  patience: 10
+  device: 0
+  model: "yolo11n.pt"
+  run_name: "YOLO11"
   
   split_name_map: {
     "train": "train",
