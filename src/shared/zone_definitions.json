@@ -1,19 +1,20 @@
 {
   "zones": [
-    {"id": "zone_01", "zone_name": "nose_section", "zone_label": "Nose Section", "criticality": "HIGH"},
-    {"id": "zone_02", "zone_name": "cockpit", "zone_label": "Cockpit", "criticality": "CRITICAL"},
-    {"id": "zone_03", "zone_name": "left_fwd_fuselage", "zone_label": "Left Forward Fuselage", "criticality": "HIGH"},
-    {"id": "zone_04", "zone_name": "right_fwd_fuselage", "zone_label": "Right Forward Fuselage", "criticality": "HIGH"},
-    {"id": "zone_05", "zone_name": "left_wing_root", "zone_label": "Left Wing Root", "criticality": "CRITICAL"},
-    {"id": "zone_06", "zone_name": "right_wing_root", "zone_label": "Right Wing Root", "criticality": "CRITICAL"},
-    {"id": "zone_07", "zone_name": "left_wing_tip", "zone_label": "Left Wing Tip", "criticality": "MEDIUM"},
-    {"id": "zone_08", "zone_name": "right_wing_tip", "zone_label": "Right Wing Tip", "criticality": "MEDIUM"},
-    {"id": "zone_09", "zone_name": "left_engine", "zone_label": "Left Engine Pylon", "criticality": "CRITICAL"},
-    {"id": "zone_10", "zone_name": "right_engine", "zone_label": "Right Engine Pylon", "criticality": "CRITICAL"},
-    {"id": "zone_11", "zone_name": "left_aft_fuselage", "zone_label": "Left Aft Fuselage", "criticality": "HIGH"},
-    {"id": "zone_12", "zone_name": "right_aft_fuselage", "zone_label": "Right Aft Fuselage", "criticality": "HIGH"},
-    {"id": "zone_13", "zone_name": "tail_section", "zone_label": "Tail Section", "criticality": "HIGH"},
-    {"id": "zone_14", "zone_name": "left_horizontal_stab", "zone_label": "Left Horizontal Stabiliser", "criticality": "HIGH"},
-    {"id": "zone_15", "zone_name": "right_horizontal_stab", "zone_label": "Right Horizontal Stabiliser", "criticality": "HIGH"}
+    {"id": "zone_01", "code": "5310", "zone_name": "fuselage_main_structure", "zone_label": "Fuselage Main Structure", "location": "Main body overall", "criticality": "HIGH"},
+    {"id": "zone_02", "code": "5311", "zone_name": "fuselage_frame", "zone_label": "Fuselage Frame", "location": "Internal frames", "criticality": "HIGH"},
+    {"id": "zone_03", "code": "5312", "zone_name": "fuselage_bulkhead", "zone_label": "Fuselage Bulkhead", "location": "Front/rear pressure bulkhead", "criticality": "CRITICAL"},
+    {"id": "zone_04", "code": "5313", "zone_name": "longeron_stringer", "zone_label": "Longeron / Stringer", "location": "Horizontal structural members", "criticality": "HIGH"},
+    {"id": "zone_05", "code": "5314", "zone_name": "keel_beam", "zone_label": "Keel Beam", "location": "Bottom centerline", "criticality": "CRITICAL"},
+    {"id": "zone_06", "code": "5315", "zone_name": "floor_beam", "zone_label": "Floor Beam", "location": "Under passenger floor", "criticality": "HIGH"},
+    {"id": "zone_07", "code": "5321", "zone_name": "floor_panel", "zone_label": "Floor Panel", "location": "Passenger floor panels", "criticality": "MEDIUM"},
+    {"id": "zone_08", "code": "5330", "zone_name": "fuselage_skin", "zone_label": "Fuselage Skin / Plate", "location": "Outer skin", "criticality": "HIGH"},
+    {"id": "zone_09", "code": "5341", "zone_name": "wing_attach_fittings", "zone_label": "Wing Attach Fittings", "location": "Wing root area", "criticality": "CRITICAL"},
+    {"id": "zone_10", "code": "5342", "zone_name": "stabilizer_attach_fittings", "zone_label": "Stabilizer Attach Fittings", "location": "Tail section", "criticality": "CRITICAL"},
+    {"id": "zone_11", "code": "5343", "zone_name": "landing_gear_attach_fittings", "zone_label": "Landing Gear Attach Fittings", "location": "Belly / gear bay", "criticality": "CRITICAL"},
+    {"id": "zone_12", "code": "5344", "zone_name": "door_hinge_area", "zone_label": "Door Hinge Area", "location": "Around all doors", "criticality": "HIGH"},
+    {"id": "zone_13", "code": "5345", "zone_name": "equipment_attach_fittings", "zone_label": "Equipment Attach Fittings", "location": "Internal equipment mounts", "criticality": "MEDIUM"},
+    {"id": "zone_14", "code": "5346", "zone_name": "powerplant_attach_fittings", "zone_label": "Powerplant Attach Fittings", "location": "Engine pylon area", "criticality": "CRITICAL"},
+    {"id": "zone_15", "code": "5350", "zone_name": "aerodynamic_fairings", "zone_label": "Aerodynamic Fairings", "location": "External fairings", "criticality": "MEDIUM"},
+    {"id": "zone_16", "code": "OTHER", "zone_name": "other", "zone_label": "Other", "location": "Manual text entry", "criticality": "MEDIUM"}
   ]
 }

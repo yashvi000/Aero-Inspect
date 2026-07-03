@@ -5,7 +5,7 @@ from src.backend.zones.routes import router as zones_router
 from src.shared.utils.logging import get_logger
 from src.shared.utils.paths import ensure_dirs
 
-logger = get_logger("feature/api-endpoints")
+logger = get_logger("api-endpoints")
 
 ensure_dirs()
 

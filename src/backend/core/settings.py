@@ -1,16 +1,15 @@
 from functools import lru_cache
 import yaml
-
 from src.shared.utils.paths import CONFIG_DIR
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     # Database
-    DB_USER: str
-    DB_PASSWORD: str
+    DB_USER: str = "admin"
+    DB_PASSWORD: str = "password"
     DB_HOST: str = "localhost"
     DB_PORT: int = 5433
-    DB_NAME: str
+    DB_NAME: str = "aerospace_inspection"
 
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
@@ -21,7 +20,7 @@ class Settings(BaseSettings):
     PDF_SERVICE_URL: str = "http://localhost:8003"
 
     # App
-    SECRET_KEY: str
+    SECRET_KEY: str = "supersecretkey123"
     DEBUG: bool = True
 
     @property
@@ -30,18 +29,16 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+        env_file_encoding = "utf-8"
 
-settings = Settings()
-
+@lru_cache(maxsize=1)
+def get_settings() -> Settings:
+    return Settings()
 
 @lru_cache(maxsize=1)
 def get_yaml_config() -> dict:
-    # Load config/config.yaml once and cache it
-    
     config_path = CONFIG_DIR / "config.yaml"
-
     if not config_path.exists():
         raise FileNotFoundError(f"Config file not found: {config_path}")
-
     with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
