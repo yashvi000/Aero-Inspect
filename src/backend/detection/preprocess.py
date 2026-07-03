@@ -10,7 +10,7 @@ logger = get_logger("preprocessing")
 CONFIG = get_yaml_config()
 
 ALLOWED_EXTENSIONS = set(
-    CONFIG["runtime_preprocessing"]["supported_image_extensions"]
+    CONFIG["dataset_preparation"]["supported_image_extensions"]
 )
 
 MAX_IMAGE_SIZE = CONFIG["runtime_preprocessing"]["max_image_size"]
