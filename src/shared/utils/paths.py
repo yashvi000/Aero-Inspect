@@ -19,7 +19,7 @@ PREDICTIONS_DIR = PROJECT_ROOT / "artifacts" / "predictions"
 
 BACKEND_LOGS_DIR = PROJECT_ROOT / "logs" / "backend"
 
-# Create directories if they don't exist
+# Added by Person 3 — creates required directories on startup
 def ensure_dirs():
     dirs = [
         UPLOADS_DIR,
