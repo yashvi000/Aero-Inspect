@@ -118,3 +118,71 @@ llm:
     "AIRWORTHY_WITH_CONDITIONS",
     "GROUND_AIRCRAFT",
   }
+
+reports:
+  organization: "Air India Engineering Services Limited"
+
+
+dataset_preparation:
+  class_mapping:
+    crack: 0
+    corrosion: 1
+    scratch: 2
+    dent: 3
+    paint_damage: 4
+
+  # Original class IDs
+  source_datasets:
+    Corrosion:
+      folder: "Corrosion"
+      class_map:
+        0: "corrosion"
+
+    Multi:
+      folder: "Multi"
+      class_map:
+        0: "crack"
+        1: "dent"
+        3: "paint_damage"
+        4: "scratch"
+      discard_classes:
+        - 2
+
+    Scratch:
+      folder: "Scratch"
+      class_map:
+        0: "scratch"
+
+  # Maximum samples per class per split (to prevent class dominance)
+  max_samples_per_class:
+    train: 1500
+    valid: 200
+    test: 200
+
+  supported_image_extensions:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+
+  split_name_map: {
+    "train": "train",
+    "valid": "val",
+    "test": "test",
+  }
+
+runtime_preprocessing:
+  max_image_size: 4096
+
+severity:
+  low_threshold: 5.0
+  medium_threshold: 15.0
+
+training:
+  epochs: 50
+  image_size: 640
+  batch_size: -1
+  patience: 10
+  device: 0
+  model: "yolo11n.pt"
+  run_name: "YOLO11"
+  

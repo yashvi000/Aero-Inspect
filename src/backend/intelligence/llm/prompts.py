@@ -46,6 +46,11 @@ For each applicable regulation, provide:
 - Source: [DGCA_CAR / FAA_AD / FAA_SDR / NASA_ASRS]
 - Requirement: [what the regulation requires for this defect]
 - Compliance Timeline: [when action must be taken, if specified]
+
+IMPORTANT:
+- Regulation ID must be a short identifier, NOT a full sentence
+- If no regulation applies, do not create fake entries - just state "No applicable regulations found"
+- For partially matching regulations, just state the Regulation ID and "(Partially Applicable)"
 """
 
 

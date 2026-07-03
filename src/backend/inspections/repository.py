@@ -5,11 +5,13 @@ from src.backend.db.models.investigation import AgentFinding
 from src.backend.db.models.report import Report
 import uuid
 
-def create_inspection(db: Session, aircraft_type: str, notes: str = None):
+def create_inspection(db: Session, aircraft_type: str, notes: str = None, zone_id: str = None, inspection_type: str = None):
     inspection = Inspection(
         id=str(uuid.uuid4()),
         aircraft_type=aircraft_type,
         notes=notes,
+        zone_id=zone_id,
+        inspection_type=inspection_type,
         status="CREATED"
     )
     db.add(inspection)

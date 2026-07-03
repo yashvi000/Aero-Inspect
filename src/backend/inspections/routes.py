@@ -6,41 +6,46 @@ from typing import Optional
 from src.backend.db.session import get_db
 from src.backend.inspections import service
 from src.shared.utils.paths import REPORTS_DIR
+from src.shared.constants.inspection_types import InspectionStatus
 
 router = APIRouter(prefix="/inspections", tags=["Inspections"])
 
 class CreateInspectionRequest(BaseModel):
     aircraft_type: str
+    zone_id: Optional[str] = None
+    inspection_type: Optional[str] = None
     notes: Optional[str] = None
 
 class ApproveRequest(BaseModel):
     approved_by: str
 
-# 1. Create inspection
 @router.post("")
 def create_inspection(request: CreateInspectionRequest, db: Session = Depends(get_db)):
-    inspection = service.create_inspection(db, request.aircraft_type, request.notes)
+    inspection = service.create_inspection(
+        db, request.aircraft_type, request.notes,
+        request.zone_id, request.inspection_type
+    )
     return {
         "inspection_id": inspection.id,
         "status": inspection.status,
+        "zone_id": inspection.zone_id,
+        "inspection_type": inspection.inspection_type,
         "created_at": inspection.created_at
     }
 
-# 2. Upload image
 @router.post("/{inspection_id}/upload")
 def upload_image(inspection_id: str, file: UploadFile = File(...), db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
     if not inspection:
         raise HTTPException(status_code=404, detail="Inspection not found")
     file_path = service.save_image(inspection_id, file)
-    service.update_status(db, inspection_id, "DETECTING")
+    service.update_status(db, inspection_id, InspectionStatus.DETECTING)
     return {
-        "status": "DETECTING",
+        "status": InspectionStatus.DETECTING,
         "image_path": file_path,
         "message": "Image uploaded, detection in progress"
     }
 
-# 3. Get detection result
 @router.get("/{inspection_id}/detection")
 def get_detection(inspection_id: str, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
@@ -49,7 +54,7 @@ def get_detection(inspection_id: str, db: Session = Depends(get_db)):
     existing = service.get_detection(db, inspection_id)
     if existing:
         return {
-            "status": "DETECTION_COMPLETE",
+            "status": InspectionStatus.DETECTION_COMPLETE,
             "defect_type": existing.defect_type,
             "confidence": existing.confidence,
             "severity": existing.severity,
@@ -63,23 +68,21 @@ def get_detection(inspection_id: str, db: Session = Depends(get_db)):
         }
     mock = service.get_mock_detection()
     service.save_detection(db, inspection_id, mock)
-    service.update_status(db, inspection_id, "DETECTION_COMPLETE")
-    return {"status": "DETECTION_COMPLETE", **mock}
+    service.update_status(db, inspection_id, InspectionStatus.DETECTION_COMPLETE)
+    return {"status": InspectionStatus.DETECTION_COMPLETE, **mock}
 
-# 4. Approve detection
 @router.post("/{inspection_id}/approve-detection")
 def approve_detection(inspection_id: str, request: ApproveRequest, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
     if not inspection:
         raise HTTPException(status_code=404, detail="Inspection not found")
-    service.update_status(db, inspection_id, "INVESTIGATING")
+    service.update_status(db, inspection_id, InspectionStatus.INVESTIGATING)
     return {
-        "status": "INVESTIGATING",
+        "status": InspectionStatus.INVESTIGATING,
         "approved_by": request.approved_by,
         "message": "Detection approved, agent investigating"
     }
 
-# 5. Get agent result
 @router.get("/{inspection_id}/agent-result")
 def get_agent_result(inspection_id: str, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
@@ -88,7 +91,7 @@ def get_agent_result(inspection_id: str, db: Session = Depends(get_db)):
     existing = service.get_agent_finding(db, inspection_id)
     if existing:
         return {
-            "status": "AGENT_COMPLETE",
+            "status": InspectionStatus.AGENT_COMPLETE,
             "probable_causes": existing.probable_causes,
             "regulation_refs": existing.regulation_refs,
             "airworthiness_status": existing.airworthiness_status,
@@ -97,23 +100,21 @@ def get_agent_result(inspection_id: str, db: Session = Depends(get_db)):
         }
     mock = service.get_mock_agent_result()
     service.save_agent_finding(db, inspection_id, mock)
-    service.update_status(db, inspection_id, "AGENT_COMPLETE")
-    return {"status": "AGENT_COMPLETE", **mock}
+    service.update_status(db, inspection_id, InspectionStatus.AGENT_COMPLETE)
+    return {"status": InspectionStatus.AGENT_COMPLETE, **mock}
 
-# 6. Approve findings
 @router.post("/{inspection_id}/approve-findings")
 def approve_findings(inspection_id: str, request: ApproveRequest, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
     if not inspection:
         raise HTTPException(status_code=404, detail="Inspection not found")
-    service.update_status(db, inspection_id, "FINDINGS_APPROVED")
+    service.update_status(db, inspection_id, InspectionStatus.FINDINGS_APPROVED)
     return {
-        "status": "FINDINGS_APPROVED",
+        "status": InspectionStatus.FINDINGS_APPROVED,
         "approved_by": request.approved_by,
         "message": "Ready to generate reports"
     }
 
-# 7. Generate reports
 @router.post("/{inspection_id}/generate-reports")
 def generate_reports(inspection_id: str, db: Session = Depends(get_db)):
     inspection = service.get_inspection(db, inspection_id)
@@ -122,13 +123,12 @@ def generate_reports(inspection_id: str, db: Session = Depends(get_db)):
     defect_path = str(REPORTS_DIR / f"defect_report_{inspection_id}.pdf")
     work_order_path = str(REPORTS_DIR / f"work_order_{inspection_id}.pdf")
     service.save_report(db, inspection_id, defect_path, work_order_path)
-    service.update_status(db, inspection_id, "COMPLETE")
+    service.update_status(db, inspection_id, InspectionStatus.COMPLETE)
     return {
-        "status": "COMPLETE",
+        "status": InspectionStatus.COMPLETE,
         "message": "Reports generated successfully"
     }
 
-# 8. Download defect report
 @router.get("/{inspection_id}/reports/defect")
 def download_defect_report(inspection_id: str, db: Session = Depends(get_db)):
     report = service.get_report(db, inspection_id)
@@ -140,7 +140,6 @@ def download_defect_report(inspection_id: str, db: Session = Depends(get_db)):
         filename=f"defect_report_{inspection_id}.pdf"
     )
 
-# 9. Download work order
 @router.get("/{inspection_id}/reports/work-order")
 def download_work_order(inspection_id: str, db: Session = Depends(get_db)):
     report = service.get_report(db, inspection_id)
@@ -152,7 +151,6 @@ def download_work_order(inspection_id: str, db: Session = Depends(get_db)):
         filename=f"work_order_{inspection_id}.pdf"
     )
 
-# 10. Get all inspections
 @router.get("")
 def get_all_inspections(page: int = 1, per_page: int = 20, db: Session = Depends(get_db)):
     total, inspections = service.get_all_inspections(db, page, per_page)
@@ -164,6 +162,8 @@ def get_all_inspections(page: int = 1, per_page: int = 20, db: Session = Depends
             {
                 "inspection_id": i.id,
                 "aircraft_type": i.aircraft_type,
+                "zone_id": i.zone_id,
+                "inspection_type": i.inspection_type,
                 "status": i.status,
                 "created_at": i.created_at
             } for i in inspections

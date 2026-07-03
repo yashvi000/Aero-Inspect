@@ -1,0 +1,16 @@
+# Dataset configuration for YOLOv11n training
+
+path: ../data/datasets/processed
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+
+names:
+  0: crack
+  1: corrosion
+  2: scratch
+  3: dent
+  4: paint_damage

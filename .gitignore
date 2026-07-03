@@ -14,9 +14,9 @@ Thumbs.db
 .vscode/
 
 # Big / generated stuff
-artifacts/weights/
+artifacts/weights/best.pt
+artifacts/reports
 data/vectorstore/
-data/uploads/
 logs/
 
 # smoke tests
