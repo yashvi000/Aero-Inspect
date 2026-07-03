@@ -7,6 +7,8 @@ class Inspection(Base):
 
     id = Column(String, primary_key=True)
     aircraft_type = Column(String, nullable=False)
+    zone_id = Column(String, nullable=True)
+    inspection_type = Column(String, nullable=True)
     notes = Column(Text, nullable=True)
     status = Column(String, default="CREATED")
     created_at = Column(DateTime, server_default=func.now())
