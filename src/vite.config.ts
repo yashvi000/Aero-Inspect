@@ -1,20 +1,32 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+import tailwindcss from "@tailwindcss/vite";
 
-import { defineConfig } from "@app.dev/vite-tanstack-config";
 
 export default defineConfig({
-  tanstackStart: {
-    srcDirectory: "web",
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
-    router: {
-      entry: "router",
-      routesDirectory: "web_utils/routes",
-      generatedRouteTree: "routeTree.gen.ts",
-    },
+  publicDir: "web/public",
 
-    start: {
-      entry: "start",
-    },
+  plugins: [
+    tsconfigPaths(),
+    tailwindcss(),
+    tanstackStart({
+      srcDirectory: "web",
+      server: { entry: "server" },
+      router: {
+        entry: "router",
+        routesDirectory: "web_utils/routes",
+        generatedRouteTree: "routeTree.gen.ts",
+      },
+      start: {
+        entry: "start",
+      },
+    }),
+    react(),
+  ],
+
+  server: {
+    port: 8080,
   },
 });

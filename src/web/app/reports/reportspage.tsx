@@ -1,1 +1,1 @@
-export { ReportsPage as default } from "@/web/features/reports/ReportsPage";
+export { ReportsPage as default } from "../../features/reports/ReportsPage";

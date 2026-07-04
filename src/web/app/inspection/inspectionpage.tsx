@@ -1,1 +1,1 @@
-export { InspectionPage as default } from "@/web/features/inspection/InspectionPage";
+export { InspectionPage as default } from "../../features/inspection/InspectionPage";

@@ -6,7 +6,7 @@ import type {
   DetectionResult,
   ReportApproval,
   ReportArtifact,
-} from "@/web/types";
+} from "../types";
 
 interface WorkflowState {
   inspectionId: string | null;

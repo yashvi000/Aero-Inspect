@@ -15,7 +15,7 @@ import type {
   AnalysisResult,
   Airworthiness,
   AirworthinessOverride,
-} from "@/web/types";
+} from "../../types";
 import { PageHeader } from "../../components/common/PageHeader";
 
 const NODES = [
