@@ -64,7 +64,10 @@ def _get_zone_search_terms(zone_id: str) -> str:
     zone = zones[zone_id]
 
     if "search_terms" in zone and zone["search_terms"]:
-        return zone["search_terms"]
+        terms = zone["search_terms"]
+        if isinstance(terms, list):
+            return " ".join(terms)
+        return terms
     return zone.get("zone_label", "")
 
 

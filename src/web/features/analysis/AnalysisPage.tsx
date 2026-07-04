@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import {
   CheckCircle2,
@@ -19,10 +19,13 @@ import type {
 import { PageHeader } from "../../components/common/PageHeader";
 
 const NODES = [
-  "Retrieving documents",
   "Matching regulations",
-  "Assessing airworthiness",
+  "Assessing airworthiness"
+];
+
+const REPORT_NODES = [
   "Generating repair plan",
+  "Generating reports"
 ];
 
 export function AnalysisPage() {
@@ -36,26 +39,94 @@ export function AnalysisPage() {
     airworthinessOverride,
     overrideAirworthiness,
     clearAirworthinessOverride,
+    inspectionId
   } = useWorkflow();
   const [activeNode, setActiveNode] = useState(0);
   const [running, setRunning] = useState(false);
+  const agentStarted = useRef(false);
+
+  // After 1st approval
+  const [approvalRunning, setApprovalRunning] = useState(false);
+  const [approvalNode, setApprovalNode] = useState(0);
 
   useEffect(() => {
     if (!detection || analysis) return;
+    if (agentStarted.current) return;
+    agentStarted.current = true;
     setRunning(true);
     setActiveNode(0);
-    const interval = setInterval(() => {
-      setActiveNode((n) => {
-        if (n >= NODES.length - 1) {
-          clearInterval(interval);
-          setRunning(false);
-          setAnalysis(buildMockAnalysis(detection.severity, detection.defectType, detection.zone));
-          return n;
-        }
-        return n + 1;
-      });
-    }, 700);
-    return () => clearInterval(interval);
+    const timeout = setTimeout(() => {
+      setActiveNode(1);
+    }, 90000);
+    
+    // Calling the agent
+    async function runAgent() {
+      try {
+        
+        // 1. Starting investigation
+        const startRes = await fetch("http://localhost:8000/api/investigations/start", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            inspection_id: inspectionId || `INS-${Date.now()}`,
+            defect_type: detection.defectType.toLowerCase(),
+            zone_id: detection.zone.split(" - ")[0] || "zone_08",
+            zone_label: detection.zone.split(" - ")[1] || detection.zone,
+            severity: detection.severity.toUpperCase(),
+            confidence: detection.confidence,
+            description: "",
+            inspection_type: "DVI",
+          }),
+        });
+        const startData = await startRes.json();
+        
+        setActiveNode(NODES.length - 1);
+
+        // thread_id is the inspection_id (from backend)
+        const threadId = inspectionId || `INS-${Date.now()}`;
+
+        // 2. Mapping backend agent responses to frontend for airworthiness
+        const airworthiness = startData.parsed_airworthiness || {};
+        const regulations = startData.parsed_regulations || [];
+
+        const result: AnalysisResult = {
+          airworthiness: airworthiness.status || "GROUND_AIRCRAFT",
+          probableCauses: [
+            airworthiness.reasoning || "Analysis based on retrieved regulations",
+          ],
+          regulations: regulations.map((r: any) => ({
+            id: r.id || "N/A",
+            source: r.source || "N/A",
+            requirement: r.requirement || "See full document",
+          })),
+          conditions: airworthiness.conditions
+            ? [airworthiness.conditions]
+            : ["Standard inspection interval applies"],
+          similarCases: [],
+          recommendation: "Pending inspector approval to generate repair plan.",
+          // Storing thread_id for approval buttons use
+          _threadId: threadId,
+        };
+
+        setRunning(false);
+        setAnalysis(result);
+      } catch (err) {
+        console.error("Agent failed:", err);
+        clearTimeout(timeout);
+        setRunning(false);
+        setAnalysis({
+          airworthiness: "GROUND_AIRCRAFT",
+          probableCauses: ["Agent investigation failed — defaulting to ground"],
+          regulations: [],
+          conditions: ["Manual inspection required"],
+          similarCases: [],
+          recommendation: "Agent could not complete investigation. Please retry.",
+        });
+      }
+    }
+
+    runAgent();
+    return () => clearTimeout(timeout);
   }, [detection, analysis, setAnalysis]);
 
   if (!detection) {
@@ -82,7 +153,9 @@ export function AnalysisPage() {
       />
 
       {running || !analysis ? (
-        <AgentRunning activeNode={activeNode} />
+        <AgentRunning activeNode={activeNode} nodes={NODES} title="Investigation agent running…" />
+      ) : approvalRunning ? (
+        <AgentRunning activeNode={approvalNode} nodes={REPORT_NODES} title="Processing approval…" />
       ) : (
         <AnalysisView
           analysis={analysis}
@@ -90,9 +163,89 @@ export function AnalysisPage() {
           override={airworthinessOverride}
           onOverride={overrideAirworthiness}
           onClearOverride={clearAirworthinessOverride}
-          onApprove={() => {
-            approveAnalysis();
-            navigate({ to: "/reports" });
+
+          // Calling backend approval endpoints
+          onApprove={async () => {
+            try {
+              const threadId = (analysis as any)._threadId;
+              if (!threadId) {
+                console.error("No thread ID found");
+                approveAnalysis();
+                navigate({ to: "/reports" });
+                return;
+              }
+
+              setApprovalRunning(true);
+              setApprovalNode(0);
+              
+              const approvalTimeout = setTimeout(() => {
+                setApprovalNode(1);
+              }, 90000);
+
+              // Checkpoint 1: Approve airworthiness
+              const airworthinessApproval = airworthinessOverride
+                ? { approved: false, modified_status: airworthinessOverride.overridden }
+                : { approved: true };
+
+              const airRes = await fetch(
+                `http://localhost:8000/api/investigations/${threadId}/approve-airworthiness`,
+                {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(airworthinessApproval),
+                }
+              );
+              const airData = await airRes.json();
+              
+              clearTimeout(approvalTimeout);
+              setApprovalNode(1);
+
+              // Update analysis with repair plan data
+              if (airData.parsed_repair) {
+                const repairSteps = airData.parsed_repair.repair_steps || [];
+                const updatedAnalysis: AnalysisResult = {
+                  ...analysis,
+                  recommendation: repairSteps.join(". ") || analysis.recommendation,
+                };
+                setAnalysis(updatedAnalysis);
+              }
+
+              // Checkpoint 2: Approve final
+              const finalRes = await fetch(
+                `http://localhost:8000/api/investigations/${threadId}/approve-final`,
+                {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ approved: true }),
+                }
+              );
+              const finalData = await finalRes.json();
+
+              // Generate reports
+              await fetch("http://localhost:8000/api/investigations/generate-documents", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  inspection_id: inspectionId || "INS-DEMO",
+                  inspection_type: "DVI",
+                  ame_name: "Arjun Mehta",
+                  ame_licence: "DGCA/AME/B1.1/2019/04521",
+                  ame_employee_id: "AME-2019-0142",
+                }),
+              });
+
+              clearTimeout(approvalTimeout);
+              setApprovalNode(2);
+              await new Promise(r => setTimeout(r, 1000));
+              setApprovalRunning(false);
+
+              approveAnalysis();
+              navigate({ to: "/reports" });
+            } catch (err) {
+              console.error("Approval failed:", err);
+              approveAnalysis();
+              navigate({ to: "/reports" });
+            }
           }}
         />
       )}
@@ -100,19 +253,19 @@ export function AnalysisPage() {
   );
 }
 
-function AgentRunning({ activeNode }: { activeNode: number }) {
+function AgentRunning({ activeNode, nodes, title }: { activeNode: number; nodes: string[]; title: string }) {
   return (
     <div className="rounded-lg border border-border bg-panel p-10">
       <div className="mx-auto max-w-md space-y-6 text-center">
         <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
         <div>
-          <div className="text-sm font-medium">Investigation agent running…</div>
+          <div className="text-sm font-medium">{title}</div>
           <div className="mt-1 font-mono text-xs text-muted-foreground">
             multi-step retrieval over DGCA · FAA · ASRS · SDR corpora
           </div>
         </div>
         <ul className="space-y-2.5 text-left">
-          {NODES.map((n, i) => {
+          {nodes.map((n, i) => {
             const done = i < activeNode;
             const active = i === activeNode;
             return (
@@ -445,63 +598,3 @@ function Card({
   );
 }
 
-function buildMockAnalysis(
-  severity: string,
-  defect: string,
-  zone: string,
-): AnalysisResult {
-  const airworthiness: Airworthiness =
-    severity === "High"
-      ? "GROUND_AIRCRAFT"
-      : severity === "Medium"
-        ? "AIRWORTHY_WITH_CONDITIONS"
-        : "AIRWORTHY";
-
-  return {
-    airworthiness,
-    probableCauses: [
-      `Cyclic fatigue stress at ${zone.split(" — ")[1] ?? "fuselage panel"}`,
-      `Environmental exposure consistent with ${defect.toLowerCase()} progression`,
-      "Possible deviation from prior repair scheme (per maintenance log)",
-    ],
-    regulations: [
-      {
-        id: "DGCA-AD-2023-14",
-        source: "DGCA India",
-        requirement: `Repetitive ${defect.toLowerCase()} inspection of B737 ${zone.split(" — ")[0]} every 200 FC`,
-      },
-      {
-        id: "FAA-AD-2021-08-12",
-        source: "FAA",
-        requirement: "Fuselage skin inspection — eddy-current required if visual indication > 0.5in",
-      },
-      {
-        id: "B737-SRM-53-30-01",
-        source: "Boeing SRM",
-        requirement: "Allowable damage limits for fuselage skin panels in Section 53-30",
-      },
-    ],
-    conditions:
-      airworthiness === "AIRWORTHY"
-        ? ["No restrictions. Standard inspection interval applies."]
-        : [
-            "Reinspect within 200 flight cycles",
-            "Limit operations to non-pressurized cruise altitudes if defect grows",
-            "Log finding in aircraft technical record (ATR)",
-          ],
-    similarCases: [
-      {
-        ref: "ASRS #1734221",
-        summary: `Similar ${defect.toLowerCase()} on B737-800 ${zone.split(" — ")[0]} resolved via doubler repair per SRM 53-30.`,
-      },
-      {
-        ref: "FAA SDR 2024-04781",
-        summary: "Comparable finding in pre-flight inspection led to AOG and 3-day grounding for repair.",
-      },
-    ],
-    recommendation:
-      airworthiness === "GROUND_AIRCRAFT"
-        ? `Ground aircraft immediately. Open work order for ${defect.toLowerCase()} repair at ${zone.split(" — ")[1]} per Boeing SRM 53-30 and reference DGCA AD 2023-14. Aircraft not to be returned to service until repair sign-off by certified engineer.`
-        : `Continue operation under condition. Schedule ${defect.toLowerCase()} reinspection within 200 flight cycles. If defect grows beyond allowable damage limit, ground aircraft and initiate repair per Boeing SRM 53-30.`,
-  };
-}

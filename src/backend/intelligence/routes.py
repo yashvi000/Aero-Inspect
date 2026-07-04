@@ -96,7 +96,7 @@ def get_state(thread_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.post("/generate-documents")
-def generate_docs(request: GenerateDocumentsRequest):
+def generate_docs(request: GenerateDocumentsRequest, db: Session = Depends(get_db)):
     try:
         inspection_data = {
             "inspection_id": request.inspection_id,
@@ -110,6 +110,19 @@ def generate_docs(request: GenerateDocumentsRequest):
             thread_id=request.inspection_id,
             inspection_data=inspection_data
         )
+
+        # Saving report paths to database for download route
+        if result.get("defect_report_path") and result.get("work_order_path"):
+            from src.backend.inspections import repository
+            repository.save_report(
+                db,
+                request.inspection_id,
+                result["defect_report_path"],
+                result["work_order_path"]
+            )
+            logger.info(f"Report paths saved to database for {request.inspection_id}")
+
+
         logger.info(f"Documents generated for inspection {request.inspection_id}")
         return result
     except Exception as e:
