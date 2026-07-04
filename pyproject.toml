@@ -28,7 +28,14 @@ dependencies = [
 
     # Auth
     "passlib[bcrypt]",
+    "bcrypt==4.0.1",
     "PyJWT",
+
+    # ML / Detection (Person 1)
+    "ultralytics",
+    "opencv-python",
+    "pillow",
+    "numpy",
 
     # AI / Agent (Person 2)
     "langgraph",
@@ -36,6 +43,8 @@ dependencies = [
     "langchain-community",
     "langchain-core",
     "langchain-ollama",
+    "langchain-chroma",
+    "langchain-text-splitters",
     "chromadb",
     "sentence-transformers",
     "reportlab",
@@ -47,11 +56,3 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
-"ultralytics",
-"opencv-python",
-"pillow",
-# ML / Detection (Person 1)
-    "ultralytics",
-    "opencv-python",
-    "pillow",
-    "numpy",
