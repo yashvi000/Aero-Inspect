@@ -8,22 +8,25 @@ from src.backend.inspections import service
 from src.shared.utils.paths import REPORTS_DIR
 from src.shared.constants.inspection_types import InspectionStatus
 
-router = APIRouter(prefix="/inspections", tags=["Inspections"])
+router = APIRouter(prefix="/api/inspections", tags=["Inspections"])
 
 class CreateInspectionRequest(BaseModel):
-    aircraft_type: str
-    zone_id: Optional[str] = None
+    zone: Optional[str] = None
     inspection_type: Optional[str] = None
-    notes: Optional[str] = None
+    description: Optional[str] = None
+    aircraft_type: Optional[str] = "Boeing 737"
 
 class ApproveRequest(BaseModel):
     approved_by: str
 
-@router.post("")
+@router.post("/start")
 def create_inspection(request: CreateInspectionRequest, db: Session = Depends(get_db)):
     inspection = service.create_inspection(
-        db, request.aircraft_type, request.notes,
-        request.zone_id, request.inspection_type
+        db,
+        aircraft_type=request.aircraft_type,
+        notes=request.description,
+        zone_id=request.zone,
+        inspection_type=request.inspection_type
     )
     return {
         "inspection_id": inspection.id,
@@ -151,7 +154,7 @@ def download_work_order(inspection_id: str, db: Session = Depends(get_db)):
         filename=f"work_order_{inspection_id}.pdf"
     )
 
-@router.get("")
+@router.get("/list")
 def get_all_inspections(page: int = 1, per_page: int = 20, db: Session = Depends(get_db)):
     total, inspections = service.get_all_inspections(db, page, per_page)
     return {

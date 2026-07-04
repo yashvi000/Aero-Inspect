@@ -9,7 +9,7 @@ from src.backend.auth.tokens import decode_access_token
 from src.shared.utils.logging import get_logger
 
 logger = get_logger("auth")
-router = APIRouter(prefix="/auth", tags=["Auth"])
+router = APIRouter(prefix="/api/auth", tags=["Auth"])
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
