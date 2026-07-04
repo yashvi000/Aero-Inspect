@@ -50,3 +50,8 @@ include = ["src*"]
 "ultralytics",
 "opencv-python",
 "pillow",
+# ML / Detection (Person 1)
+    "ultralytics",
+    "opencv-python",
+    "pillow",
+    "numpy",
