@@ -8,33 +8,11 @@ RUN apt-get update && apt-get install -y \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements
+# Copy pyproject.toml
 COPY pyproject.toml .
 
-# Install Python dependencies
-RUN pip install --no-cache-dir \
-    fastapi \
-    uvicorn \
-    sqlalchemy \
-    psycopg2-binary \
-    python-dotenv \
-    alembic \
-    pydantic-settings \
-    python-multipart \
-    passlib[bcrypt] \
-    PyJWT \
-    pyyaml \
-    langgraph \
-    langchain \
-    langchain-community \
-    langchain-core \
-    langchain-ollama \
-    chromadb \
-    sentence-transformers \
-    reportlab \
-    lxml \
-    beautifulsoup4 \
-    pymupdf
+# Install dependencies from pyproject.toml
+RUN pip install --no-cache-dir .
 
 # Copy application code
 COPY . .

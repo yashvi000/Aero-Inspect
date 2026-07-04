@@ -8,17 +8,8 @@ services:
       dockerfile: docker/backend.Dockerfile
     ports:
       - "8000:8000"
-    environment:
-      - DB_USER=admin
-      - DB_PASSWORD=password
-      - DB_HOST=postgres
-      - DB_PORT=5432
-      - DB_NAME=aerospace_inspection
-      - SECRET_KEY=supersecretkey123
-      - DEBUG=True
-      - YOLO_SERVICE_URL=http://localhost:8001
-      - AGENT_SERVICE_URL=http://localhost:8002
-      - PDF_SERVICE_URL=http://localhost:8003
+    env_file:
+      - .env
     volumes:
       - pdf_storage:/app/artifacts/reports
       - uploads:/app/data/uploads
@@ -42,10 +33,8 @@ services:
 
   postgres:
     image: postgres:15
-    environment:
-      - POSTGRES_DB=aerospace_inspection
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=password
+    env_file:
+      - .env
     ports:
       - "5433:5432"
     volumes:
