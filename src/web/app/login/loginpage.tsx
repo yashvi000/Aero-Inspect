@@ -1,1 +1,1 @@
-export { LoginForm as default } from "@/web/features/auth/LoginForm";
+export { LoginForm as default } from "../../features/auth/LoginForm";

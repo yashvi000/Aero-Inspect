@@ -1,1 +1,1 @@
-export { AnalysisPage as default } from "@/web/features/analysis/AnalysisPage";
+export { AnalysisPage as default } from "../../features/analysis/AnalysisPage";

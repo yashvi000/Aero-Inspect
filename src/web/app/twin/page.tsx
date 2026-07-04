@@ -1,4 +1,4 @@
-import DigitalTwinFeature from '@/features/twin'
+import DigitalTwinFeature from '../../features/twin'
 
 export default function TwinPage() {
     return <DigitalTwinFeature />
