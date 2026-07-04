@@ -30,22 +30,88 @@ export function InspectionPage() {
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!preview) return;
+    if (!file || !preview) return;
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1400));
-    const defect = DEFECT_TYPES[Math.floor(Math.random() * DEFECT_TYPES.length)];
-    const conf = 0.78 + Math.random() * 0.2;
-    const sev: Severity = conf > 0.92 ? "High" : conf > 0.85 ? "Medium" : "Low";
-    const det: DetectionResult = {
-      imageUrl: preview,
-      defectType: defect,
-      confidence: conf,
-      severity: sev,
-      zone,
-      bbox: { x: 0.32, y: 0.28, w: 0.32, h: 0.28 },
-    };
-    setDetection(det);
-    setLoading(false);
+    
+    try {
+      // 1. Start inspection
+      const inspRes = await fetch("http://localhost:8000/api/inspections/start", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          zone: zone,
+          inspection_type: inspType,
+          description: description,
+        }),
+      });
+      const inspData = await inspRes.json();
+      const inspId = inspData.inspection_id;
+
+      // 2. Run YOLO detection
+      const formData = new FormData();
+      formData.append("file", file);
+
+      const detRes = await fetch(
+        `http://localhost:8000/api/detections/run?inspection_id=${inspId}`,
+        { method: "POST", body: formData }
+      );
+      const detData = await detRes.json();
+
+      if (detData.error) {
+        console.error("Detection error:", detData.error);
+        setLoading(false);
+        return;
+      }
+
+      // 3. Mapping backend response to frontend format
+      const firstDetection = detData.detections?.[0] || null;
+
+      if (!firstDetection) {
+        console.warn("No defects detected in image");
+
+        const det: DetectionResult = {
+          imageUrl: preview,
+          defectType: "No defect detected",
+          confidence: 0,
+          severity: "Low",
+          zone: zone,
+          bbox: { x: 0, y: 0, w: 0, h: 0 },
+        };
+        setDetection(det, inspId);
+        setLoading(false);
+        return;
+      }
+
+      const severity: Severity =
+        firstDetection.severity === "HIGH" ? "High" :
+        firstDetection.severity === "MEDIUM" ? "Medium" : "Low";
+
+      const rawBbox = firstDetection.bbox || [0, 0, 0, 0];
+      const imgSize = 640; // YOLO default
+      const normalizedBbox = {
+        x: rawBbox[0] / imgSize,
+        y: rawBbox[1] / imgSize,
+        w: (rawBbox[2] - rawBbox[0]) / imgSize,
+        h: (rawBbox[3] - rawBbox[1]) / imgSize,
+      };
+
+      const det: DetectionResult = {
+        imageUrl: detData.annotated_image
+          ? `data:image/jpeg;base64,${detData.annotated_image}`
+          : preview,
+        defectType: firstDetection.class_name || "unknown",
+        confidence: firstDetection.confidence || 0,
+        severity: severity,
+        zone: zone,
+        bbox: normalizedBbox,
+      };
+
+      setDetection(det, inspId);
+    } catch (err) {
+      console.error("Detection failed:", err);
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
@@ -185,7 +251,7 @@ function ResultPanel({
       <div className="flex items-baseline justify-between">
         <SectionTitle>Detection result</SectionTitle>
         <span className="font-mono text-xs text-muted-foreground">
-          model · yolov8-airframe-v3
+          model · yolov11n-aeroinspect
         </span>
       </div>
 

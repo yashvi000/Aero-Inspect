@@ -20,6 +20,7 @@ export interface AnalysisResult {
   conditions: string[];
   similarCases: { ref: string; summary: string }[];
   recommendation: string;
+  _threadId?: string;  // thread ID for backend connect 
 }
 
 export interface AirworthinessOverride {

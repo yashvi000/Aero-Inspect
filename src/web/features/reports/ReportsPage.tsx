@@ -108,6 +108,7 @@ export function ReportsPage() {
           report={reports.find((r) => r.type === "defect_analysis")}
           locked={locked}
           downloadable={finalized}
+          inspectionId={inspectionId}
         />
         <ReportCard
           icon={ClipboardList}
@@ -116,6 +117,7 @@ export function ReportsPage() {
           report={reports.find((r) => r.type === "work_order")}
           locked={locked}
           downloadable={finalized}
+          inspectionId={inspectionId}
         />
       </div>
 
@@ -290,31 +292,43 @@ function ReportCard({
   report,
   locked,
   downloadable,
+  inspectionId
 }: {
   icon: typeof FileText;
   title: string;
   desc: string;
-  report?: { id: string; name: string; createdAt: string };
+  report?: { id: string; type: string; name: string; createdAt: string };
   locked: boolean;
   downloadable: boolean;
+  inspectionId: string | null;
 }) {
-  function download() {
-    if (!report) return;
-    const blob = new Blob(
-      [
-        `AEROINSPECT — ${title}\n` +
-          `Report ID: ${report.id}\n` +
-          `Generated: ${new Date(report.createdAt).toLocaleString()}\n\n` +
-          `(Mock document — final PDF generation handled by reporting service.)`,
-      ],
-      { type: "application/pdf" },
-    );
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${report.id}.pdf`;
-    a.click();
-    URL.revokeObjectURL(url);
+  // Downloading PDF from backend report generation
+  async function download() {
+    if (!report || !inspectionId) return;
+
+    try {
+
+      const endpoint = report.type === "defect_analysis"
+        ? `http://localhost:8000/api/reports/${inspectionId}/defect-report`
+        : `http://localhost:8000/api/reports/${inspectionId}/work-order`;
+
+      const res = await fetch(endpoint);
+
+      if (!res.ok) {
+        console.error("Report download failed:", res.status);
+        return;
+      }
+
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${report.id}.pdf`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error("Download failed:", err);
+    }
   }
 
   return (

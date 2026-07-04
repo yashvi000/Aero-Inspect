@@ -24,7 +24,7 @@ def get_model() -> YOLO:
 
 def run_inference(
     image_path: str,
-    confidence: float = 0.25
+    confidence: float = 0.15
 ) -> list:
    
     logger.info(f"Running inference on {image_path}")

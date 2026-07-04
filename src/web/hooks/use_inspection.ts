@@ -17,7 +17,7 @@ interface WorkflowState {
   reportApproval: ReportApproval;
   approvedDetection: boolean;
   approvedAnalysis: boolean;
-  setDetection: (d: DetectionResult) => void;
+  setDetection: (d: DetectionResult, backendInspectionId?: string) => void;
   approveDetection: () => void;
   rejectDetection: () => void;
   setAnalysis: (a: AnalysisResult) => void;
@@ -42,10 +42,10 @@ export const useWorkflow = create<WorkflowState>((set, get) => ({
   reportApproval: INITIAL_APPROVAL,
   approvedDetection: false,
   approvedAnalysis: false,
-  setDetection: (d) =>
+  setDetection: (d, backendInspectionId?: string) =>
     set({
       detection: d,
-      inspectionId: `INS-${Date.now().toString(36).toUpperCase()}`,
+      inspectionId: backendInspectionId || `INS-${Date.now().toString(36).toUpperCase()}`,
       approvedDetection: false,
       analysis: null,
       airworthinessOverride: null,
