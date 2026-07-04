@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "aero-inspect"
+version = "1.0.0"
+description = "Edge AI Aerospace Defect Detection System"
+requires-python = ">=3.11"
+
+dependencies = [
+    # Web framework
+    "fastapi",
+    "uvicorn[standard]",
+
+    # Database
+    "sqlalchemy",
+    "psycopg2-binary",
+    "alembic",
+
+    # Settings and config
+    "pydantic-settings",
+    "python-dotenv",
+    "pyyaml",
+
+    # File handling
+    "python-multipart",
+
+    # Auth
+    "passlib[bcrypt]",
+    "PyJWT",
+
+    # AI / Agent (Person 2)
+    "langgraph",
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-ollama",
+    "chromadb",
+    "sentence-transformers",
+    "reportlab",
+    "lxml",
+    "beautifulsoup4",
+    "pymupdf",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+"ultralytics",
+"opencv-python",
+"pillow",
