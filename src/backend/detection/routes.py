@@ -72,6 +72,19 @@ async def run_detection(
         logger.error(f"Detection error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/{inspection_id}/approve")
+def approve_detection(inspection_id: str, db: Session = Depends(get_db)):
+    inspection = repository.get_inspection(db, inspection_id)
+    if not inspection:
+        raise HTTPException(status_code=404, detail="Inspection not found")
+    repository.update_inspection_status(db, inspection_id, "DETECTION_COMPLETE")
+    # Update zone status if zone_id exists
+    if inspection.zone_id:
+        from src.backend.zones import service as zone_service
+        zone_service.update_zone_status(db, inspection.zone_id, "DEFECT_FOUND", inspection_id)
+    logger.info(f"Detection approved for inspection {inspection_id}")
+    return {"status": "approved"}
+
 @router.get("/{inspection_id}/annotated-image")
 def get_annotated_image(inspection_id: str):
     """Optional: serve annotated image file directly"""
