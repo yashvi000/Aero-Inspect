@@ -30,6 +30,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+        env_file_encoding = "utf-8"
 
 
 @lru_cache(maxsize=1)
@@ -41,7 +42,7 @@ def get_settings() -> Settings:
 @lru_cache(maxsize=1)
 def get_yaml_config() -> dict:
     # Load config/config.yaml once and cache it
-    
+
     config_path = CONFIG_DIR / "config.yaml"
 
     if not config_path.exists():
