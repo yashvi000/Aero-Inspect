@@ -1,5 +1,6 @@
 import base64
 import cv2
+from pathlib import Path
 
 from src.shared.utils.logging import get_logger
 from src.shared.utils.paths import PREDICTIONS_DIR
@@ -59,10 +60,7 @@ def postprocess_results(
         )
 
     # Save annotated image
-    output_path = (
-        PREDICTIONS_DIR /
-        f"{image_path.split('/')[-1].split('\\')[-1]}"
-    )
+    output_path = PREDICTIONS_DIR / Path(image_path).name
 
     cv2.imwrite(str(output_path), image)
 
