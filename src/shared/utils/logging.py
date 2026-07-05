@@ -1,7 +1,7 @@
 import logging
 import sys
 from pathlib import Path
-from src.shared.utils.paths import LOGS_DIR
+from src.shared.utils.paths import BACKEND_LOGS_DIR
 
 _initialized_loggers = {}
 
@@ -11,7 +11,7 @@ def get_logger(file_name: str, level: str = "INFO") -> logging.Logger:
         return _initialized_loggers[file_name]
 
     # Ensuring log directory exists
-    backend_log_dir = LOGS_DIR / "backend"
+    backend_log_dir = BACKEND_LOGS_DIR
     backend_log_dir.mkdir(parents=True, exist_ok=True)
 
     log_file = backend_log_dir / f"{file_name}.log"

@@ -1,14 +1,9 @@
-'use client'
-import { useState } from 'react'
-import dynamic from 'next/dynamic'
+import { useState, lazy, Suspense } from 'react'
 import { ZONES } from '../../three/zones/mapping'
 import type { Zone } from '../../three/zones/mapping'
 import ZoneDetailsPanel from '../../three/panels/zone_details'
 
-const AeroCanvas = dynamic(
-  () => import('../../three/scene/canvas'),
-  { ssr: false }
-)
+const AeroCanvas = lazy(() => import('../../three/scene/canvas'))
 
 export default function DigitalTwinFeature() {
   const [selectedZone, setSelectedZone] = useState<Zone | null>(null)
@@ -24,7 +19,7 @@ export default function DigitalTwinFeature() {
   })
 
   return (
-    <div className="flex h-screen bg-gray-950">
+    <div className="flex h-[calc(100vh-200px)] bg-gray-950">
 
       {/* Left 70% */}
       <div className="w-[70%] flex flex-col">
@@ -102,11 +97,17 @@ export default function DigitalTwinFeature() {
           </select>
 
           {/* 3D canvas */}
-          <AeroCanvas
-            zones={filteredZones}
-            selectedZone={selectedZone}
-            onZoneClick={setSelectedZone}
-          />
+           <Suspense fallback={
+            <div className="flex items-center justify-center h-full text-gray-500">
+              Loading 3D model...
+            </div>
+          }>
+            <AeroCanvas
+              zones={filteredZones}
+              selectedZone={selectedZone}
+              onZoneClick={setSelectedZone}
+            />
+          </Suspense>
 
           {/* Controls hint */}
           <div className="absolute bottom-4 left-4 text-gray-600 text-xs">
